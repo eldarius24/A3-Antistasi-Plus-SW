@@ -722,3 +722,24 @@ class Templates
         description = $STR_A3AP_setupFactionsTab_vietcivs;
     };
 };
+
+    //************* Star wars ********************************************************
+
+class SW_Base : Base
+    {
+        requiredAddons[] = {""}; //list of required addons (same as in the config.cpp of the template)
+        logo = "\vn\data_f_vietnam\logos\vn_sml_ca.paa"; //logo displayed in the menu
+        basepath = QPATHTOFOLDER(Templates\Templates\StarWars); //path to the template folder
+        priority = 50; //priority of the template
+        equipFlags[] = {"lowTech","replaceCompass","replaceWatch"}; //list of equipment flags
+    };
+
+    class SW_Empire : SW_Base
+    {
+        priority = 51;
+        side = "Occ"; //side of the template (Occ - Occupier, Inv - Invader, Reb - Rebel, Riv - Rival, Civ - Civilian)
+        flagTexture = "\vn\objects_f_vietnam\flags\data\vn_flag_01_usa_co.paa";
+        name = "SW Empire"; 
+        file = "SW_Empire";
+        description = $STR_A3AP_setupFactionsTab_macv;
+    };
