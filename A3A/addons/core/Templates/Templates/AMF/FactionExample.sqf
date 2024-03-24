@@ -1,15 +1,7 @@
 //////////////////////////
 //   Side Information   //
 //////////////////////////
-B_AMF_AMX10_RCR_01_F
-AMF_EBRC_CE_01
-AMF_VBCI_CE_01_F
-B_AMF_REAPER_dynamicLoadout_F
-B_AMF_Heli_Transport_01_F
-B_AMF_VAB_ULTIMA_X8_F
-B_AMF_VAB_ULTIMA_TOP_X8_F
-amf_pvp_01_mag_CE_f
-amf_pvp_01_top_CE_f
+
 ["name", ""] call _fnc_saveToTemplate;
 ["spawnMarkerName", ""] call _fnc_saveToTemplate;
 
@@ -25,9 +17,6 @@ amf_pvp_01_top_CE_f
 ["surrenderCrate", "Box_IND_Wps_F"] call _fnc_saveToTemplate; //Changeing this from default will require you to define logistics attachement offset for the box type
 ["equipmentBox", "Box_NATO_Equip_F"] call _fnc_saveToTemplate; //Changeing this from default will require you to define logistics attachement offset for the box type
 
-["smallBunker", ""] call _fnc_saveToTemplate;
-["sandbag", ""] call _fnc_saveToTemplate;
-["sandbagRound", ""] call _fnc_saveToTemplate;
 
 // vehicles can be placed in more than one category if they fit between both. Cost will be derived by the higher category
 ["vehiclesBasic", ["amf_pvp_01_mag_CE_f"]] call _fnc_saveToTemplate;
@@ -60,11 +49,11 @@ amf_pvp_01_top_CE_f
 ["vehiclesHelisLightAttack", ["AMF_gazelle_minigun_f"]] call _fnc_saveToTemplate;      // Utility helis with fixed or door guns + rocket pods
 ["vehiclesHelisAttack", ["AMF_TIGRE_01"]] call _fnc_saveToTemplate;           // Proper attack helis: Apache, Hind etc
 
-["vehiclesArtillery", []] call _fnc_saveToTemplate;
+["vehiclesArtillery", ["B_T_MBT_01_arty_F"]] call _fnc_saveToTemplate;
 ["magazines", createHashMapFromArray []] call _fnc_saveToTemplate; //element format: [Vehicle class, [Magazines]]
 
-["uavsAttack", []] call _fnc_saveToTemplate;
-["uavsPortable", []] call _fnc_saveToTemplate;
+["uavsAttack", ["B_AMF_REAPER_dynamicLoadout_F"]] call _fnc_saveToTemplate;
+["uavsPortable", ["B_UAV_01_F"]] call _fnc_saveToTemplate;
 
 //Config special vehicles
 ["vehiclesMilitiaLightArmed", []] call _fnc_saveToTemplate;
@@ -74,11 +63,11 @@ amf_pvp_01_top_CE_f
 
 ["vehiclesPolice", []] call _fnc_saveToTemplate;
 
-["staticMGs", []] call _fnc_saveToTemplate;
-["staticATs", []] call _fnc_saveToTemplate;
-["staticAAs", []] call _fnc_saveToTemplate;
-["staticMortars", []] call _fnc_saveToTemplate;
-["staticHowitzers", []] call _fnc_saveToTemplate;
+["staticMGs", ["B_G_HMG_02_high_F"]] call _fnc_saveToTemplate;
+["staticATs", ["RHS_TOW_TriPod_D"]] call _fnc_saveToTemplate;
+["staticAAs", ["RHS_Stinger_AA_pod_D"]] call _fnc_saveToTemplate;
+["staticMortars", ["B_G_Mortar_01_F"]] call _fnc_saveToTemplate;
+["staticHowitzers", ["RHS_M119_D"]] call _fnc_saveToTemplate;
 
 ["vehicleRadar", ""] call _fnc_saveToTemplate;
 ["vehicleSam", ""] call _fnc_saveToTemplate;
