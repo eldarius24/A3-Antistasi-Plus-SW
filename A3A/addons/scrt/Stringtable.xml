@@ -7,24 +7,28 @@
                 <Russian>Ящик-сборщик добычи</Russian>
                 <Chinesesimp>战利品箱</Chinesesimp>
                 <Korean>전리품 상자</Korean>
+                <Francais>Caisse de butin</Francais>
             </Key>
             <Key ID="STR_A3AP_buyvehdialog_fuel_tank">
                 <Original>Fuel Tank</Original>
                 <Russian>Топливный бак</Russian>
                 <Chinesesimp>油箱</Chinesesimp>
                 <Korean>연료탱크</Korean>
+                <Francais>Réservoir de carburant</Francais>
             </Key>
             <Key ID="STR_A3AP_buyvehdialog_light">
                 <Original>Light</Original>
                 <Russian>Уличный фонарь</Russian>
                 <Chinesesimp>灯</Chinesesimp>
                 <Korean>조명</Korean>
+                <Francais>Lumière</Francais>
             </Key>
             <Key ID="STR_A3AP_buyvehdialog_revive_kit_box">
                 <Original>Box with Combat Readiness Recovery Kits</Original>
                 <Russian>Ящик c наборами восстановления боеспособности</Russian>
                 <Chinesesimp>装有战备恢复包的盒子</Chinesesimp>
                 <Korean>전투 준비 복구 키트가 든 상자</Korean>
+                <Francais>Boîte avec des kits de récupération de la capacité de combat</Francais>
             </Key>
         </Container>
         <Container name="arsenal">
@@ -33,72 +37,84 @@
                 <Russian>Выберите транспортное средство чтобы открыть арсенал для него и наполнить инвентарь техники любыми предметами из арсенала.</Russian>
                 <Chinesesimp>选择车辆为其打开武器库，以便将其货物与武器库中的任何物品一起装满。</Chinesesimp>
                 <Korean>아스널의 모든 아이템으로 화물을 채울 수 있도록 아스널을 열 차량을 선택하십시오.</Korean>
+                <Francais>Sélectionnez un véhicule pour ouvrir l'arsenal pour lui permettre de remplir sa cargaison avec n'importe quel élément de l'arsenal.</Francais>
             </Key>
             <Key ID="STR_A3AP_vehArsenal_header">
                 <Original>Vehicle Arsenal</Original>
                 <Russian>Арсенал (Техника)</Russian>
                 <Chinesesimp>载具库</Chinesesimp>
                 <Korean>차량 아스널</Korean>
+                <Francais>Arsenal de véhicule</Francais>
             </Key>
             <Key ID="STR_A3AP_arsenal_scarcity_0">
                 <Original>Looks like I am the only one using this today</Original>
                 <Russian>Похоже, что я буду единственным, кто сможет использовать это сегодня</Russian>
                 <Chinesesimp>看来今天只有我在用这个了</Chinesesimp>
                 <Korean>오늘은 나만 이걸 사용할 것 같군</Korean>
+                <Francais>On dirait que je suis le seul à utiliser ça aujourd'hui</Francais>
             </Key>
             <Key ID="STR_A3AP_arsenal_scarcity_1">
                 <Original>More than enough for a whole army</Original>
                 <Russian>Более чем достаточно для целой армии</Russian>
                 <Chinesesimp>对于武装整个军队来说绰绰有余</Chinesesimp>
                 <Korean>전군이 감당하기에 충분하다</Korean>
+                <Francais>Plus que suffisant pour toute une armée</Francais>
             </Key>
             <Key ID="STR_A3AP_arsenal_scarcity_2">
                 <Original>Many of these left</Original>
                 <Russian>Этого ещё много</Russian>
                 <Chinesesimp>还剩下很多</Chinesesimp>
                 <Korean>많이 남았다</Korean>
+                <Francais>Beaucoup de ces objets restent</Francais>
             </Key>
             <Key ID="STR_A3AP_arsenal_scarcity_3">
                 <Original>Some of these left</Original>
                 <Russian>Что-то из этого ещё есть</Russian>
                 <Chinesesimp>还剩下一些</Chinesesimp>
                 <Korean>조금 남았다</Korean>
+                <Francais>Il en reste quelques-uns</Francais>
             </Key>
             <Key ID="STR_A3AP_arsenal_scarcity_4">
                 <Original>If I want one I need to take it before some one else does</Original>
                 <Russian>Если я хочу этим пользоваться, мне надо этот предмет взять в руки до того как его возьмут другие</Russian>
                 <Chinesesimp>如果你想拿到这些装备得趁早</Chinesesimp>
                 <Korean>만약 내가 뭘 원한다면 다른 사람이 가져가기 전에 내가 먼저 가져야 한다</Korean>
+                <Francais>Si je veux en prendre un, je dois le prendre avant que quelqu'un d'autre ne le fasse</Francais>
             </Key>
             <Key ID="STR_A3AP_arsenal_scarcity_5">
                 <Original>The last one in the box</Original>
                 <Russian>Последний предмет в ящике</Russian>
                 <Chinesesimp>箱子里的最后一个</Chinesesimp>
                 <Korean>상자 안에 있는 마지막 물품이다</Korean>
+                <Francais>Le dernier dans la boîte</Francais>
             </Key>
             <Key ID="STR_A3AP_arsenal_scarcity_ammo_0">
                 <Original>, but there is no ammo for it</Original>
                 <Russian>, но нет подходящих боеприпасов.</Russian>
                 <Chinesesimp>，但是没有弹药</Chinesesimp>
                 <Korean>. 하지만 그걸 위한 탄약이 없다</Korean>
+                <Francais>, mais il n'y a pas de munitions pour cela</Francais>
             </Key>
             <Key ID="STR_A3AP_arsenal_scarcity_ammo_1">
                 <Original>, and there is enough ammo for it</Original>
                 <Russian> и для него достаточно боеприпасов.</Russian>
                 <Chinesesimp>，有足够的弹药</Chinesesimp>
                 <Korean>. 그리고 탄약도 충분하다</Korean>
+                <Francais>, et il y a suffisamment de munitions pour cela</Francais>
             </Key>
             <Key ID="STR_A3AP_arsenal_scarcity_ammo_2">
                 <Original>, and there is still some ammo for it</Original>
                 <Russian> и есть подходящие боеприпасы в каком-то количестве.</Russian>
                 <Chinesesimp>，还剩点弹药</Chinesesimp>
                 <Korean>. 그래도 아직 탄약은 조금 남아 있다</Korean>
+                <Francais>, et il reste encore des munitions pour cela</Francais>
             </Key>
             <Key ID="STR_A3AP_arsenal_scarcity_ammo_3">
                 <Original>, but there are only a few shots for it</Original>
                 <Russian>, но подходящих боеприпасов совсем немного.</Russian>
                 <Chinesesimp>，只有一点弹药</Chinesesimp>
                 <Korean>. 하지만 몇 번만 쏠 양 밖에 없다</Korean>
+                <Francais>, mais il n'y a que quelques coups pour cela</Francais>
             </Key>
         </Container>
         <Container name="blackmarket">
@@ -107,18 +123,21 @@
                 <Russian>Повстанцам необходимо контроллировать хотя бы один морской порт для получения доступа к чёрному рынку.</Russian>
                 <Chinesesimp>至少需要控制一个海港才能进入黑市</Chinesesimp>
                 <Korean>반군은 암시장에 접근하기 위해 적어도 하나의 항구를 통제할 필요가 있습니다.</Korean>
+                <Francais>Les rebelles doivent contrôler au moins un port pour accéder au marché noir.</Francais>
             </Key>
             <Key ID="STR_A3AP_blackmarket_res">
                 <Original>Rebels need to control at least one resource to access the black market.</Original>
                 <Russian>Повстанцам необходимо контроллировать хотя бы одну ресурсную точку для получения доступа к чёрному рынку.</Russian>
                 <Chinesesimp>至少需要控制一种资源才能进入黑市。</Chinesesimp>
                 <Korean>반군은 암시장에 접근하기 위해 적어도 하나의 자원채취소를 통제할 필요가 있습니다.</Korean>
+                <Francais>Les rebelles doivent contrôler au moins une ressource pour accéder au marché noir.</Francais>
             </Key>
             <Key ID="STR_A3AP_blackmarket_header">
                 <Original>Vehicle Black Market Is Not Available</Original>
                 <Russian>Чёрный рынок бронетехники недоступен</Russian>
                 <Chinesesimp>载具黑市不可用</Chinesesimp>
                 <Korean>차량 암시장을 사용할 수 없음</Korean>
+                <Francais>Le marché noir des véhicules n'est pas disponible</Francais>
             </Key>
         </Container>
         <Container name="setupFactionsTab">
@@ -127,266 +146,326 @@
                 <Russian>Эта фракция недоступна в текущей конфигурации игры. Проверьте свои моды или CDLC если вы хотите её использовать.\nТребуемые аддоны: %1</Russian>
                 <Chinesesimp>该派系在当前游戏设置中不可用。如果您想使用它，请检查您的 CDLC 或模组。\n所需的插件: %1</Chinesesimp>
                 <Korean>이 팩션은 현재 게임 설정에서 사용할 수 없습니다. 사용하길 원한다면 CDLC 와/나 모드를 확인하십시오.\n필요 애드온: %1</Korean>
+                <Francais>Cette faction n'est pas disponible dans la configuration de jeu actuelle. Vérifiez vos CDLC et/ou mods si vous souhaitez l'utiliser.\nAddons requis: %1</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_vanilla_generic">
                 <Original>Standard faction from base game.</Original>
                 <Russian>Стандартная фракция из базовой игры.</Russian>
                 <Chinesesimp>来自基础游戏的标准派系。</Chinesesimp>
                 <Korean>바닐라의 표준 팩션입니다.</Korean>
+                <Francais>Faction standard du jeu de base.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_vanilla_civ">
                 <Original>Standard civilians.</Original>
                 <Russian>Стандартные гражданские.</Russian>
                 <Chinesesimp>标准平民。</Chinesesimp>
                 <Korean>일반 시민입니다.</Korean>
+                <Francais>Civils standard.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_easterneuropean">
                 <Original>Eastern European civilians.</Original>
                 <Russian>Восточноевропейские гражданские.</Russian>
                 <Chinesesimp>东欧平民。</Chinesesimp>
                 <Korean>동유럽계 시민입니다.</Korean>
+                <Francais>Civils d'Europe de l'Est.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_a">
                 <Original>Arid Climate Civlians.</Original>
                 <Russian>Гражданские засушливого климата.</Russian>
                 <Chinesesimp>干旱气候平民。</Chinesesimp>
                 <Korean>건조 기후쪽 시민입니다.</Korean>
+                <Francais>Civils de climat aride.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_takistan">
                 <Original>Takistan civilians.</Original>
                 <Russian>Такистанские гражданские.</Russian>
                 <Chinesesimp>塔克斯坦平民。</Chinesesimp>
                 <Korean>타키스탄 국민입니다.</Korean>
+                <Francais>Civils de Takistan.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_csat">
                 <Original>Canton Protocol Strategic Alliance Treaty (CSAT).\nEastern alliance that relies on mix of Russian-made equipment and it's own developments.</Original>
                 <Russian>Стратегический Альянс по Договору Гуанчжоу (CSAT).\nВосточный альянс, делающий ставку на сочетание техники российского производства и собственных разработок.</Russian>
                 <Chinesesimp>(CSAT)\n依赖于俄制装备以及自制装备的东方联盟。</Chinesesimp>
                 <Korean>광둥 의정서 전략 동맹 조약(CSAT).\n러시아제 장비와 자체 개발품의 혼합에 의존하는 동구권 동맹입니다.</Korean>
+                <Francais>Protocole de l'Alliance Stratégique de Canton (CSAT).\nAlliance orientale qui repose sur un mélange d'équipements russes et de ses propres développements.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_nato">
                 <Original>North Atlantic Treaty Organization (NATO).\nMulti-national Western faction which has a plenty of unified vehicle platforms and wide nomenclature of guided munitions.</Original>
                 <Russian>Организация Североатлантического договора (НАТО).\nМногонациональная западная фракция, имеющая множество унифицированных транспортных платформ и широкую номенклатуру управляемых боеприпасов.</Russian>
                 <Chinesesimp>北大西洋公约组织 (NATO)\n多国西方派系，拥有大量统一载具和广泛的制导弹药。</Chinesesimp>
                 <Korean>북대서양 조약기구(NATO).\n수많은 통일된 차량 플랫폼과 다양한 이름의 유도탄을 가진 다국적 서방 진영입니다.</Korean>
+                <Francais>Organisation du Traité de l'Atlantique Nord (OTAN).\nFaction occidentale multinationale qui dispose de nombreuses plates-formes de véhicules unifiées et d'une large nomenclature de munitions guidées.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_aaf">
                 <Original>Altis Armed Forces (AAF).\nSmall, but highly motivated force which effectively uses a wide range of decomissioned and outdated yet still effective Western equipment.</Original>
                 <Russian>Вооруженные силы Алтиса (AAF).\nНебольшая, но высокомотивированная сила, эффективно использующая широкий спектр хоть и выведенной из эксплуатации и устаревшей, но все еще эффективной западной номеклатуры вооружений.</Russian>
                 <Chinesesimp>阿尔蒂斯武装部队 (AAF)\n规模小但士气高涨的部队，能有效地使用各种退役的、过时的但仍然有效的西方装备。</Chinesesimp>
                 <Korean>알티스군(AAF).\n퇴역되었고 구식이지만 여전히 효과적인 서방 장비를 광범위하게 효과적으로 사용하는 작지만 사기가 높은 군대입니다.</Korean>
+                <Francais>Forces armées d'Altis (AAF).\nPetite force, mais très motivée, qui utilise efficacement une large gamme d'équipements occidentaux déclassés et obsolètes mais toujours efficaces.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_aaf_3cbf">
                 <Original>Altis Armed Forces (AAF).\nSmall, but highly motivated force which effectively uses a wide range of decomissioned and outdated yet still effective equipment around the world.</Original>
                 <Russian>Вооруженные силы Алтиса (AAF).\nНебольшая, но высокомотивированная сила, эффективно использующая широкий спектр хоть и выведенной из эксплуатации и устаревшей, но все еще эффективной номеклатуры вооружений со всего света.</Russian>
                 <Chinesesimp>阿尔蒂斯武装部队 (AAF)\n规模小但士气高涨的部队，能有效地使用各种退役的、过时的但仍然有效的各国装备。</Chinesesimp>
                 <Korean>알티스군(AAF).\n전 세계적으로 퇴역되었고 구식이지만 여전히 효과적인 서방 장비를 광범위하게 효과적으로 사용하는 작지만 사기가 높은 군대입니다.</Korean>
+                <Francais>Forces armées d'Altis (AAF).\nPetite force, mais très motivée, qui utilise efficacement une large gamme d'équipements déclassés et obsolètes mais toujours efficaces à travers le monde.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_tka">
                 <Original>Takistan Army (TKA).\nA mix of military and paramilitary forces using dated equipment all around the world.</Original>
                 <Russian>Армия Такистана (TKA).\nСочетание военных и парамилитари-сил, использующих, в основном, устаревшее вооружение со всего мира.</Russian>
                 <Chinesesimp>塔克斯坦军队 (TKA)。\n使用世界各地陈旧装备的军事和准军事部队混合体。</Chinesesimp>
                 <Korean>타키스탄군(TKA).\n전 세계의 구식 장비를 사용하는 군대와 준군사조직이 섞인 군대입니다.</Korean>
+                <Francais>Armée du Takistan (TKA).\nUn mélange de forces militaires et paramilitaires utilisant des équipements datés partout dans le monde.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_ard">
                 <Original>Ardistan Army (ARD).\nArmy of former Soviet client state still using a lot of their equipment.</Original>
                 <Russian>Армия Ардистана (ARD).\nАрмия одного из бывших саттелитов Советского Союза, до сих использующая его вооружение и экипировку.</Russian>
                 <Chinesesimp>阿迪斯坦军队 (ARD)。\n前苏联加盟国的军队，仍在使用大量苏联装备。</Chinesesimp>
                 <Korean>아르디스탄군(ARD).\n구 소련 위성국의 군대로 여전히 많은 장비를 사용하고 있습니다.</Korean>
+                <Francais>Armée d'Ardistan (ARD).\nArmée de l'ancien État client soviétique utilisant encore beaucoup de leur équipement.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_fia">
                 <Original>Freedom and Independence Army (FIA).\nStandard issue guerilla faction. Smoothbore rifles and a little bit of courage will pave your way to freedom.</Original>
                 <Russian>Армия свободы и независимости (FIA).\nСтандартная партизанская фракция. Гладкоствольные ружья и немного отваги проложат путь к свободе. </Russian>
                 <Chinesesimp>自由独立军 (FIA)\n标准游击队派系。滑膛枪和一点点的勇气将为你铺平通往自由的道路。 </Chinesesimp>
                 <Korean>자유독립군(FIA).\n표준 게릴라 팩션. 무강선총과 약간의 용기가 당신의 자유를 위한 길을 열어줄 것입니다.</Korean>
+                <Francais>Armée de la liberté et de l'indépendance (FIA).\nFaction de guérilla standard. Les fusils à âme lisse et un peu de courage vous ouvriront la voie de la liberté.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_sdk">
                 <Original>Syndikat (SDK).\nHorizon Islands paramilitary force.</Original>
                 <Russian>Синдикат (SDK).\nВоенизированная организация, действующая главным образом на островах Горизонта.</Russian>
                 <Chinesesimp>辛迪加 (SDK)。\n地平线群岛准军事部队。</Chinesesimp>
                 <Korean>신디캣(SDK).\n호라이즌 제도의 준군사조직입니다.</Korean>
+                <Francais>Syndicat (SDK).\nForce paramilitaire des îles Horizon.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_ll">
                 <Original>Livonian Looters (LL).\nEastern European militants.</Original>
                 <Russian>Ливонские Лутеры (LL).\nВосточноевропейское ополчение.</Russian>
                 <Chinesesimp>利沃尼亚掠夺者 (LL)。\n东欧武装分子。</Chinesesimp>
                 <Korean>리보니아 약탈자(LL).\n동유럽계 무장세력입니다.</Korean>
+                <Francais>Pilleurs livoniens (LL).\nMilitants d'Europe de l'Est.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_borsheviks">
                 <Original>Borsheviks.\nDon't even ask what is it.</Original>
                 <Russian>Борщевики.\nДаже не спрашивайте что это.</Russian>
                 <Chinesesimp>布尔什维克。\不要问它是什么。</Chinesesimp>
                 <Korean>볼셰비키.\n뭔지 절대 묻지 마시오.</Korean>
+                <Francais>Borsheviks.\nNe demandez même pas ce que c'est.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_ws_tura">
                 <Original>Tura.\nOne of the many militarized tribes of the Sefrawi Desert, almost like famous Turanic Raiders.</Original>
                 <Russian>Тура.\nОдно из многих военизированных племен пустыни Сефрави, почти как знаменитые туранские рейдеры.</Russian>
                 <Chinesesimp>图拉。\n塞夫拉维沙漠的众多军事化部落之一，几乎与著名的图拉尼海盗一样。</Chinesesimp>
                 <Korean>투라.\n세프라위 사막의 군사화된 많은 부족들 중 하나로, 유명한 투란 레이더스와 거의 유사합니다.</Korean>
+                <Francais>Tura.\nL'une des nombreuses tribus militarisées du désert de Sefrawi, presque comme les célèbres Turanic Raiders.</Francais>
+            </Key>
+            <Key ID="STR_A3AP_setupFactionsTab_AMF_Royalistes">
+                <Original>Royalists. A faction that took control to put the monarchy in power.</Original>
+                <Russian>Роялисты. Фракция, которая взяла власть, чтобы восстановить монархию.</Russian>
+                <Chinesesimp>皇家主义者。一个掌权的派系，以使君主制度恢复权力。</Chinesesimp>
+                <Korean>로얄리스트. 군주제를 복원하기 위해 통제를 취한 팩션입니다.</Korean>
+                <Francais>Royalistes. Une faction qui a pris le contrôle pour remettre la monarchie au pouvoir.</Francais>
+            </Key>
+            <Key ID="STR_A3AP_setupFactionsTab_AMF_Republicains">
+                <Original>Republicans. A faction that took control to put the republic in power.</Original>
+                <Russian>Республиканцы. Фракция, которая взяла власть, чтобы восстановить республику.</Russian>
+                <Chinesesimp>共和党人。一个掌权的派系，以使共和国恢复权力。</Chinesesimp>
+                <Korean>공화당. 공화국을 복원하기 위해 통제를 취한 팩션입니다.</Korean>
+                <Francais>Républicains. Une faction qui a pris le contrôle pour remettre la république au pouvoir.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_aegis_aukus">
                 <Original>A trilateral security pact between Australia, United Kingdom, United States (AUKUS).\nVery versatile faction with best military equipment from three worlds.</Original>
                 <Russian>Тройственный оборонный пакт между Австралией, Объединённым Королевством и США (AUKUS).\nОчень разносторонняя фракция с лучшими вещами из трех миров.</Russian>
                 <Chinesesimp>澳大利亚、英国、美国（AUKUS）的三边安全条约。\n非常全面的派别，拥有三个世界最好的军事装备。</Chinesesimp>
                 <Korean>호주, 영국, 미국 간의 3자 안보 협정(AUKUS).\n3세계 최고의 군사 장비를 가진 매우 다재다능한 팩션입니다.</Korean>
+                <Francais>Un pacte de sécurité trilatéral entre l'Australie, le Royaume-Uni et les États-Unis (AUKUS).\nFaction très polyvalente avec le meilleur équipement militaire de trois mondes.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_aegis_afrf">
                 <Original>Armed Forces of Russia.\nModern nomenclature of weapons and vehicles strangely synergizes with archaic mid-20th century's equipment.</Original>
                 <Russian>ВС России.\nСовременная номеклатура вооружений и техники странным образом синергирует с архаичной экипировкой времён середины 20 века.</Russian>
                 <Chinesesimp>俄罗斯武装力量。武器和车辆的现代命名法奇怪地与20世纪中期的古旧装备协同起来。</Chinesesimp>
                 <Korean>러시아군.\n무기와 차량의 현대 명명법은 이상하게도 20세기 중반의 구식 장비와 시너지 효과를 냅니다.</Korean>
+                <Francais>Forces armées de Russie.\nLa nomenclature moderne des armes et des véhicules se synergie étrangement avec l'équipement archaïque du milieu du 20e siècle.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_aegis_pla">
                 <Original>People's Liberation Army (PLA).\nHighly organized military force with interesting innovations in camouflage and small arms.</Original>
                 <Russian>Вооруженные силы Алтиса (AAF).\nВысокоорганизованная сила с интересными нововведениями в области маскировки и стрелкового оружия.</Russian>
                 <Chinesesimp>人民解放军（PLA）。\n组织严密的军事力量，在伪装和小型武器方面有有趣的创新。</Chinesesimp>
                 <Korean>인민해방군(PLA).\n위장무늬와 소형 화기에 대한 흥미로운 혁신을 가진 고도로 조직화된 군대입니다.</Korean>
+                <Francais>Armée de libération du peuple (PLA).\nForce militaire hautement organisée avec des innovations intéressantes en matière de camouflage et d'armes légères.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_fia_rhs">
                 <Original>Freedom and Independence Army (FIA).\nGarands and grease guns.</Original>
                 <Russian>Армия свободы и независимости (FIA).\n Гаранды и маслёнки.</Russian>
                 <Chinesesimp>自由独立军（FIA）。\n加兰德和黄油枪。</Chinesesimp>
                 <Korean>자유독립군(FIA).\n개런드와 그리스 건.</Korean>
+                <Francais>Armée de la liberté et de l'indépendance (FIA).\nGarands et pistolets à graisse.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_fia_3cbf">
                 <Original>Freedom and Independence Army (FIA).\nGarands, Lee Enfields and a little bit of grease...</Original>
                 <Russian>Армия свободы и независимости (FIA).\n Гаранды, Ли Энфилды и немного масла...</Russian>
                 <Chinesesimp>自由独立军（FIA）。\n加兰德, 李·恩菲尔德还有一些黄油枪</Chinesesimp>
                 <Korean>자유독립군(FIA).\n개런드, 리-엔필드와 약간의 그리스 건...</Korean>
+                <Francais>Armée de la liberté et de l'indépendance (FIA).\nGarands, Lee Enfields et un peu de graisse...</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_napa_3cbf">
                 <Original>National Party (NAPA).\nSomeone have to test how much farther you can get with Panzerfausts and stick hand grenades.</Original>
                 <Russian>Национальная Партия (NAPA).\nКто-то должен проверить, насколько далеко можно зайти, используя лишь Панцерфаусты и старые гранаты с рукоятями.</Russian>
                 <Chinesesimp>国家党（NAPA）。\n有人要测试一下，用铁拳和木柄手榴弹能走多远。</Chinesesimp>
                 <Korean>체르나루스 국민당(NAPA).\n누군가는 판처파우스트와 막대형 수류탄으로 얼마나 멀리 갈 수 있는지 시험해야 합니다.</Korean>
+                <Francais>Parti national (NAPA).\nQuelqu'un doit tester jusqu'où vous pouvez aller avec des Panzerfausts et des grenades à main à manche.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_ccm_3cbf">
                 <Original>Chernarus Communist Militia (CCM).\nPPsH's, Mosin-Nagants and a lot of comrades.</Original>
                 <Russian>Коммунистическое ополчение Чернаруси (CCM).\nППШ, винтовки Мосина и множество товарищей.</Russian>
                 <Chinesesimp>黑俄罗斯共产主义民兵（CCM）。\n波波沙，莫辛纳甘还有很多同志们。</Chinesesimp>
                 <Korean>체르나루스 공산주의 민병대(CCM).\nPPSh, 모신나강, 그리고 많은 동지들.</Korean>
+                <Francais>Milice communiste de Chernarus (CCM).\nPPsH, Mosin-Nagants et beaucoup de camarades.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_tkm_3cbf">
                 <Original>Takistan Militia (TKM).\nTime to dig out the Lee Enfield in the backyard has come.</Original>
                 <Russian>Ополчение Такистана (TKM).\nПришло время откапывать Ли Энфилд.</Russian>
                 <Chinesesimp>塔克斯坦民兵组织 (TKM)。\n是时候把埋在后院的李·恩菲尔德挖出来了。</Chinesesimp>
                 <Korean>타키스탄 민병대(TKM).\n뒷마당에 있는 리-엔필드를 파낼 시간이 왔습니다.</Korean>
+                <Francais>Milice du Takistan (TKM).\nIl est temps de déterrer le Lee Enfield dans le jardin arrière.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_usaf">
                 <Original>United States Army.\nAggressive, overwhelming force.</Original>
                 <Russian>Армия США.\nАгрессивная, ошеломляющая сила.</Russian>
                 <Chinesesimp>美国陆军\侵略性的、压倒性的力量。</Chinesesimp>
                 <Korean>미 육군.\n공격적이고 압도적인 군사력.</Korean>
+                <Francais>Armée des États-Unis.\nForce agressive et écrasante.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_usmc">
                 <Original>United States Marine Corps.\nHighly mobile, adaptable to ever-changing battlefield yet very specialized faction.</Original>
                 <Russian>Морская пехота США.\nОчень мобильная, адаптирующаяся к любым обстоятельствам на постоянно меняющемся поле боя, но в то же время очень специализированная фракция.</Russian>
                 <Chinesesimp>美国海军陆战队\n机动性强，能适应不断变化的战场，但又是非常专业的派系。</Chinesesimp>
                 <Korean>미 해병대.\n기동성이 뛰어나고 끊임없이 변화하는 전장에 적응할 수 있는 매우 전문화된 팩션입니다.</Korean>
+                <Francais>Marine Corps des États-Unis.\nFaction très mobile, adaptable à un champ de bataille en constante évolution mais très spécialisée.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_cdf">
                 <Original>Chernarussian Defence Forces.\nThis faction carries Soviet legacy in their armed forces, they still use many unmodernized yet still effective Eastern European weaponry from 20th century.</Original>
                 <Russian>Силы Обороны Чернаруси.\nЭта фракция несет советское наследие в своих вооруженных силах, они до сих пор используют много немодернизированного, но все еще эффективного восточноевропейского оружия 20-го века.</Russian>
                 <Chinesesimp>黑俄罗斯国防军。这个派别的武装部队继承了苏联的遗产，他们仍然使用20世纪的许多不现代化但仍然有效的东欧武器装备。</Chinesesimp>
                 <Korean>체르나루스 방위군(CDF).\n이 팩션은 소련 시절의 유산을 그대로 간직하고 있으며, 비록 현대화되진 않았지만 여전히 효과적인 20세기의 동유럽 무기를 많이 사용합니다.</Korean>
+                <Francais>Forces de défense de Chernarus.\nCette faction porte l'héritage soviétique dans ses forces armées, elles utilisent encore de nombreuses armes de l'Europe de l'Est non modernisées mais toujours efficaces du 20e siècle.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_ldf">
                 <Original>Livonian Defense Forces.\nFormer Warsaw Pact country on it's path on integration with NATO thus adopting a lot of Western equipment while still maintaing older Soviet weaponry.</Original>
                 <Russian>Силы Обороны Ливонии.\nБывшая страна Варшавского договора находится на пути к интеграции с НАТО, таким образом переняв много западного оборудования, сохраняя при этом старое советское вооружение.</Russian>
                 <Chinesesimp>利沃尼亚国防军。\n前华沙条约国，正走在北约一体化的道路上，采用了大量的西方装备，同时仍然保持着旧的苏联武器装备。</Chinesesimp>
                 <Korean>리보니아 방위군(LDF).\n옛 바르샤바 조약기구인 이 국가는 NATO와의 통합으로 많은 서방 장비를 채택하면서도 오래된 소련제 무기를 운용하고 있습니다.</Korean>
+                <Francais>Forces de défense de Livonie.\nAncien pays du Pacte de Varsovie sur la voie de l'intégration avec l'OTAN adoptant ainsi beaucoup d'équipements occidentaux tout en maintenant des armes soviétiques plus anciennes.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_hil">
                 <Original>Horizon Islands Defence Force (HIDF).\nArmed forces of Horizon Islands Republic, they use a lot of surplus NATO equipment.</Original>
                 <Russian>Силы Обороны Островов Горизонта (HIDF).\nВооруженные силы Республики Островов Горизонта, использующие множество бывшего в употреблении вооружения и снаряжения стран НАТО.</Russian>
                 <Chinesesimp>地平线群岛国防军（HIDF）。\n地平线群岛共和国的武装力量，他们使用大量的北约剩余装备。</Chinesesimp>
                 <Korean>호라이즌 제도 방위군(HIDF).\n호라이즌 제도 공화국의 군대이며, 많은 여분의 NATO 장비를 사용합니다.</Korean>
+                <Francais>Forces de défense des îles Horizon (HIDF).\nForces armées de la République des îles Horizon, elles utilisent beaucoup d'équipements de l'OTAN en surplus.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_exegermenos">
                 <Original>Exegerménos.\nStandard enemy guerilla faction.</Original>
                 <Russian>Exegerménos.\nСтандартная вражеская повстанческая фракция.</Russian>
                 <Chinesesimp>Exegerménos.\n标准的敌方游击队派系。</Chinesesimp>
                 <Korean>엑세게르메노스.\n표준 적군 게릴라 팩션입니다.</Korean>
+                <Francais>Exegerménos.\nFaction guérilla ennemie standard.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_le">
                 <Original>L'Ensemble.\nFormer Syndikat branch.</Original>
                 <Russian>L'Ensemble.\nОдна из бывших ветвей Синдиката.</Russian>
                 <Chinesesimp>L'Ensemble.\n前辛迪加分支。</Chinesesimp>
                 <Korean>L'Ensemble.\n전 신디캣의 분파입니다.</Korean>
+                <Francais>L'Ensemble.\nAncienne branche du Syndikat.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_chdkz">
                 <Original>CHDKZ.\nEastern European paramilitary group of people with various background - from criminals and defectors to highly professional mercenaries and soldiers.</Original>
                 <Russian>ЧДКЗ.\nВосточноевропейская военизированная группировка людей с разнообразным прошлым - от преступников и дезертиров до высокопрофессиональных наёмников и солдат.</Russian>
                 <Chinesesimp>CHDKZ.\n东欧准军事团体，由具有不同背景的人组成——从罪犯和叛逃者到高度专业的雇佣兵和士兵。</Chinesesimp>
                 <Korean>체다키(ChDKZ).\n범죄자와 탈주자에서부터 고도로 훈련된 전문 용병과 군인에 이르기까지 다양한 배경을 가진 동유럽계 준군사조직입니다.</Korean>
+                <Francais>CHDKZ.\nGroupe paramilitaire d'Europe de l'Est composé de personnes de divers horizons - de criminels et de déserteurs à des mercenaires et des soldats hautement professionnels.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_ion">
                 <Original>ION Services.\nION Services, Incorporated is a U.S.-based private military company.</Original>
                 <Russian>ION Services.\nION Services, Incorporated - это частная военная компания с штаб-квартирой в США.</Russian>
                 <Chinesesimp>ION Services.\nION Services，公司是一家总部设在美国的私营军事公司</Chinesesimp>
                 <Korean>ION 서비스(ION).\nION 서비스 유한회사는 미국에 본사를 두고 있는 민간군사기업입니다.</Korean>
+                <Francais>ION Services.\nION Services, Incorporated est une société militaire privée basée aux États-Unis.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_ti">
                 <Original>Takistan Insurgents (TI).\nMembers of various militant movements across the Middle East.</Original>
                 <Russian>Повстанцы Таксистана (TI).\nЧлены различных военизированных движений на Ближнем Востоке.</Russian>
                 <Chinesesimp>塔吉克斯坦叛乱分子（TI）。\n整个中东地区各种激进运动的成员。</Chinesesimp>
                 <Korean>타키스탄 반군(TI).\n중동 전역에 걸쳐 있는 다양한 전투 행동을 하는 구성원들입니다.</Korean>
+                <Francais>Insurgés du Takistan (TI).\nMembres de divers mouvements militants à travers le Moyen-Orient.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_macv">
                 <Original>U.S. Military Assistance Command, Vietnam (MACV).\nUS military group in Vietnam.</Original>
                 <Russian>Командование по оказанию военной помощи Вьетнаму (MACV).\nВоенная группировка США во Вьетнаме.</Russian>
                 <Chinesesimp>美国越南军事援助司令部（MACV）。\n美国在越南的军事集团。</Chinesesimp>
                 <Korean>미 군사지원 사령부(MACV).\n베트남에 있는 미군입니다.</Korean>
+                <Francais>Commandement de l'assistance militaire des États-Unis au Vietnam (MACV).\nGroupe militaire américain au Vietnam.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_arvn">
                 <Original>Army of the Republic of Vietnam (ARVN).\nSouth Vietnam military force.</Original>
                 <Russian>Армия Республики Вьетнам (ARVN).\nВооруженные силы Южного Вьетнама.</Russian>
                 <Chinesesimp>越南共和国军队（ARVN）。\n南越军事力量。</Chinesesimp>
                 <Korean>베트남 공화국군(ARVN).\n남베트남군입니다.</Korean>
+                <Francais>Armée de la République du Vietnam (ARVN).\nForce militaire du Sud-Vietnam.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_pavn">
                 <Original>People's Army of Vietnam (PAVN).\nMilitary force of North Vietnam.</Original>
                 <Russian>Народная Армия Вьетнама (PAVN).\nВооруженные силы Северного Вьетнама.</Russian>
                 <Chinesesimp>越南人民军（PAVN）。\n北越的军事力量。</Chinesesimp>
                 <Korean>베트남 인민군(PAVN).\n북베트남군입니다.</Korean>
+                <Francais>Armée populaire du Vietnam (PAVN).\nForce militaire du Nord-Vietnam.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_vc">
                 <Original>Viet Cong (VC).\nVietnamese armed communist organization.</Original>
                 <Russian>Вьетконг (VC).\nВооруженная организация коммунистов Вьетнама.</Russian>
                 <Chinesesimp>越共（Viet Cong）。\n越南的共产主义武装组织。</Chinesesimp>
                 <Korean>베트콩(VC).\n베트남의 무장한 공산주의자 조직입니다.</Korean>
+                <Francais>Viet Cong (VC).\nOrganisation communiste armée vietnamienne.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_vm">
                 <Original>Vietnam Militia (VM).\nA bunch of people with common goal - liberate their country from interventionists.</Original>
                 <Russian>Ополчение Вьетнама (VM).\nОбъединение людей с общей целью - освободить свою страну от интервентов.</Russian>
                 <Chinesesimp>越南民兵（VM）。\n一群有共同目标的人——从干涉者手中解放他们的国家。</Chinesesimp>
                 <Korean>베트남 민병대(VM).\n공동의 목표를 가진 많은 사람들이며, 개입주의자들로부터 그들의 나라를 해방시킵니다.</Korean>
+                <Francais>Milice du Vietnam (VM).\nUn groupe de personnes ayant un objectif commun - libérer leur pays des interventionnistes.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_vietcivs">
                 <Original>Vietnamese civilians.</Original>
                 <Russian>Вьетнамцы.</Russian>
                 <Chinesesimp>越南平民。</Chinesesimp>
                 <Korean>베트남 시민입니다.</Korean>
+                <Francais>Civils vietnamiens.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_pl">
                 <Original>Pathet Lao.\nPoilitical movement and organization from Laos.</Original>
                 <Russian>Патет Лао.\nПолитическое движение и организация из Лаоса.</Russian>
                 <Chinesesimp>巴特寮。\来自老挝的激进运动和组织。</Chinesesimp>
                 <Korean>파테트라오.\n라오스의 정치 활동 조직입니다.</Korean>
+                <Francais>Pathet Lao.\nMouvement politique et organisation du Laos.</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_ra">
                 <Original>The Workers' and Peasants' Red Army (Red Army).\nAll the might of the Soviet Union.\nUsage of this faction will activate the Cold War mode (there will be only usage of vehicles and weapons that roughly fits the timeline.</Original>
                 <Russian>Рабоче-крестьянская красная армия (РККА).\nВся мощь Советского Союза.\nИспользование этой фракции включает режим Холодной Войны (будет использоваться только оружие и техника, которые подходят по временному периоду).</Russian>
                 <Chinesesimp>工农红军（红军）。\n苏联的所有力量。\n这个派别的使用将激活冷战模式（将只使用大致符合时间线的车辆和武器）。</Chinesesimp>
                 <Korean>노동자와 농민의 붉은 군대(붉은 군대).\n소련의 모든 힘.\n이 팩션을 사용하면 냉전 모드가 활성화됩니다(해당 시간대와 대략 맞는 차량과 무기만 사용됩니다).</Korean>
+                <Francais>Armée rouge des travailleurs et des paysans (Armée rouge).\nToute la puissance de l'Union soviétique.\nL'utilisation de cette faction activera le mode Guerre froide (il n'y aura que l'utilisation de véhicules et d'armes qui correspondent approximativement à la chronologie).</Francais>
             </Key>
             <Key ID="STR_A3AP_setupFactionsTab_us_cw">
                 <Original>United States Army.\nAggressive, overwhelming force.\nUsage of this faction will activate the Cold War mode (there will be only usage of vehicles and weapons that roughly fits the timeline.</Original>
                 <Russian>Армия США.\nАгрессивная, ошеломляющая сила.\nИспользование этой фракции включает режим Холодной Войны (будет использоваться только оружие и техника, которые подходят по временному периоду).</Russian>
                 <Chinesesimp>美国陆军。\n侵略性的，压倒性的力量。\n使用这个派别将激活冷战模式（将只使用大致符合时间线的车辆和武器。）</Chinesesimp>
                 <Korean>미 육군.\n공격적이고 압도적인 힘.\n이 팩션을 사용하면 냉전 모드가 활성화됩니다(해당 시간대와 대략 맞는 차량과 무기만 사용됩니다).</Korean>
+                <Francais>Armée des États-Unis.\nForce agressive et écrasante.\nL'utilisation de cette faction activera le mode Guerre froide (il n'y aura que l'utilisation de véhicules et d'armes qui correspondent approximativement à la chronologie).</Francais>
             </Key>
         </Container>
+
+        <!-- END Traduction en français END -->
         <Container name="magRepack">
             <Key ID="STR_magRepack_init">
                 <Original>Mag Repack Initialized.</Original>
