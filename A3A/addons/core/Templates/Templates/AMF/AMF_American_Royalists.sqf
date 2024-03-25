@@ -115,8 +115,8 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ]] call _fnc_saveToTemplate;
 ["sfVoices", ["Male01ENGB", "Male02ENGB", "Male03ENGB", "Male04ENGB", "Male05ENGB"]] call _fnc_saveToTemplate;
 
-["insignia", ["111thID", "", ""]] call _fnc_saveToTemplate;
-["sfInsignia", ["CTRG"]] call _fnc_saveToTemplate;
+["insignia", ["AMF_FRANCE_HV", "AMF_GCM", ""]] call _fnc_saveToTemplate;
+["sfInsignia", ["AMF_FRANCE_BV", "AMF_AIGLE"]] call _fnc_saveToTemplate;
 
 
 //////////////////////////
@@ -179,14 +179,14 @@ _loadoutData set ["officerUniforms", ["U_B_CombatUniform_tshirt_mcam_wdL_f", "U_
 _loadoutData set ["officerVests", ["V_Rangemaster_belt"]];
 _loadoutData set ["officerHats", ["H_MilCap_wdl", "H_Beret_Colonel", "H_Beret_02"]];
 
-_loadoutData set ["uniforms", []];
-_loadoutData set ["vests", []];
+_loadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
+_loadoutData set ["vests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
 _loadoutData set ["Hvests", []];
 _loadoutData set ["glVests", []];
-_loadoutData set ["backpacks", []];
+_loadoutData set ["backpacks", ["B_Kitbag_cbr"]];
 _loadoutData set ["atBackpacks", []];
 _loadoutData set ["longRangeRadios", ["B_RadioBag_01_wdl_F"]];
-_loadoutData set ["helmets", []];
+_loadoutData set ["helmets", ["rhsusf_opscore_coy_cover"]];
 _loadoutData set ["slHat", ["H_Beret_02"]];
 _loadoutData set ["sniHats", ["H_Booniehat_wdl"]];
 
@@ -251,11 +251,11 @@ _loadoutData set ["goggles", ["G_Combat"]];
 ///////////////////////////////////////
 
 private _sfLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_sfLoadoutData set ["uniforms", ["U_B_CTRG_Soldier_F", "U_B_CTRG_Soldier_3_F", "U_B_CTRG_Soldier_2_F"]];
-_sfLoadoutData set ["vests", ["V_TacVest_oli"]];
-_sfLoadoutData set ["backpacks", ["B_Kitbag_rgr", "B_AssaultPack_rgr", "B_Carryall_wdl_F", "B_Carryall_green_F"]];
+_sfLoadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
+_sfLoadoutData set ["vests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
+_sfLoadoutData set ["backpacks", ["B_Kitbag_cbr"]];
 _sfLoadoutData set ["atBackpacks", ["B_Kitbag_rgr","B_Carryall_wdl_F", "B_Carryall_green_F"]];
-_sfLoadoutData set ["helmets", ["H_HelmetSpecB", "H_HelmetB_light_black", "H_Bandanna_khk_hs","H_Watchcap_camo", "H_HelmetB_TI_tna_F"]];
+_sfLoadoutData set ["helmets", ["rhsusf_opscore_coy_cover"]];
 _sfLoadoutData set ["binoculars", ["Laserdesignator"]];
 
 private _slRifles = [
