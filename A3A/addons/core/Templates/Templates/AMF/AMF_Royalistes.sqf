@@ -119,20 +119,20 @@
 //       Loadouts       //
 //////////////////////////
 private _loadoutData = call _fnc_createLoadoutData;
-_loadoutData set ["rifles", []];
-_loadoutData set ["carbines", []];
-_loadoutData set ["grenadeLaunchers", []];
+_loadoutData set ["rifles", [["AMF_614_long_fs2_blk"]]];
+_loadoutData set ["carbines", [["AMF_614_long_fs2_blk",]]];
+_loadoutData set ["grenadeLaunchers", [["rhs_weap_hk416d10_m320"]]];
 _loadoutData set ["designatedGrenadeLaunchers", []];
-_loadoutData set ["SMGs", []];
-_loadoutData set ["machineGuns", []];
-_loadoutData set ["marksmanRifles", []];
-_loadoutData set ["sniperRifles", []];
+_loadoutData set ["SMGs", [["AMF_614_short_01_F"]]];
+_loadoutData set ["machineGuns", [["amf_mini_mg_tactical_mk3"]]];
+_loadoutData set ["marksmanRifles", ["AMF_SCAR_L_01_F_TAN"]];
+_loadoutData set ["sniperRifles", ["AMF_SCAR_L_01_F_TAN"]];
 
-_loadoutData set ["lightATLaunchers", []];
-_loadoutData set ["lightHELaunchers", []];
-_loadoutData set ["ATLaunchers", []];
+_loadoutData set ["lightATLaunchers", [["AMF_AT4CS_Loaded"]]];
+_loadoutData set ["lightHELaunchers", ["AMF_AT4CS_Loaded"]];
+_loadoutData set ["ATLaunchers", [["launch_NLAW_F"]]];
 _loadoutData set ["missileATLaunchers", []];
-_loadoutData set ["AALaunchers", []];
+_loadoutData set ["AALaunchers", [["rhs_weap_fim92"]]];
 _loadoutData set ["sidearms", []];
 
 _loadoutData set ["ATMines", []];
@@ -140,9 +140,9 @@ _loadoutData set ["APMines", []];
 _loadoutData set ["lightExplosives", []];
 _loadoutData set ["heavyExplosives", []];
 
-_loadoutData set ["antiInfantryGrenades", []];
-_loadoutData set ["smokeGrenades", []];
-_loadoutData set ["signalsmokeGrenades", []];
+_loadoutData set ["antiInfantryGrenades", [["rhs_mag_m67"]]];
+_loadoutData set ["smokeGrenades", [["rhs_mag_an_m8hc"]]];
+_loadoutData set ["signalsmokeGrenades", [["SmokeShellRed"]]];
 
 
 //Basic equipment. Shouldn't need touching most of the time.
@@ -156,19 +156,19 @@ _loadoutData set ["NVGs", ["NVGoggles_INDEP"]];
 _loadoutData set ["binoculars", ["Binocular"]];
 _loadoutData set ["rangefinders", ["Rangefinder"]];
 
-_loadoutData set ["traitorUniforms", []];
+_loadoutData set ["traitorUniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
 _loadoutData set ["traitorVests", []];
 _loadoutData set ["traitorHats", []];
 
-_loadoutData set ["officerUniforms", []];
+_loadoutData set ["officerUniforms", [["UK3CB_MDF_B_U_SF_Uniform_01_CE"]]];
 _loadoutData set ["officerVests", []];
 _loadoutData set ["officerHats", []];
 
-_loadoutData set ["uniforms", []];
-_loadoutData set ["vests", []];
-_loadoutData set ["backpacks", []];
-_loadoutData set ["longRangeRadios", []];           //long range radios used by radiomen
-_loadoutData set ["helmets", []];
+_loadoutData set ["uniforms", [["UK3CB_MDF_B_U_SF_Uniform_01_CE"]]];
+_loadoutData set ["vests", [["UK3CB_MDF_B_V_CREW_Vest_TAN"]]];
+_loadoutData set ["backpacks", [["B_Kitbag_cbr"]]];
+_loadoutData set ["longRangeRadios", [["UK3CB_ION_I_B_RadioBag_BRN"]]];           //long range radios used by radiomen
+_loadoutData set ["helmets", [["rhsusf_opscore_coy_cover"]]];
 
 _loadoutData set ["facewear", []];
 
@@ -205,11 +205,11 @@ _loadoutData set ["goggles", []];
 ///////////////////////////////////////
 
 private _sfLoadoutData = _loadoutData call _fnc_copyLoadoutData;
-_sfLoadoutData set ["uniforms", []];
-_sfLoadoutData set ["vests", []];
-_sfLoadoutData set ["backpacks", []];
-_sfLoadoutData set ["helmets", []];
-_sfLoadoutData set ["binoculars", []];
+_sfLoadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
+_sfLoadoutData set ["vests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
+_sfLoadoutData set ["backpacks", ["B_Kitbag_cbr"]];
+_sfLoadoutData set ["helmets", ["rhsusf_opscore_coy_cover"]];
+_sfLoadoutData set ["binoculars", [["ACE_NVG_Gen4"]]];
 //["Weapon", "Muzzle", "Rail", "Sight", [], [], "Bipod"];
 
 _sfLoadoutData set ["rifles", []];
