@@ -6,6 +6,41 @@ class Templates
         description = "";
     };
 
+    // ************************************** AMF *******************************************************
+
+    class AMF_Base : Base
+    {
+        requiredAddons[] = {"Weapons_1_F_lxWS"};
+        logo = "\A3\Data_F\Flags\Flag_NATO_CO.paa";
+        basepath = QPATHTOFOLDER(Templates\Templates\AMF); //the path to the template folder
+        priority = 1;
+        equipFlags[] = {"vanilla"};
+    };
+
+    class AMF_Occ : AMF_Base
+    {
+        side = "Occ";
+        flagTexture = "\A3\Data_F\Flags\Flag_NATO_CO.paa";
+        basepath = QPATHTOFOLDER(Templates\Templates\AMF);
+        name = "AMF Royalistes";
+        file = "AMF_Royalistes";
+        maps[] = {};
+        forceDLC[] = {};
+        description = $STR_A3AP_setupFactionsTab_AMF_Royalistes;
+    };
+
+    class AMF_Reb : AMF_Base
+    {
+        side = "Reb";
+        flagTexture = "\A3\Data_F\Flags\Flag_NATO_CO.paa";
+        basepath = QPATHTOFOLDER(Templates\Templates\AMF);
+        name = "AMF Républicains";
+        file = "AMF_Republicains";
+        maps[] = {};
+        forceDLC[] = {};
+        description = $STR_A3AP_setupFactionsTab_AMF_Republicains;
+    };
+
     // ************************************** Western Sahara *******************************************************
 
     class WS_Base : Base
