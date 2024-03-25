@@ -29,6 +29,18 @@ class Templates
         description = $STR_A3AP_setupFactionsTab_AMF_Royalistes;
     };
 
+    class AMF_OccAmerica : AMF_Base
+    {
+        side = "Occ";
+        flagTexture = "\A3\Data_F\Flags\Flag_NATO_CO.paa";
+        basepath = QPATHTOFOLDER(Templates\Templates\AMF);
+        name = "AMF Royalistes (Amérique)";
+        file = "AMF_American_Royalists";
+        maps[] = {};
+        forceDLC[] = {};
+        description = $STR_A3AP_setupFactionsTab_AMF_Royalistes;
+    };
+
     class AMF_Reb : AMF_Base
     {
         side = "Reb";
