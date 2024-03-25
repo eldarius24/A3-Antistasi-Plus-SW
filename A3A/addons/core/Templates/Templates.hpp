@@ -10,7 +10,7 @@ class Templates
 
     class AMF_Base : Base
     {
-        requiredAddons[] = {"Weapons_1_F_lxWS"};
+        requiredAddons[] = {};
         logo = "\A3\Data_F\Flags\Flag_NATO_CO.paa";
         basepath = QPATHTOFOLDER(Templates\Templates\AMF); //the path to the template folder
         priority = 1;
