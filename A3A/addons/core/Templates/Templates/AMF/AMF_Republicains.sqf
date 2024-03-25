@@ -77,7 +77,17 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 //  Rebel Starting Gear  //
 ///////////////////////////
 
-private _initialRebelEquipment = [];
+private _initialRebelEquipment = [
+    "rhs_weap_hk416d10_m320",
+    "hgun_PDW2000_F",
+    "30Rnd_9x21_Mag", "30Rnd_9x21_Red_Mag",
+    "6Rnd_45ACP_Cylinder","MiniGrenade","SmokeShell",
+    ["IEDUrbanSmall_Remote_Mag", 10], ["IEDLandSmall_Remote_Mag", 10], ["IEDUrbanBig_Remote_Mag", 3], ["IEDLandBig_Remote_Mag", 3],
+    "B_FieldPack_oli","B_FieldPack_blk","B_FieldPack_khk",
+    "V_BandollierB_blk","V_BandollierB_cbr","V_BandollierB_rgr","V_BandollierB_khk","V_BandollierB_oli","V_Rangemaster_belt",
+    "Binocular",
+    "acc_flashlight","acc_flashlight_smg_01","acc_flashlight_pistol"
+];
 
 ["civilianBackpacks", ["backpack_1", "backpack_2"] createHashMapFromArray []] call _fnc_saveToTemplate;
 
