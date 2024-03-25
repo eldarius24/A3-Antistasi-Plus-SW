@@ -2,12 +2,12 @@
 //   Side Information   //
 //////////////////////////
 
-["name", ""] call _fnc_saveToTemplate;
-["spawnMarkerName", ""] call _fnc_saveToTemplate;
+["name", "Royalistes"] call _fnc_saveToTemplate;
+["spawnMarkerName", format [localize "STR_supportcorridor", "Royalistes"]] call _fnc_saveToTemplate;
 
-["flag", ""] call _fnc_saveToTemplate;
-["flagTexture", ""] call _fnc_saveToTemplate;
-["flagMarkerType", ""] call _fnc_saveToTemplate;
+["flag", "Flag_NATO_F"] call _fnc_saveToTemplate;
+["flagTexture", "\A3\Data_F\Flags\Flag_NATO_CO.paa"] call _fnc_saveToTemplate;
+["flagMarkerType", "flag_NATO"] call _fnc_saveToTemplate;
 
 //////////////////////////
 //       Vehicles       //
@@ -96,24 +96,20 @@
 /////////////////////
 ///  Identities   ///
 /////////////////////
-//Faces and Voices given to AI Factions.
-["faces", []] call _fnc_saveToTemplate;
-["voices", []] call _fnc_saveToTemplate;
-//SpecialForces, Militia, Police Faces and Voices, these are Optional if there is no reason to Include them, leave them out.
-["sfVoices", []] call _fnc_saveToTemplate;
-["sfFaces", []] call _fnc_saveToTemplate;
-["milVoices", []] call _fnc_saveToTemplate;
-["milFaces", []] call _fnc_saveToTemplate;
-["polVoices", []] call _fnc_saveToTemplate;
-["polFaces", []] call _fnc_saveToTemplate;
-["eliteVoices", []] call _fnc_saveToTemplate;
-["eliteFaces", []] call _fnc_saveToTemplate;
 
-["insignia", []] call _fnc_saveToTemplate;
-["sfInsignia", []] call _fnc_saveToTemplate;
-["milInsignia", []] call _fnc_saveToTemplate;
-["polInsignia", []] call _fnc_saveToTemplate;
-["eliteInsignia", []] call _fnc_saveToTemplate;
+["voices", ["Male01ENG","Male02ENG","Male03ENG","Male04ENG","Male05ENG","Male06ENG","Male07ENG","Male08ENG","Male09ENG","Male10ENG","Male11ENG","Male12ENG"]] call _fnc_saveToTemplate;
+["faces", ["AfricanHead_01","AfricanHead_02","AfricanHead_03","Barklem",
+"GreekHead_A3_05","GreekHead_A3_07","Sturrock","WhiteHead_01","WhiteHead_02",
+"WhiteHead_03","WhiteHead_04","WhiteHead_05","WhiteHead_06","WhiteHead_07",
+"WhiteHead_08","WhiteHead_09","WhiteHead_11","WhiteHead_12","WhiteHead_14",
+"WhiteHead_15","WhiteHead_16","WhiteHead_18","WhiteHead_19","WhiteHead_20",
+"WhiteHead_21","WhiteHead_23", "WhiteHead_24", "WhiteHead_25",
+"WhiteHead_26", "WhiteHead_27", "WhiteHead_28", "WhiteHead_29", "WhiteHead_30", "WhiteHead_31", "WhiteHead_32"
+]] call _fnc_saveToTemplate;
+["sfVoices", ["Male01ENGB", "Male02ENGB", "Male03ENGB", "Male04ENGB", "Male05ENGB"]] call _fnc_saveToTemplate;
+
+["insignia", ["111thID", "", ""]] call _fnc_saveToTemplate;
+["sfInsignia", ["CTRG"]] call _fnc_saveToTemplate;
 
 //////////////////////////
 //       Loadouts       //
@@ -212,13 +208,13 @@ _sfLoadoutData set ["helmets", ["rhsusf_opscore_coy_cover"]];
 _sfLoadoutData set ["binoculars", [["ACE_NVG_Gen4"]]];
 //["Weapon", "Muzzle", "Rail", "Sight", [], [], "Bipod"];
 
-_sfLoadoutData set ["rifles", []];
-_sfLoadoutData set ["carbines", []];
-_sfLoadoutData set ["grenadeLaunchers", []];
-_sfLoadoutData set ["SMGs", []];
-_sfLoadoutData set ["machineGuns", []];
-_sfLoadoutData set ["marksmanRifles", []];
-_sfLoadoutData set ["sniperRifles", []];
+_sfLoadoutData set ["rifles", ["AMF_614_long_fs2_blk"]];
+_sfLoadoutData set ["carbines", ["AMF_614_long_fs2_blk"]];
+_sfLoadoutData set ["grenadeLaunchers", ["rhs_weap_hk416d10_m320"]];
+_sfLoadoutData set ["SMGs", ["AMF_614_short_01_F"]];
+_sfLoadoutData set ["machineGuns", ["amf_mini_mg_tactical_mk3"]];
+_sfLoadoutData set ["marksmanRifles", ["AMF_SCAR_L_01_F_TAN"]];
+_sfLoadoutData set ["sniperRifles", ["AMF_SCAR_L_01_F_TAN"]];
 _sfLoadoutData set ["sidearms", []];
 /////////////////////////////////
 //    Military Loadout Data    //
