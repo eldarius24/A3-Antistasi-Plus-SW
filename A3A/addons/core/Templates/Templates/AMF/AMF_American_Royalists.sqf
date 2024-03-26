@@ -124,23 +124,16 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 //////////////////////////
 
 private _loadoutData = call _fnc_createLoadoutData;
-_loadoutData set ["slRifles", []];
-_loadoutData set ["rifles", []];
-_loadoutData set ["carbines", []];
+_loadoutData set ["slRifles", [["AMF_614_long_01_F","AMF_Samas_VALO_01_F"]]];
+_loadoutData set ["rifles", [["AMF_614_long_01_F","AMF_Samas_VALO_01_F"]]];
+_loadoutData set ["carbines", [["AMF_614_long_01_F","AMF_Samas_VALO_01_F"]]];
 _loadoutData set ["grenadeLaunchers", []];
 _loadoutData set ["designatedGrenadeLaunchers", []];
 _loadoutData set ["SMGs", []];
-_loadoutData set ["machineGuns", []];
-_loadoutData set ["marksmanRifles", []];
-_loadoutData set ["sniperRifles", []];
-_loadoutData set ["lightATLaunchers", [
-["launch_MRAWS_green_F", "", "acc_pointer_IR", "", ["MRAWS_HE_F", "MRAWS_HEAT55_F"], [], ""],
-["launch_MRAWS_green_F", "", "acc_pointer_IR", "", ["MRAWS_HEAT_F", "MRAWS_HEAT55_F"], [], ""],
-["launch_MRAWS_green_F", "", "acc_pointer_IR", "", ["MRAWS_HEAT_F", "MRAWS_HE_F"], [], ""],
-["launch_MRAWS_green_rail_F", "", "acc_pointer_IR", "", ["MRAWS_HE_F", "MRAWS_HEAT55_F"], [], ""],
-["launch_MRAWS_green_rail_F", "", "acc_pointer_IR", "", ["MRAWS_HEAT_F", "MRAWS_HEAT55_F"], [], ""],
-["launch_MRAWS_green_rail_F", "", "acc_pointer_IR", "", ["MRAWS_HEAT_F", "MRAWS_HE_F"], [], ""]
-]];
+_loadoutData set ["machineGuns", ["amf_mini_mg_tactical_mk3"]];
+_loadoutData set ["marksmanRifles", ["AMF_SCAR_L_01_F_TAN"]];
+_loadoutData set ["sniperRifles", ["AMF_SCAR_L_01_F_TAN"]];
+_loadoutData set ["lightATLaunchers", ["AMF_AT4CS_Loaded"]];
 _loadoutData set ["ATLaunchers", ["launch_NLAW_F"]];
 _loadoutData set ["missileATLaunchers", [
 ["launch_I_Titan_short_F", "", "acc_pointer_IR", "", ["Titan_AT"], [], ""]
@@ -179,14 +172,14 @@ _loadoutData set ["officerUniforms", ["U_B_CombatUniform_tshirt_mcam_wdL_f", "U_
 _loadoutData set ["officerVests", ["V_Rangemaster_belt"]];
 _loadoutData set ["officerHats", ["H_MilCap_wdl", "H_Beret_Colonel", "H_Beret_02"]];
 
-_loadoutData set ["uniforms", []];
-_loadoutData set ["vests", []];
-_loadoutData set ["Hvests", []];
-_loadoutData set ["glVests", []];
-_loadoutData set ["backpacks", []];
-_loadoutData set ["atBackpacks", []];
+_loadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
+_loadoutData set ["vests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
+_loadoutData set ["Hvests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
+_loadoutData set ["glVests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
+_loadoutData set ["backpacks", ["B_Kitbag_cbr"]];
+_loadoutData set ["atBackpacks", ["B_Kitbag_cbr"]];
 _loadoutData set ["longRangeRadios", ["B_RadioBag_01_wdl_F"]];
-_loadoutData set ["helmets", []];
+_loadoutData set ["helmets", ["AMF_FELIN_05_CE"]];
 _loadoutData set ["slHat", ["H_Beret_02"]];
 _loadoutData set ["sniHats", ["H_Booniehat_wdl"]];
 
@@ -251,12 +244,12 @@ _loadoutData set ["goggles", ["G_Combat"]];
 ///////////////////////////////////////
 
 private _sfLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_sfLoadoutData set ["uniforms", ["U_B_CTRG_Soldier_F", "U_B_CTRG_Soldier_3_F", "U_B_CTRG_Soldier_2_F"]];
-_sfLoadoutData set ["vests", ["V_TacVest_oli"]];
-_sfLoadoutData set ["backpacks", ["B_Kitbag_rgr", "B_AssaultPack_rgr", "B_Carryall_wdl_F", "B_Carryall_green_F"]];
-_sfLoadoutData set ["atBackpacks", ["B_Kitbag_rgr","B_Carryall_wdl_F", "B_Carryall_green_F"]];
-_sfLoadoutData set ["helmets", ["H_HelmetSpecB", "H_HelmetB_light_black", "H_Bandanna_khk_hs","H_Watchcap_camo", "H_HelmetB_TI_tna_F"]];
-_sfLoadoutData set ["binoculars", ["Laserdesignator"]];
+_sfLoadoutData set ["uniforms", ["[amf_uniform_01_RE_NG_BM_HS"]", "["amf_uniform_01_NG_BM_HX"]", "["amf_uniform_01_BM_HX"]"]];
+_sfLoadoutData set ["vests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
+_sfLoadoutData set ["backpacks", ["["AMF_FELIN_BACKPACK_LIGHT_TAN"]"]];
+_sfLoadoutData set ["atBackpacks", ["["AMF_FELIN_BACKPACK_LIGHT_TAN"]"]];
+_sfLoadoutData set ["helmets", ["AMF_FELIN_04_TAN"]];
+_sfLoadoutData set [""binoculars"", [""Laserdesignator"];
 
 private _slRifles = [
     ["arifle_MX_Black_F", "muzzle_snds_H", "acc_pointer_IR", "optic_MRCO", ["30Rnd_65x39_caseless_black_mag", "30Rnd_65x39_caseless_black_mag", "30Rnd_65x39_caseless_black_mag_Tracer"], [], ""],
