@@ -9,11 +9,11 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 //   Rebel Information   //
 ///////////////////////////
 
-["name", ""] call _fnc_saveToTemplate;
+["name", "Republicains"] call _fnc_saveToTemplate;
 
-["flag", ""] call _fnc_saveToTemplate;
-["flagTexture", ""] call _fnc_saveToTemplate;
-["flagMarkerType", ""] call _fnc_saveToTemplate;
+["flag", "Flag_AMF_F"] call _fnc_saveToTemplate;
+["flagTexture", "\amf_objects\Data\Texture\amf_Drapeau_CO.paa"] call _fnc_saveToTemplate;
+["flagMarkerType", "flag_France"] call _fnc_saveToTemplate;
 
 
 ["vehicleBasic", ""] call _fnc_saveToTemplate;
@@ -76,17 +76,18 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ///////////////////////////
 //  Rebel Starting Gear  //
 ///////////////////////////
-
 private _initialRebelEquipment = [
+    "AMF_Samas_F1_01_F"
     "rhs_weap_hk416d10_m320",
     "hgun_PDW2000_F",
-    "30Rnd_9x21_Mag", "30Rnd_9x21_Red_Mag",
+    "30Rnd_9x21_Mag", "30Rnd_9x21_Red_Mag","UK3CB_FAMAS_25rnd_556x45_RT","AMF_RFG_APAV40","AMF_RFG_AC58",
     "6Rnd_45ACP_Cylinder","MiniGrenade","SmokeShell",
     ["IEDUrbanSmall_Remote_Mag", 10], ["IEDLandSmall_Remote_Mag", 10], ["IEDUrbanBig_Remote_Mag", 3], ["IEDLandBig_Remote_Mag", 3],
     "B_FieldPack_oli","B_FieldPack_blk","B_FieldPack_khk",
     "V_BandollierB_blk","V_BandollierB_cbr","V_BandollierB_rgr","V_BandollierB_khk","V_BandollierB_oli","V_Rangemaster_belt",
     "Binocular",
-    "acc_flashlight","acc_flashlight_smg_01","acc_flashlight_pistol"
+    "acc_flashlight","acc_flashlight_smg_01","acc_flashlight_pistol",
+    "rhs_1PN138"
 ];
 
 ["civilianBackpacks", ["backpack_1", "backpack_2"] createHashMapFromArray []] call _fnc_saveToTemplate;
@@ -97,7 +98,7 @@ if (A3A_hasTFARBeta) then {_initialRebelEquipment append ["TFAR_microdagr","TFAR
 if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment append ["TFAR_anprc155","TFAR_anprc155_coyote"]};
 ["initialRebelEquipment", _initialRebelEquipment] call _fnc_saveToTemplate;
 
-private _rebUniforms = [];          //Uniforms given to Normal Rebels
+private _rebUniforms = ["amf_uniform_02_NG_DA_MD"];          //Uniforms given to Normal Rebels
 
 private _dlcUniforms = [];          //Uniforms given if DLCs are enabled, only given to the Arsenal not Rebels
 
