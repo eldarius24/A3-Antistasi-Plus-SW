@@ -576,7 +576,7 @@ _policeLoadoutData set ["sidearms", ["hgun_Rook40_F"]];
 ////////////////////////////////
 
 private _militiaLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_militiaLoadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_C"]];
+_militiaLoadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
 _militiaLoadoutData set ["vests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
 _militiaLoadoutData set ["backpacks", [["AMF_FELIN_BACKPACK_LIGHT_TAN"]]];
 _militiaLoadoutData set ["atBackpacks", [["B_FieldPack_oli"]]];
