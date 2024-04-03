@@ -478,32 +478,32 @@ _militaryLoadoutData set ["atBackpacks", ["B_Kitbag_cbr"]];
 _militaryLoadoutData set ["helmets", ["AMF_FELIN_04_TAN"]];
 
 _militaryLoadoutData set ["slRifles", [
-["AMF_614_short_01_F", "", "acc_flashlight", "optic_Holosight_blk_F", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Rangerg", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
-["AMF_614_short_01_F", "", "acc_flashlight", "optic_MRCO", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Rangerg", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
-["AMF_614_short_01_F", "", "acc_flashlight", "optic_Hamr", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Rangerg", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
-["AMF_614_short_01_F", "", "acc_flashlight", "optic_ACO_grn", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Rangerg", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
-["AMF_614_long_HK269_01_F", "", "acc_flashlight", "optic_Holosight_blk_F", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Rangerg", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], ["UGL_FlareWhite_F", "UGL_FlareWhite_F", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell"], ""],
-["AMF_614_long_HK269_01_FF", "", "acc_flashlight", "optic_MRCO", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Rangerg", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], ["UGL_FlareWhite_F", "UGL_FlareWhite_F", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell"], ""],
-["AMF_614_long_HK269_01_F", "", "acc_flashlight", "optic_Hamr", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Rangerg", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], ["UGL_FlareWhite_F", "UGL_FlareWhite_F", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell"], ""],
-["AMF_614_long_HK269_01_F", "", "acc_flashlight", "optic_ACO_grn", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Rangerg", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], ["UGL_FlareWhite_F", "UGL_FlareWhite_F", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell"], ""]
+["AMF_614_short_01_F", "", "acc_flashlight", "optic_Holosight_blk_F", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_short_01_F", "", "acc_flashlight", "optic_MRCO", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_short_01_F", "", "acc_flashlight", "optic_Hamr", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_short_01_F", "", "acc_flashlight", "optic_ACO_grn", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_long_HK269_01_F", "", "acc_flashlight", "optic_Holosight_blk_F", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], ["UGL_FlareWhite_F", "UGL_FlareWhite_F", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell"], ""],
+["AMF_614_long_HK269_01_FF", "", "acc_flashlight", "optic_MRCO", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], ["UGL_FlareWhite_F", "UGL_FlareWhite_F", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell"], ""],
+["AMF_614_long_HK269_01_F", "", "acc_flashlight", "optic_Hamr", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], ["UGL_FlareWhite_F", "UGL_FlareWhite_F", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell"], ""],
+["AMF_614_long_HK269_01_F", "", "acc_flashlight", "optic_ACO_grn", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], ["UGL_FlareWhite_F", "UGL_FlareWhite_F", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell"], ""]
 ]];
 _militaryLoadoutData set ["rifles", [
-["AMF_614_short_01_F", "", "acc_flashlight", "optic_Holosight_blk_F", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Rangerg", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
-["AMF_614_short_01_F", "", "acc_flashlight", "optic_MRCO", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Rangerg", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
-["AMF_614_short_01_F", "", "acc_flashlight", "optic_Hamr", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Rangerg", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
-["AMF_614_short_01_F", "", "acc_flashlight", "optic_ACO_grn", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Rangerg", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""]
+["AMF_614_short_01_F", "", "acc_flashlight", "optic_Holosight_blk_F", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_short_01_F", "", "acc_flashlight", "optic_MRCO", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_short_01_F", "", "acc_flashlight", "optic_Hamr", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_short_01_F", "", "acc_flashlight", "optic_ACO_grn", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""]
 ]];
 _militaryLoadoutData set ["carbines", [
-["AMF_614_short_01_F", "", "acc_flashlight", "optic_Holosight_blk_F", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Rangerg", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
-["AMF_614_short_01_F", "", "acc_flashlight", "optic_ACO_grn", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Rangerg", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
-["AMF_614_short_01_F", "", "acc_flashlight", "optic_Aco", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Rangerg", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
-["AMF_614_short_01_F", "", "acc_flashlight", "optic_ACO_grn", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Rangerg", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""]
+["AMF_614_short_01_F", "", "acc_flashlight", "optic_Holosight_blk_F", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_short_01_F", "", "acc_flashlight", "optic_ACO_grn", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_short_01_F", "", "acc_flashlight", "optic_Aco", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_short_01_F", "", "acc_flashlight", "optic_ACO_grn", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""]
 ]];
 _militaryLoadoutData set ["grenadeLaunchers", [
-["AMF_614_long_HK269_01_F", "", "acc_flashlight", "optic_Holosight_blk_F", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Rangerg", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], ["1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_Smoke_Grenade_shell"], ""],
-["AMF_614_long_HK269_01_F", "", "acc_flashlight", "optic_MRCO", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Rangerg", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], ["1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_Smoke_Grenade_shell"], ""],
-["AMF_614_long_HK269_01_F", "", "acc_flashlight", "optic_Hamr", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Rangerg", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], ["1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_Smoke_Grenade_shell"], ""],
-["AMF_614_long_HK269_01_F", "", "acc_flashlight", "optic_ACO_grn", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Rangerg", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], ["1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_Smoke_Grenade_shell"], ""]
+["AMF_614_long_HK269_01_F", "", "acc_flashlight", "optic_Holosight_blk_F", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], ["1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_Smoke_Grenade_shell"], ""],
+["AMF_614_long_HK269_01_F", "", "acc_flashlight", "optic_MRCO", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], ["1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_Smoke_Grenade_shell"], ""],
+["AMF_614_long_HK269_01_F", "", "acc_flashlight", "optic_Hamr", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], ["1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_Smoke_Grenade_shell"], ""],
+["AMF_614_long_HK269_01_F", "", "acc_flashlight", "optic_ACO_grn", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], ["1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_Smoke_Grenade_shell"], ""]
 ]];
 _militaryLoadoutData set ["SMGs", [
 ["SMG_01_F", "", "", "optic_Holosight_blk_F", [], [], ""],
@@ -583,7 +583,7 @@ _militiaLoadoutData set ["atBackpacks", [["AMF_FELIN_BACKPACK_LIGHT_TAN"]]];
 _militiaLoadoutData set ["helmets", [["AMF_FELIN_04_TAN"]]];
 
 _militiaLoadoutData set ["slRifles", [
-    ["AMF_614_long_HK269_01_F", "", "acc_flashlight", "", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Rangerg", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], ["UGL_FlareWhite_F", "UGL_FlareWhite_F", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell"], ""],
+    ["AMF_614_long_HK269_01_F", "", "acc_flashlight", "", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], ["UGL_FlareWhite_F", "UGL_FlareWhite_F", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell"], ""],
     ["AMF_614_short_01_F", "", "acc_flashlight", "", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""]
 ]];
 _militiaLoadoutData set ["rifles", [
