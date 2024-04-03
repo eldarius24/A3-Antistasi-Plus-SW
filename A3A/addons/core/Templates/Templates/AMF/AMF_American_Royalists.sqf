@@ -578,9 +578,9 @@ _policeLoadoutData set ["sidearms", ["hgun_Rook40_F"]];
 private _militiaLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
 _militiaLoadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
 _militiaLoadoutData set ["vests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
-_militiaLoadoutData set ["backpacks", [["AMF_FELIN_BACKPACK_LIGHT_TAN"]]];
-_militiaLoadoutData set ["atBackpacks", [["AMF_FELIN_BACKPACK_LIGHT_TAN"]]];
-_militiaLoadoutData set ["helmets", [["AMF_FELIN_04_TAN"]]];
+_militiaLoadoutData set ["backpacks", ["AMF_FELIN_BACKPACK_LIGHT_TAN"]];
+_militiaLoadoutData set ["atBackpacks", ["AMF_FELIN_BACKPACK_LIGHT_TAN"]];
+_militiaLoadoutData set ["helmets", ["AMF_FELIN_04_TAN"]];
 
 _militiaLoadoutData set ["slRifles", [
     ["AMF_614_long_HK269_01_F", "", "acc_flashlight", "", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], ["UGL_FlareWhite_F", "UGL_FlareWhite_F", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell"], ""],
