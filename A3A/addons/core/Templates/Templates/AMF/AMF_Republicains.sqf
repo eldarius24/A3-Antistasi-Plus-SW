@@ -77,10 +77,10 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 //  Rebel Starting Gear  //
 ///////////////////////////
 private _initialRebelEquipment = [
-    "AMF_Samas_F1_01_F"
+    "AMF_Samas_F1_01_F",
     "AMF_Samas_VALO_01_F",
-    "AMF_mag58_01_F"
-    "AMF_RFF2_01_F"
+    "AMF_mag58_01_F",
+    "AMF_RFF2_01_F",
     "hgun_PDW2000_F",
     "30Rnd_9x21_Mag", "30Rnd_9x21_Red_Mag","UK3CB_FAMAS_25rnd_556x45_RT","AMF_RFG_APAV40","AMF_RFG_AC58",
     "6Rnd_45ACP_Cylinder","MiniGrenade","SmokeShell",
