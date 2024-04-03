@@ -84,6 +84,7 @@ if (count _vest > 0) then {
 };
 
 if (count _backpack > 0) then {
+	diag_log format["_backpack select 0: %1", _backpack select 0];
 	_backpackMaxLoad = getContainerMaxLoad (_backpack select 0);
 	{
 		_backpackCurrentLoad = _backpackCurrentLoad + ([_x] call A3A_fnc_loadout_itemLoad);
