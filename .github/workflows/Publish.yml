@@ -15,13 +15,13 @@ on:
 jobs:
   build:
     runs-on: windows-latest
-
+    timeout-minutes: 5
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+    - name: Checkout the code
+      uses: actions/checkout@v3.3.0
 
     - name: Build Antistasi
-      run: ./AntistasiBuilder.exe
+      run: .\A3-Antistasi-Plus-SW\A3-Antistasi-Plus-SW\AntistasiBuilder.exe
 
 
 #name: Publish
