@@ -1,36 +1,56 @@
-name: Publish
+# .github/workflows/cicd.yml
+
+name: Antistasi CI/CD
 
 on:
-  workflow_dispatch:
-    inputs:
-      workshopid:
-        type: choice
-        description: 'Options: Main Branch, Dev Branch'
-        options:
-        - 2912941775 #main branch
-        - 2913672477 #dev branch
+  push:
+    branches:
+      - main
 
 jobs:
-
   build:
     runs-on: windows-latest
-    timeout-minutes: 5
+
     steps:
-    - name: Checkout the code
-      uses: actions/checkout@v3.3.0
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-    - name: Increment version locally
-      run: chmod +x ./tools/incrementVersion.js &&
-        node ./tools/incrementVersion.js -b ${{github.sha}}
+    - name: Build Antistasi
+      run: .\AntistasiBuilder.exe
 
-    - name: Build addons
-      run: '.\tools\Builder\buildAddons.ps1 -WorkshopID ${{github.event.inputs.workshopid}}'
 
-    - name: Upload build addon artifact
-      uses: actions/upload-artifact@v3.1.2
-      with:
-        name: A3A-Plus
-        path: build\A3A-Plus
+#name: Publish
+#on:
+#  workflow_dispatch:
+#    inputs:
+#      workshopid:
+#        type: choice
+#        description: 'Options: Main Branch, Dev Branch'
+#        options:
+#        - 2912941775 #main branch
+#        - 2913672477 #dev branch
+#
+#jobs:
+#
+#  build:
+#    runs-on: windows-latest
+#    timeout-minutes: 5
+#    steps:
+#    - name: Checkout the code
+#      uses: actions/checkout@v3.3.0
+#
+#    - name: Increment version locally
+#      run: chmod +x ./tools/incrementVersion.js &&
+#        node ./tools/incrementVersion.js -b ${{github.sha}}
+#
+#    - name: Build addons
+#      run: '.\tools\Builder\buildAddons.ps1 -WorkshopID ${{github.event.inputs.workshopid}}'
+#
+#    - name: Upload build addon artifact
+#      uses: actions/upload-artifact@v3.1.2
+#      with:
+#        name: A3A-Plus
+#        path: build\A3A-Plus
   # upload:
   #   runs-on: ubuntu-latest
   #   timeout-minutes: 10
