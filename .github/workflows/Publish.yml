@@ -21,7 +21,7 @@ jobs:
       uses: actions/checkout@v3.3.0
 
     - name: Build Antistasi
-      run: .\A3-Antistasi-Plus-SW\A3-Antistasi-Plus-SW\AntistasiBuilder.exe
+      run: .\AntistasiBuilder.exe
 
 
 #name: Publish
