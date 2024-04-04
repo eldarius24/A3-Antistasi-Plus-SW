@@ -3,9 +3,14 @@
 name: Antistasi CI/CD
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
+    inputs:
+      workshopid:
+        type: choice
+        description: 'Options: Main Branch, Dev Branch'
+        options:
+        - 2912941775 #main branch
+        - 2913672477 #dev branch
 
 jobs:
   build:
