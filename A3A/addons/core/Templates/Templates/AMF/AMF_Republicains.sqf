@@ -16,8 +16,8 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["flagMarkerType", "flag_France"] call _fnc_saveToTemplate;
 
 
-["vehicleBasic", ""] call _fnc_saveToTemplate;
-["vehicleLightUnarmed", ""] call _fnc_saveToTemplate;
+["vehicleBasic", "UK3CB_B_M1030_NATO"] call _fnc_saveToTemplate;
+["vehicleLightUnarmed", "B_Quadbike_01_F"] call _fnc_saveToTemplate;
 ["vehicleLightArmed", ""] call _fnc_saveToTemplate;
 ["vehicleTruck", ""] call _fnc_saveToTemplate;
 ["vehicleAT", ""] call _fnc_saveToTemplate;
@@ -30,8 +30,8 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["vehiclePayloadPlane", ""] call _fnc_saveToTemplate;
 ["vehicleHeli", ""] call _fnc_saveToTemplate;
 
-["vehicleCivCar", ""] call _fnc_saveToTemplate;
-["vehicleCivTruck", ""] call _fnc_saveToTemplate;
+["vehicleCivCar", "I_C_Offroad_02_unarmed_F"] call _fnc_saveToTemplate;
+["vehicleCivTruck", "I_C_Van_01_transport_F"] call _fnc_saveToTemplate;
 ["vehicleCivHeli", ""] call _fnc_saveToTemplate;
 ["vehicleCivBoat", ""] call _fnc_saveToTemplate;
 ["vehicleCivSupply", ""] call _fnc_saveToTemplate;
@@ -54,8 +54,8 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 //       Antistasi Plus Stuff       //
 //////////////////////////////////////
 
-["lootCrate", ""] call _fnc_saveToTemplate;
-["rallyPoint", ""] call _fnc_saveToTemplate;
+["lootCrate", "A3AP_Box_Syndicate_Ammo_F"] call _fnc_saveToTemplate;
+["rallyPoint", "B_RadioBag_01_wdl_F"] call _fnc_saveToTemplate;
 
 //vehicle class, price, type, unlock condition
 ["blackMarketStock", [
@@ -82,6 +82,8 @@ private _initialRebelEquipment = [
     "AMF_mag58_01_F",
     "AMF_RFF2_01_F",
     "hgun_PDW2000_F",
+    "75Rnd_mag58_mag","75Rnd_mag58_mag_Tracer_green","75Rnd_mag58_mag_Tracer_red",
+    "10Rnd_762x51_Mag","25Rnd_samas_f1_mag", "25Rnd_samas_f1_mag_Tracer_green", "25Rnd_samas_f1_mag_Tracer_red", "25Rnd_samas_f1_mag_Tracer_yellow","15Rnd_9x21_Mag",
     "30Rnd_9x21_Mag", "30Rnd_9x21_Red_Mag","UK3CB_FAMAS_25rnd_556x45_RT","AMF_RFG_APAV40","AMF_RFG_AC58",
     "6Rnd_45ACP_Cylinder","MiniGrenade","SmokeShell",
     ["IEDUrbanSmall_Remote_Mag", 10], ["IEDLandSmall_Remote_Mag", 10], ["IEDUrbanBig_Remote_Mag", 3], ["IEDLandBig_Remote_Mag", 3],
@@ -92,6 +94,8 @@ private _initialRebelEquipment = [
     "rhs_1PN138"
 ];
 
+
+
 ["civilianBackpacks", ["backpack_1", "backpack_2"] createHashMapFromArray []] call _fnc_saveToTemplate;
 
 if (A3A_hasTFAR) then {_initialRebelEquipment append ["tf_microdagr","tf_anprc154"]};
@@ -100,15 +104,10 @@ if (A3A_hasTFARBeta) then {_initialRebelEquipment append ["TFAR_microdagr","TFAR
 if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment append ["TFAR_anprc155","TFAR_anprc155_coyote"]};
 ["initialRebelEquipment", _initialRebelEquipment] call _fnc_saveToTemplate;
 
-private _rebUniforms = ["amf_uniform_02_NG_DA_MD"];          //Uniforms given to Normal Rebels
+private _rebUniforms = ["amf_uniform_01_RE_SE_MD"];          //Uniforms given to Normal Rebels
 
 private _dlcUniforms = [];          //Uniforms given if DLCs are enabled, only given to the Arsenal not Rebels
 
-if (_hasContact) then {_dlcUniforms append [];
-};
-
-if (_hasApex) then {_dlcUniforms append [];
-};
 
 ["uniforms", _rebUniforms + _dlcUniforms] call _fnc_saveToTemplate;         //These Items get added to the Arsenal
 
