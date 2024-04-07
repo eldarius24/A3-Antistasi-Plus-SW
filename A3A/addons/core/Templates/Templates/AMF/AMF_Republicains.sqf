@@ -12,7 +12,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["name", "Republicains"] call _fnc_saveToTemplate;
 
 ["flag", "Flag_AMF_F"] call _fnc_saveToTemplate;
-["flagTexture", "\amf_objects\Data\Texture\amf_Drapeau_CO.paa"] call _fnc_saveToTemplate;
+["flagTexture", ""] call _fnc_saveToTemplate;
 ["flagMarkerType", "flag_France"] call _fnc_saveToTemplate;
 
 
@@ -20,8 +20,8 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["vehicleLightUnarmed", "B_Quadbike_01_F"] call _fnc_saveToTemplate;
 ["vehicleLightArmed", ""] call _fnc_saveToTemplate;
 ["vehicleTruck", ""] call _fnc_saveToTemplate;
-["vehicleAT", ""] call _fnc_saveToTemplate;
-["vehicleAA", ""] call _fnc_saveToTemplate;
+["vehicleAT", "rhsgref_nat_uaz_spg9"] call _fnc_saveToTemplate;
+["vehicleAA", "rhsgref_nat_ural_Zu23"] call _fnc_saveToTemplate;
 
 ["vehicleBoat", ""] call _fnc_saveToTemplate;
 ["vehicleRepair", ""] call _fnc_saveToTemplate;
@@ -80,8 +80,10 @@ private _initialRebelEquipment = [
     "AMF_Samas_F1_01_F",
     "AMF_Samas_VALO_01_F",
     "AMF_mag58_01_F",
-    "AMF_RFF2_01_F",
+    "AMF_Pamas","15Rnd_9x21_Mag",
+    "AMF_RFF2_01_F","optic_AMS",
     "hgun_PDW2000_F",
+    "AMF_AT4CS_F",["AMF_84mm_AT4CS",1],
     "75Rnd_mag58_mag","75Rnd_mag58_mag_Tracer_green","75Rnd_mag58_mag_Tracer_red",
     "10Rnd_762x51_Mag","25Rnd_samas_f1_mag", "25Rnd_samas_f1_mag_Tracer_green", "25Rnd_samas_f1_mag_Tracer_red", "25Rnd_samas_f1_mag_Tracer_yellow","15Rnd_9x21_Mag",
     "30Rnd_9x21_Mag", "30Rnd_9x21_Red_Mag","UK3CB_FAMAS_25rnd_556x45_RT","AMF_RFG_APAV40","AMF_RFG_AC58",
@@ -104,7 +106,7 @@ if (A3A_hasTFARBeta) then {_initialRebelEquipment append ["TFAR_microdagr","TFAR
 if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment append ["TFAR_anprc155","TFAR_anprc155_coyote"]};
 ["initialRebelEquipment", _initialRebelEquipment] call _fnc_saveToTemplate;
 
-private _rebUniforms = ["amf_uniform_01_RE_SE_MD"];          //Uniforms given to Normal Rebels
+private _rebUniforms = ["amf_uniform_01_RE_SE_MD", "amf_uniform_01_SE_MD"];          //Uniforms given to Normal Rebels
 
 private _dlcUniforms = [];          //Uniforms given if DLCs are enabled, only given to the Arsenal not Rebels
 
@@ -129,6 +131,7 @@ _loadoutData set ["maps", ["ItemMap"]];
 _loadoutData set ["watches", ["ItemWatch"]];
 _loadoutData set ["compasses", ["ItemCompass"]];
 _loadoutData set ["binoculars", ["Binocular"]];
+_loadoutData set ["gps", ["ItemGPS"]];
 
 _loadoutData set ["uniforms", _rebUniforms];
 
