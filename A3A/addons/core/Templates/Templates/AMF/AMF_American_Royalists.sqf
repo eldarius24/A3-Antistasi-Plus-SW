@@ -387,13 +387,13 @@ _sfLoadoutData set ["sidearms", [
 
 private _eliteLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
 _eliteLoadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
-_eliteLoadoutData set ["helmets", ["AMF_FELIN_04_TAN"]];
+_eliteLoadoutData set ["helmets", ["AMF_TC801_TAN_EARPROT_BLK_2", "AMF_TC801_GRN_EARPROT_TAN_2", "AMF_TC801_GRN_EARPROT_TAN", "AMF_TC801_TAN",]];
 
-_eliteLoadoutData set ["vests", ["V_PlateCarrier1_wdl", "V_PlateCarrier2_wdl", "V_PlateCarrierSpec_wdl"]];
-_eliteLoadoutData set ["Hvests", ["V_PlateCarrierSpec_wdl"]];
-_eliteLoadoutData set ["glVests", ["V_PlateCarrierGL_wdl"]];
-_eliteLoadoutData set ["backpacks", ["B_Carryall_wdl_F", "B_Kitbag_sgg"]];
-_eliteLoadoutData set ["helmets", ["AMF_FELIN_04_TAN"]];
+_eliteLoadoutData set ["vests", ["amf_DCS_01_MTP", "amf_DCS_05_MTP",]];
+_eliteLoadoutData set ["Hvests", ["amf_DCS_01_MTP"]];
+_eliteLoadoutData set ["glVests", ["amf_DCS_05_MTP"]];
+_eliteLoadoutData set ["backpacks", ["AMF_rush24_01_MTP", "B_Kitbag_sgg"]];
+_eliteLoadoutData set ["helmets", ["AMF_TC801_TAN_EARPROT_BLK_2", "AMF_TC801_GRN_EARPROT_TAN_2", "AMF_TC801_GRN_EARPROT_TAN", "AMF_TC801_TAN", ]];
 _eliteLoadoutData set ["binoculars", ["Laserdesignator"]];
 
 _eliteLoadoutData set ["rifles", [
@@ -475,7 +475,7 @@ _militaryLoadoutData set ["Hvests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
 _militaryLoadoutData set ["glVests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
 _militaryLoadoutData set ["backpacks", ["AMF_FELIN_BACKPACK_LIGHT_TAN"]];
 _militaryLoadoutData set ["atBackpacks", ["B_Kitbag_cbr"]];
-_militaryLoadoutData set ["helmets", ["AMF_FELIN_04_TAN"]];
+_militaryLoadoutData set ["helmets", ["AMF_FELIN_04_TAN", "AMF_FELIN_06_CE", "AMF_F3_04", "H_HelmetB_camo"]];
 
 _militaryLoadoutData set ["slRifles", [
 ["AMF_614_short_01_F", "", "acc_flashlight", "optic_Holosight_blk_F", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
@@ -580,7 +580,7 @@ _militiaLoadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
 _militiaLoadoutData set ["vests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
 _militiaLoadoutData set ["backpacks", ["AMF_FELIN_BACKPACK_LIGHT_TAN"]];
 _militiaLoadoutData set ["atBackpacks", ["AMF_FELIN_BACKPACK_LIGHT_TAN"]];
-_militiaLoadoutData set ["helmets", ["AMF_FELIN_04_TAN"]];
+_militiaLoadoutData set ["helmets", ["AMF_FELIN_04_TAN", "AMF_FELIN_06_CE", "AMF_F3_04", "AMF_TCNVG", "H_HelmetB_camo"]];
 
 _militiaLoadoutData set ["slRifles", [
     ["AMF_614_long_HK269_01_F", "", "acc_flashlight", "", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], ["UGL_FlareWhite_F", "UGL_FlareWhite_F", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell"], ""],
@@ -617,13 +617,13 @@ _militiaLoadoutData set ["sidearms", ["hgun_ACPC2_F", "hgun_P07_blk_F", "hgun_P0
 
 
 private _crewLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData; 
-_crewLoadoutData set ["uniforms", ["amf_uniform_01_RE_NG_BM_HS", "amf_uniform_01_NG_BM_HX", "amf_uniform_01_BM_HX"]];
+_crewLoadoutData set ["uniforms", ["amf_uniform_04_TAN"]];
 _crewLoadoutData set ["vests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
-_crewLoadoutData set ["helmets", ["H_HelmetCrew_B"]];
+_crewLoadoutData set ["helmets", ["AMF_TC3000"]];
 
 
 private _pilotLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData;
-_pilotLoadoutData set ["uniforms", ["U_B_HeliPilotCoveralls"]];
+_pilotLoadoutData set ["uniforms", ["amf_pilot_01_f"]];
 _pilotLoadoutData set ["vests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
 _pilotLoadoutData set ["helmets", ["H_CrewHelmetHeli_B", "H_PilotHelmetHeli_B"]];
 
