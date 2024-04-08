@@ -25,7 +25,6 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["surrenderCrate", "Box_IND_Wps_F"] call _fnc_saveToTemplate; //Changeing this from default will require you to define logistics attachement offset for the box type
 ["equipmentBox", "Box_NATO_Equip_F"] call _fnc_saveToTemplate; //Changeing this from default will require you to define logistics attachement offset for the box type
 
-
 // vehicles can be placed in more than one category if they fit between both. Cost will be derived by the higher category
 ["vehiclesBasic", ["amf_pvp_01_mag_CE_f"]] call _fnc_saveToTemplate;
 ["vehiclesLightUnarmed", ["B_AMF_VAB_ULTIMA_X8_F"]] call _fnc_saveToTemplate;
