@@ -18,8 +18,8 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 ["vehicleBasic", "UK3CB_B_M1030_NATO"] call _fnc_saveToTemplate;
 ["vehicleLightUnarmed", "B_Quadbike_01_F"] call _fnc_saveToTemplate;
-["vehicleLightArmed", ["UK3CB_B_G_Datsun_Pickup_PKM","UK3CB_B_G_Hilux_Dshkm","UK3CB_B_G_LandRover_AGS30"]] call _fnc_saveToTemplate;
-["vehicleTruck", ["UK3CB_B_G_Hilux_GMG","UK3CB_B_G_Hilux_Igla_Chair","UK3CB_B_G_Hilux_Mortar"]] call _fnc_saveToTemplate;
+["vehicleLightArmed", "UK3CB_B_G_Datsun_Pickup_PKM"] call _fnc_saveToTemplate;
+["vehicleTruck", "UK3CB_B_G_Hilux_GMG"] call _fnc_saveToTemplate;
 ["vehicleAT", "rhsgref_nat_uaz_spg9"] call _fnc_saveToTemplate;
 ["vehicleAA", "rhsgref_nat_ural_Zu23"] call _fnc_saveToTemplate;
 
@@ -35,7 +35,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["vehicleCivCar", "I_C_Offroad_02_unarmed_F"] call _fnc_saveToTemplate;
 ["vehicleCivTruck", "I_C_Van_01_transport_F"] call _fnc_saveToTemplate;
 ["vehicleCivHeli", ""] call _fnc_saveToTemplate;
-["vehicleCivBoat", ["UK3CB_B_G_Fishing_Boat","UK3CB_B_G_Small_Boat_Wood"]] call _fnc_saveToTemplate;
+["vehicleCivBoat", "UK3CB_B_G_Fishing_Boat"] call _fnc_saveToTemplate;
 ["vehicleCivSupply", ""] call _fnc_saveToTemplate;
 
 
