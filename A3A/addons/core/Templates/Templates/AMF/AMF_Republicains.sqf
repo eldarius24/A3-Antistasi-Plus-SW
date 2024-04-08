@@ -12,43 +12,45 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["name", "Republicains"] call _fnc_saveToTemplate;
 
 ["flag", "Flag_AMF_F"] call _fnc_saveToTemplate;
-["flagTexture", ""] call _fnc_saveToTemplate;
+["flagTexture", "\AMF_AIO\Addons\amf_objects\Data\Texture\amf_Drapeau_CO.paa"] call _fnc_saveToTemplate;
 ["flagMarkerType", "flag_France"] call _fnc_saveToTemplate;
 
 
 ["vehicleBasic", "UK3CB_B_M1030_NATO"] call _fnc_saveToTemplate;
 ["vehicleLightUnarmed", "B_Quadbike_01_F"] call _fnc_saveToTemplate;
-["vehicleLightArmed", ""] call _fnc_saveToTemplate;
-["vehicleTruck", ""] call _fnc_saveToTemplate;
+["vehicleLightArmed", ["UK3CB_B_G_Datsun_Pickup_PKM","UK3CB_B_G_Hilux_Dshkm","UK3CB_B_G_LandRover_AGS30"]] call _fnc_saveToTemplate;
+["vehicleTruck", ["UK3CB_B_G_Hilux_GMG","UK3CB_B_G_Hilux_Igla_Chair","UK3CB_B_G_Hilux_Mortar"]] call _fnc_saveToTemplate;
 ["vehicleAT", "rhsgref_nat_uaz_spg9"] call _fnc_saveToTemplate;
 ["vehicleAA", "rhsgref_nat_ural_Zu23"] call _fnc_saveToTemplate;
 
-["vehicleBoat", ""] call _fnc_saveToTemplate;
+["vehicleBoat", "B_G_Boat_Transport_01_F"] call _fnc_saveToTemplate;
 ["vehicleRepair", ""] call _fnc_saveToTemplate;
 
 ["vehiclePlane", ""] call _fnc_saveToTemplate;
 ["vehiclePayloadPlane", ""] call _fnc_saveToTemplate;
 ["vehicleHeli", ""] call _fnc_saveToTemplate;
 
+
+
 ["vehicleCivCar", "I_C_Offroad_02_unarmed_F"] call _fnc_saveToTemplate;
 ["vehicleCivTruck", "I_C_Van_01_transport_F"] call _fnc_saveToTemplate;
 ["vehicleCivHeli", ""] call _fnc_saveToTemplate;
-["vehicleCivBoat", ""] call _fnc_saveToTemplate;
+["vehicleCivBoat", ["UK3CB_B_G_Fishing_Boat","UK3CB_B_G_Small_Boat_Wood"]] call _fnc_saveToTemplate;
 ["vehicleCivSupply", ""] call _fnc_saveToTemplate;
 
 
-["staticMG", ""] call _fnc_saveToTemplate;
-["staticAT", ""] call _fnc_saveToTemplate;
-["staticAA", ""] call _fnc_saveToTemplate;
-["staticMortar", ""] call _fnc_saveToTemplate;
-["staticMortarMagHE", ""] call _fnc_saveToTemplate;
-["staticMortarMagSmoke", ""] call _fnc_saveToTemplate;
+["staticMG", "I_G_HMG_02_high_F"] call _fnc_saveToTemplate;
+["staticAT", "I_static_AT_F"] call _fnc_saveToTemplate;
+private _staticAA = "I_static_AA_F";
+["staticMortar", "I_G_Mortar_01_F"] call _fnc_saveToTemplate;
+["staticMortarMagHE", "8Rnd_82mm_Mo_shells"] call _fnc_saveToTemplate;
+["staticMortarMagSmoke", "8Rnd_82mm_Mo_Smoke_white"] call _fnc_saveToTemplate;
 
-["minesAT", []] call _fnc_saveToTemplate;
-["minesAPERS", []] call _fnc_saveToTemplate;
+["minesAT", ["ATMine_Range_Mag", "SLAMDirectionalMine_Wire_Mag"]] call _fnc_saveToTemplate;
+["minesAPERS", ["ClaymoreDirectionalMine_Remote_Mag","APERSMine_Range_Mag", "APERSBoundingMine_Range_Mag", "APERSTripMine_Wire_Mag"]] call _fnc_saveToTemplate;
 
-["breachingExplosivesAPC", []] call _fnc_saveToTemplate;
-["breachingExplosivesTank", []] call _fnc_saveToTemplate;
+["breachingExplosivesAPC", [["DemoCharge_Remote_Mag", 1]]] call _fnc_saveToTemplate;
+["breachingExplosivesTank", [["SatchelCharge_Remote_Mag", 1], ["DemoCharge_Remote_Mag", 2]]] call _fnc_saveToTemplate;
 
 //////////////////////////////////////
 //       Antistasi Plus Stuff       //
