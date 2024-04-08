@@ -243,7 +243,7 @@ _loadoutData set ["goggles", ["G_Combat"]];
 ///////////////////////////////////////
 
 private _sfLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_sfLoadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
+_sfLoadoutData set ["uniforms", ["amf_uniform_01_RE_NG_BM_HS", "amf_uniform_01_NG_BM_HX", "amf_uniform_01_BM_HX"]];
 _sfLoadoutData set ["vests", ["amf_DCS_01_MTP", "amf_DCS_05_MTP"]];
 _sfLoadoutData set ["backpacks", ["AMF_rush24_01_MTP", "B_Kitbag_sgg"]];
 _sfLoadoutData set ["atBackpacks", ["AMF_FELIN_BACKPACK_LIGHT_TAN"]];

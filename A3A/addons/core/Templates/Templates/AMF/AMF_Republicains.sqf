@@ -12,7 +12,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["name", "Republicains"] call _fnc_saveToTemplate;
 
 ["flag", "Flag_AMF_F"] call _fnc_saveToTemplate;
-["flagTexture", "AMF_AIO\Addons\amf_objects\Data\Texture\amf_Drapeau_CO.paa"] call _fnc_saveToTemplate;
+["flagTexture", "AMF_AIO\addons\amf_objects\Data\Texture\amf_Drapeau_CO.paa"] call _fnc_saveToTemplate;
 ["flagMarkerType", "flag_France"] call _fnc_saveToTemplate;
 
 
