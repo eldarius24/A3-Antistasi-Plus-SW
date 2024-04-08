@@ -243,11 +243,11 @@ _loadoutData set ["goggles", ["G_Combat"]];
 ///////////////////////////////////////
 
 private _sfLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_sfLoadoutData set ["uniforms", ["amf_uniform_01_RE_NG_BM_HS", "amf_uniform_01_NG_BM_HX", "amf_uniform_01_BM_HX"]];
-_sfLoadoutData set ["vests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
-_sfLoadoutData set ["backpacks", ["AMF_FELIN_BACKPACK_LIGHT_TAN"]];
+_sfLoadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
+_sfLoadoutData set ["vests", ["amf_DCS_01_MTP", "amf_DCS_05_MTP"]];
+_sfLoadoutData set ["backpacks", ["AMF_rush24_01_MTP", "B_Kitbag_sgg"]];
 _sfLoadoutData set ["atBackpacks", ["AMF_FELIN_BACKPACK_LIGHT_TAN"]];
-_sfLoadoutData set ["helmets", ["AMF_FELIN_04_TAN"]];
+_sfLoadoutData set ["helmets", ["AMF_TC801_TAN_EARPROT_BLK_2", "AMF_TC801_GRN_EARPROT_TAN_2", "AMF_TC801_GRN_EARPROT_TAN", "AMF_TC801_TAN"]];
 _sfLoadoutData set ["binoculars", ["Laserdesignator"]];
 
 private _slRifles = [
@@ -386,13 +386,13 @@ _sfLoadoutData set ["sidearms", [
 
 private _eliteLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
 _eliteLoadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
-_eliteLoadoutData set ["helmets", ["AMF_TC801_TAN_EARPROT_BLK_2", "AMF_TC801_GRN_EARPROT_TAN_2", "AMF_TC801_GRN_EARPROT_TAN", "AMF_TC801_TAN",]];
+_eliteLoadoutData set ["helmets", ["AMF_TC801_TAN_EARPROT_BLK_2", "AMF_TC801_GRN_EARPROT_TAN_2", "AMF_TC801_GRN_EARPROT_TAN", "AMF_TC801_TAN"]];
 
-_eliteLoadoutData set ["vests", ["amf_DCS_01_MTP", "amf_DCS_05_MTP",]];
+_eliteLoadoutData set ["vests", ["amf_DCS_01_MTP", "amf_DCS_05_MTP"]];
 _eliteLoadoutData set ["Hvests", ["amf_DCS_01_MTP"]];
 _eliteLoadoutData set ["glVests", ["amf_DCS_05_MTP"]];
 _eliteLoadoutData set ["backpacks", ["AMF_rush24_01_MTP", "B_Kitbag_sgg"]];
-_eliteLoadoutData set ["helmets", ["AMF_TC801_TAN_EARPROT_BLK_2", "AMF_TC801_GRN_EARPROT_TAN_2", "AMF_TC801_GRN_EARPROT_TAN", "AMF_TC801_TAN", ]];
+_eliteLoadoutData set ["helmets", ["AMF_TC801_TAN_EARPROT_BLK_2", "AMF_TC801_GRN_EARPROT_TAN_2", "AMF_TC801_GRN_EARPROT_TAN", "AMF_TC801_TAN"]];
 _eliteLoadoutData set ["binoculars", ["Laserdesignator"]];
 
 _eliteLoadoutData set ["rifles", [
