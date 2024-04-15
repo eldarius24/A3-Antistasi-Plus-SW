@@ -29,12 +29,14 @@
     </-->
             <Key ID="STR_antistasi_mission_info_Altis_mapname_short_text">
                 <Original>Antistasi Plus - Altis Requiem</Original>
+                <French>Antistasi Plus - Requiem d'Altis</French>
                 <Russian>Antistasi Plus - Алт. Реквием</Russian>
                 <Chinesesimp>Antistasi Plus - 阿尔蒂斯安魂曲</Chinesesimp>
                 <Korean>안티스타시 플러스 - 알티스의 진혼곡</Korean>
             </Key>
             <Key ID="STR_antistasi_mission_info_Altis_mapname_text">
                 <Original>Antistasi Plus - Altis Requiem</Original>
+                <French>Antistasi Plus - Requiem d'Altis</French>
                 <Chinesesimp>Antistasi Plus - 阿尔蒂斯安魂曲</Chinesesimp>
                 <Russian>Antistasi Plus - Реквием по Алтису</Russian>
                 <Korean>안티스타시 플러스 - 알티스의 진혼곡</Korean>
@@ -53,6 +55,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_Altis_blurb_text">
                 <Original>Whether we wanted it or not, we stepped into a war with occupants and invaders on Altis.</Original>
+                <French>Que nous le voulions ou non, nous avons déclenché une guerre contre les occupants et les envahisseurs d'Altis.</French>
                 <Russian>Хотим мы того или нет, но мы начали войну против оккупантов и захвачтиков Алтиса.</Russian>
                 <German>Ob wir es wollten oder nicht, wir traten in einen Krieg mit Besatzern auf Altis.</German>
                 <Chinesesimp>无论我们愿不愿意, 我们都卷入了一场关于与阿尔蒂斯占领者的战争。</Chinesesimp>
@@ -60,6 +63,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_Stratis_mapname_short_text">
                 <Original>Antistasi Stratis</Original>
+                <German>Antistasi Stratis</German>
                 <French>Antistasi Stratis</French>
                 <Russian>Antistasi Стратис</Russian>
                 <Chinesesimp>Antistasi Stratis</Chinesesimp>
@@ -107,6 +111,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_Malden_mapname_short_text">
                 <Original>Antistasi Plus - Malden Elegy</Original>
+                <French>Antistasi Plus - Élégie de Malden</French>
                 <German>Antistasi Plus - Malden Elegie</German>
                 <Russian>Antistasi Plus - Элегия Малд.</Russian>
                 <Chinesesimp>Antistasi Plus - 马尔登悲歌</Chinesesimp>
@@ -114,6 +119,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_Malden_mapname_text">
                 <Original>Antistasi Plus - Malden Elegy</Original>
+                <French>Antistasi Plus - Élégie de Malden</French>
                 <German>Antistasi Plus - Malden Elegie</German>
                 <Russian>Antistasi Plus - Элегия Малдена</Russian>
                 <Chinesesimp>Antistasi Plus - 马尔登悲歌</Chinesesimp>
@@ -121,6 +127,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_Malden_blurb_text">
                 <Original>Reprise for the people.</Original>
+                <French>Reprise pour les gens.</French>
                 <German>Reprise für die Menschen.</German>
                 <Chinesesimp>为人民重演。</Chinesesimp>
                 <Russian>Реприза для народа.</Russian>
@@ -128,6 +135,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_sefrouramal_mapname_text">
                 <Original>Antistasi Plus - Sandstorm</Original>
+                <French>Antistasi Plus - Tempête de sable</French>
                 <German>Antistasi Plus - Sandsturm</German>
                 <Russian>Antistasi Plus - Песчаная буря</Russian>
                 <Chinesesimp>Antistasi Plus - 沙暴</Chinesesimp>
@@ -135,6 +143,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_sefrouramal_mapname_short_text">
                 <Original>Antistasi Plus - Sandstorm</Original>
+                <French>Antistasi Plus - Tempête de sable</French>
                 <German>Antistasi Plus - Sandsturm</German>
                 <Russian>Antistasi Plus - Песчаная буря</Russian>
                 <Chinesesimp>Antistasi Plus - 沙暴</Chinesesimp>
@@ -142,6 +151,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_sefrouramal_blurb_text">
                 <Original>Unrest comes from the desert.</Original>
+                <French>L'agitation vient du désert.</French>
                 <German>Unruhe kommt aus der Wüste.</German>
                 <Chinesesimp>动荡来自沙漠。</Chinesesimp>
                 <Russian>Волнения приходят из пустыни.</Russian>
@@ -149,6 +159,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_esseker_mapname_text">
                 <Original>Antistasi Plus - Collapse</Original>
+                <French>Antistasi Plus - Effondrement</French>
                 <German>Antistasi Plus - Zusammenbruch</German>
                 <Russian>Antistasi Plus - Крах</Russian>
                 <Chinesesimp>Antistasi Plus - 倒塌</Chinesesimp>
@@ -156,6 +167,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_esseker_mapname_short_text">
                 <Original>Antistasi Plus - Collapse</Original>
+                <French>Antistasi Plus - Effondrement</French>
                 <German>Antistasi Plus - Zusammenbruch</German>
                 <Russian>Antistasi Plus - Крах</Russian>
                 <Chinesesimp>Antistasi Plus - 倒塌</Chinesesimp>
@@ -163,6 +175,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_esseker_blurb_text">
                 <Original>Regain all that was ever lost.</Original>
+                <French>Récupérez tout ce qui a été perdu.</French>
                 <German>Gewinnen Sie alles zurück, was jemals verloren war.</German>
                 <Russian>Верните все, что было утрачено.</Russian>
                 <Chinesesimp>找回曾经失去的一切</Chinesesimp>
@@ -170,6 +183,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_chernarus2020_mapname_text">
                 <Original>Antistasi Plus - Harvest Red</Original>
+                <French>Antistasi Plus - Récolte Rouge</French>
                 <German>Antistasi Plus - Rote Ernte</German>
                 <Russian>Antistasi Plus - Красная жатва</Russian>
                 <Chinesesimp>Antistasi Plus - 蓝色收获</Chinesesimp>
@@ -177,6 +191,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_chernarus2020_mapname_short_text">
                 <Original>Antistasi Plus - Harvest Red</Original>
+                <French>Antistasi Plus - Récolte Rouge</French>
                 <German>Antistasi Plus - Rote Ernte</German>
                 <Russian>Antistasi Plus - Красная жатва</Russian>
                 <Chinesesimp>Antistasi Plus - 蓝色收获</Chinesesimp>
@@ -184,6 +199,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_chernarus2020_blurb_text">
                 <Original>Bardak is out there.</Original>
+                <French>Bardak est là-bas.</French>
                 <German>Bardak ist da draußen.</German>
                 <Chinesesimp>Bardak 就在外面。</Chinesesimp>
                 <Russian>Бардак где-то рядом.</Russian>
@@ -191,6 +207,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_livonia_mapname_short_text">
                 <Original>Antistasi Plus - Horizon Scan</Original>
+                <French>Antistasi Plus - Horizon Scan</French>
                 <German>Antistasi Plus -  Horizontscan</German>
                 <Russian>Antistasi Plus - Ливония</Russian>
                 <Chinesesimp>Antistasi Plus - 扫视地平线</Chinesesimp>
@@ -198,6 +215,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_livonia_mapname_text">
                 <Original>Antistasi Plus - Horizon Scan</Original>
+                <French>Antistasi Plus - Horizon Scan</French>
                 <Russian>Antistasi Plus - Сканирование Горизонта</Russian>
                 <German>Antistasi Plus - Horizontscan</German>
                 <Chinesesimp>Antistasi Plus - 扫视地平线</Chinesesimp>
@@ -205,6 +223,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_livonia_description_text">
                 <Original>Be the Resistance Leader. Fight against a superior enemy in technology, number, assets and vehicles. Use guerrilla tactics in a totally dynamic world, with around 30+ sidemissions, everywhere, anytime, anything.</Original>
+                <French>Devenez le Chef de la Résistance. Battez-vous contre un ennemi en surnombre et avec un niveau technologique supérieur. Utilisez les tactiques des Guerrillas dans un monde complétement dynamique, avec environ 30+ missions secondaires. Quand vous voulez, où vous voulez, avec ce que vous voulez...</French>
                 <Russian>Стань лидером сопротивления. Сражайся против врага превосходящего в технологии, количистве, вооружении и технике. Используй партизанскую тактику в полностью динамическом мире.</Russian>
                 <German>Sei ein Anführer des Widerstands. Kämpfe gegen einen technologisch und zahlenmäßigen überlegenen Feind. Nutze Guerillataktiken in einer vollständig dynamischen Welt mit 18 möglichen Sekundärmissionen. Es könnte jederzeit und überall alles passieren...</German>
                 <Chinesesimp>成为抵抗军领袖。与技术、数量、资产和载具远胜于你的强大敌人作战。面对完全动态的世界和大约30多个支线任务, 任何时间, 任何地点, 任何情况, 运用游击战术。</Chinesesimp>
@@ -212,6 +231,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_livonia_blurb_text">
                 <Original>"...it's just wide-open field."</Original>
+                <French>"...c'est juste un champ ouvert."</French>
                 <Russian>"... это просто окрытое поле."</Russian>
                 <German>"... es ist nur ein weites Feld."</German>
                 <Chinesesimp>"……这是一片开阔的原野。"</Chinesesimp>
@@ -219,6 +239,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_napf_mapname_text">
                 <Original>Antistasi Plus - Amber Insurgency</Original>
+                <French>Antistasi Plus - Insurrection d'Ambre</French>
                 <German>Antistasi Plus - Bernsteinfarbener Aufstand</German>
                 <Chinesesimp>Antistasi Plus - 黄色叛乱</Chinesesimp>
                 <Russian>Antistasi Plus - Янтарное Восстание</Russian>
@@ -226,6 +247,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_napf_mapname_short_text">
                 <Original>Antistasi Plus - Amber Ins.</Original>
+                <French>Antistasi Plus - Insurrection d'Ambre</French>
                 <German>Antistasi Plus - Bernst. Aufstand</German>
                 <Russian>Antistasi Plus - Янтар. восст.</Russian>
                 <Chinesesimp>Antistasi Plus - 黄色叛乱</Chinesesimp>
@@ -233,6 +255,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_napf_blurb_text">
                 <Original>Yellow soil is under our boots.</Original>
+                <French>Le sol jaune est sous nos bottes.</French>
                 <German>Gelber Boden unter unseren Stiefeln.</German>
                 <Russian>Желтая почва у нас под ногами.</Russian>
                 <Chinesesimp>黄土地就在我们脚下。</Chinesesimp>
@@ -240,6 +263,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_vt7_mapname_text">
                 <Original>Antistasi Plus - Kesäsota</Original>
+                <French>Antistasi Plus - Guerre d'été</French>
                 <German>Antistasi Plus - Kesäsota</German>
                 <Russian>Antistasi Plus - Летняя Война</Russian>
                 <Chinesesimp>Antistasi Plus - 夏季战争</Chinesesimp>
@@ -247,6 +271,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_vt7_mapname_short_text">
                 <Original>Antistasi Plus - Kesäsota</Original>
+                <French>Antistasi Plus - Guerre d'été</French>
                 <German>Antistasi Plus - Kesäsota</German>
                 <Russian>Antistasi Plus - Летняя Война</Russian>
                 <Chinesesimp>Antistasi Plus - 夏季战争</Chinesesimp>
@@ -254,18 +279,21 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_vt7_blurb_text">
                 <Original>Hiking on the North with guns.</Original>
+                <French>Randonnée au Nord avec des armes.</French>
                 <Russian>Туристический поход с оружием на севере.</Russian>
                 <Chinesesimp>带着枪在北方徒步旅行。</Chinesesimp>
                 <Korean>총 들고 북쪽으로 산책하기.</Korean>
             </Key>
             <Key ID="STR_antistasi_mission_info_vidda_blurb_text">
                 <Original>The night is bright and full of guerillas.</Original>
+                <French>La nuit est brillante et pleine de guérilleros.</French>
                 <Russian>Ночь светла и полна мятежников.</Russian>
                 <Chinesesimp>夜色璀璨，游击队遍地。</Chinesesimp>
                 <Korean>밤은 밝고 게릴라들로 가득합니다.</Korean>
             </Key>
             <Key ID="STR_antistasi_mission_info_vidda_mapname_text">
                 <Original>Antistasi Plus - Nordvakt</Original>
+                <French>Antistasi Plus - Nordvakt</French>
                 <German>Antistasi Plus - Nordvakt</German>
                 <Russian>Antistasi Plus - Северный Дозор</Russian>
                 <Chinesesimp>Antistasi Plus - 北方守卫</Chinesesimp>
@@ -273,6 +301,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_vidda_mapname_short_text">
                 <Original>Antistasi Plus - Nordvakt</Original>
+                <French>Antistasi Plus - Nordvakt</French>
                 <German>Antistasi Plus - Nordvakt</German>
                 <Russian>Antistasi Plus - Северный Дозор</Russian>
                 <Chinesesimp>Antistasi Plus - 北方守卫</Chinesesimp>
@@ -280,6 +309,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_takistan_mapname_text">
                 <Original>Antistasi Plus - Takistan</Original>
+                <French>Antistasi Plus - Takistan</French>
                 <Russian>Antistasi Plus - Такистан</Russian>
                 <Chinesesimp>Antistasi Plus - 塔克斯坦</Chinesesimp>
                 <Korean>안티스타시 플러스 - 타키스탄</Korean>
@@ -292,6 +322,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_takistan_blurb_text">
                 <Original>We are not your kind of people.</Original>
+                <French>Nous ne sommes pas votre genre de personnes.</French>
                 <Russian>Мы не похожи на вас.</Russian>
                 <Chinesesimp>我们不像你一样</Chinesesimp>
                 <Korean>우린 당신들같은 부류의 사람들이 아닙니다.</Korean>
@@ -310,6 +341,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_tanoa_blurb_text">
                 <Original>A pack of old men in a job where people die young.</Original>
+                <French>Un groupe de vieux hommes dans un travail où les gens meurent jeunes.</French>
                 <Russian>Стая стариков там, где люди умирают молодыми.</Russian>
                 <Chinesesimp>一群老人从事英年早逝的工作。</Chinesesimp>
                 <Korean>사람들이 젊어서 죽는 직업의 노인들.</Korean>
@@ -347,6 +379,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_khesanh_blurb_text">
                 <Original>“In this world, a man himself is nothing. And there ain't no world but this one.”</Original>
+                <French>"Dans ce monde, un homme lui-même n'est rien. Et il n'y a pas d'autre monde que celui-ci."</French>
                 <Russian>„В этом мире человек, сам по себе - ничто. И нет другого мира, кроме этого."</Russian>
                 <Chinesesimp>只有这个世界，一个人什么都不是。</Chinesesimp>
                 <Korean>"이 세상에서 인간 그 자체는 아무것도 아니다. 그리고 이 세계 외에는 다른 세계는 없다." </Korean>
@@ -365,6 +398,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_sehreno_blurb_text">
                 <Original>There is no such thing in Eponia.</Original>
+                <French>Il n'y a rien de tel en Eponie.</French>
                 <Russian>В Епонии такого вообще нет.</Russian>
                 <Chinesesimp>在爱波尼亚中没有这样的东西。</Chinesesimp>
                 <Korean>에포니아에는 그런 건 없습니다.</Korean>
@@ -381,6 +415,7 @@
             </Key>
             <Key ID="STR_antistasi_mission_info_weferlingen_blurb_text">
                 <Original>Border crossing never has been so easy.</Original>
+                <French>La traversée de la frontière n'a jamais été aussi facile.</French>
                 <Russian>Пересечение границы еще никогда не было таким простым.</Russian>
                 <Korean>국경을 넘는 것이 그렇게 쉬운 적은 없었습니다.</Korean>
             </Key>
