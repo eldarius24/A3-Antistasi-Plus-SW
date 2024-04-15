@@ -27,14 +27,14 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 // vehicles can be placed in more than one category if they fit between both. Cost will be derived by the higher category
 ["vehiclesBasic", ["amf_pvp_01_mag_CE_f"]] call _fnc_saveToTemplate;
-["vehiclesLightUnarmed", ["B_AMF_VAB_ULTIMA_X8_F"]] call _fnc_saveToTemplate;
-["vehiclesLightArmed", ["B_AMF_VAB_ULTIMA_TOP_X8_F"]] call _fnc_saveToTemplate;             // Should be armed, unarmoured to lightly armoured, with 0-4 passengers
+["vehiclesLightUnarmed", ["B_AMF_VAB_ULTIMA_TOP_X8_F"]] call _fnc_saveToTemplate;
+["vehiclesLightArmed", ["B_AMF_VAB_ULTIMA_TOP_X8_F", "amf_pvp_01_mag_CE_f"]] call _fnc_saveToTemplate;             // Should be armed, unarmoured to lightly armoured, with 0-4 passengers
 ["vehiclesTrucks", ["AMF_GBC180_PERS_02"]] call _fnc_saveToTemplate;
 ["vehiclesCargoTrucks", ["AMF_GBC180_PLATEAU_01"]] call _fnc_saveToTemplate;
 ["vehiclesAmmoTrucks", ["AMF_GBC180_AmmoTruck"]] call _fnc_saveToTemplate;
 ["vehiclesRepairTrucks", ["AMF_GBC180_MECA_01"]] call _fnc_saveToTemplate;
 ["vehiclesFuelTrucks", ["B_T_Truck_01_fuel_F"]] call _fnc_saveToTemplate;
-["vehiclesMedical", ["B_AMF_VAB_ULTIMA_X8_F"]] call _fnc_saveToTemplate;
+["vehiclesMedical", ["B_AMF_VAB_ULTIMA_TOP_X8_F"]] call _fnc_saveToTemplate;
 ["vehiclesLightAPCs", ["AMF_VBMR_L_CE_01"]] call _fnc_saveToTemplate;             // armed, lightly armoured, with 6-8 passengers 
 ["vehiclesAPCs", ["AMF_VBCI_CE_01_F", "AMF_VBMR_COMMANDEMENT_CE", "B_AMF_VAB_ULTIMA_TOP_X8_F"]] call _fnc_saveToTemplate;                  // armed with enclosed turret, armoured, with 6-8 passengers
 ["vehiclesAirborne", ["AMF_VBMR_L_CE_01"]] call _fnc_saveToTemplate;              // airborne vehicles, could be with passenger seats or just a crew 
