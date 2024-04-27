@@ -26,7 +26,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["equipmentBox", "Box_NATO_Equip_F"] call _fnc_saveToTemplate; //Changeing this from default will require you to define logistics attachement offset for the box type
 
 // vehicles can be placed in more than one category if they fit between both. Cost will be derived by the higher category
-["vehiclesBasic", ["amf_pvp_01_mag_CE_f", "B_AMF_VAB_ULTIMA_TOP_X8_F"]] call _fnc_saveToTemplate;
+["vehiclesBasic", ["B_AMF_VAB_ULTIMA_TOP_X8_F"]] call _fnc_saveToTemplate;
 ["vehiclesLightUnarmed", ["B_AMF_VAB_ULTIMA_TOP_X8_F"]] call _fnc_saveToTemplate;
 ["vehiclesLightArmed", ["B_AMF_VAB_ULTIMA_TOP_X8_F", "amf_pvp_01_mag_CE_f"]] call _fnc_saveToTemplate;             // Should be armed, unarmoured to lightly armoured, with 0-4 passengers
 ["vehiclesTrucks", ["AMF_GBC180_PERS_02"]] call _fnc_saveToTemplate;
@@ -283,9 +283,9 @@ if (_hasApex) then {
         ["arifle_SPAR_02_blk_F", "muzzle_snds_M", "acc_pointer_IR", "optic_Holosight_blk_F", ["30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_Tracer_Red"], [], ""],
         ["arifle_SPAR_02_blk_F", "muzzle_snds_M", "acc_pointer_IR", "optic_Hamr", ["30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_Tracer_Red"], [], ""],
         ["arifle_SPAR_02_blk_F", "muzzle_snds_M", "acc_pointer_IR", "optic_ERCO_blk_F", ["30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_Tracer_Red"], [], ""],
-        ["arifle_SPAR_02_blk_F", "muzzle_snds_m_khk_F", "acc_pointer_IR", "optic_Holosight", ["30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_Tracer_Red"], [], ""],
-        ["arifle_SPAR_02_blk_F", "muzzle_snds_m_khk_F", "acc_pointer_IR", "optic_Hamr", ["30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_Tracer_Red"], [], ""],
-        ["arifle_SPAR_02_blk_F", "muzzle_snds_m_khk_F", "acc_pointer_IR", "optic_ERCO_khk_F", ["30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_Tracer_Red"], [], ""],
+        ["arifle_SPAR_02_khk_F", "muzzle_snds_m_khk_F", "acc_pointer_IR", "optic_Holosight", ["30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_Tracer_Red"], [], ""],
+        ["arifle_SPAR_02_khk_F", "muzzle_snds_m_khk_F", "acc_pointer_IR", "optic_Hamr", ["30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_Tracer_Red"], [], ""],
+        ["arifle_SPAR_02_khk_F", "muzzle_snds_m_khk_F", "acc_pointer_IR", "optic_ERCO_khk_F", ["30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_Tracer_Red"], [], ""],
         ["arifle_SPAR_01_GL_blk_F", "muzzle_snds_M", "acc_pointer_IR", "optic_Holosight_blk_F", ["30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_Tracer_Red"], ["UGL_FlareWhite_F", "UGL_FlareWhite_F", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell"], ""],
         ["arifle_SPAR_01_GL_blk_F", "muzzle_snds_M", "acc_pointer_IR", "optic_Hamr", ["30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_Tracer_Red"], ["UGL_FlareWhite_F", "UGL_FlareWhite_F", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell"], ""],
         ["arifle_SPAR_01_GL_blk_F", "muzzle_snds_M", "acc_pointer_IR", "optic_ERCO_blk_F", ["30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_red", "30Rnd_556x45_Stanag_Tracer_Red"], ["UGL_FlareWhite_F", "UGL_FlareWhite_F", "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell"], ""],
@@ -386,7 +386,7 @@ _sfLoadoutData set ["sidearms", [
 
 private _eliteLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
 _eliteLoadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
-_eliteLoadoutData set ["helmets", ["rhsusf_opscore_mar_ut_pelt"]];
+_eliteLoadoutData set ["helmets", ["AMF_TC801_GRN_EARPROT_TAN_2"]];
 
 _eliteLoadoutData set ["vests", ["rhsusf_spc_patchless", "rhsusf_spc_patchless_radio"]];
 _eliteLoadoutData set ["Hvests", ["rhsusf_spc_patchless", "rhsusf_spc_patchless_radio"]];
@@ -467,8 +467,8 @@ _eliteLoadoutData set ["sidearms", [
 
 private _militaryLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
 _militaryLoadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
-_militaryLoadoutData set ["vests", ["rhsusf_mbav_light", "rhsusf_mbav_mg", "rhsusf_mbav_medic", "rhsusf_mbav_rifleman"]];
-_militaryLoadoutData set ["Hvests", ["rhsusf_mbav_light", "rhsusf_mbav_mg", "rhsusf_mbav_medic", "rhsusf_mbav_rifleman"]];
+_militaryLoadoutData set ["vests", ["rhsusf_mbav_light", "rhsusf_mbav_mg", "rhsusf_mbav_rifleman"]];
+_militaryLoadoutData set ["Hvests", ["rhsusf_mbav_light", "rhsusf_mbav_mg", "rhsusf_mbav_rifleman"]];
 _militaryLoadoutData set ["glVests", ["rhsusf_mbav_grenadier"]];
 _militaryLoadoutData set ["backpacks", ["AMF_FELIN_BACKPACK_LIGHT_TAN"]];
 _militaryLoadoutData set ["atBackpacks", ["B_Kitbag_cbr"]];
