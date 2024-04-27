@@ -396,16 +396,16 @@ _eliteLoadoutData set ["helmets", ["AMF_TC801_GRN_EARPROT_TAN_2"]];
 _eliteLoadoutData set ["binoculars", ["rhsusf_ANPVS_15"]];
 
 _eliteLoadoutData set ["rifles", [
-["uk3cb_weap_mk17_std_eotech_552_d_anpeq15_sup", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side", "rhsusf_acc_eotech_552_d", ["rhs_mag_20Rnd_SCAR_762x51_m80_ball"], [], ""],
-["uk3cb_weap_mk17_std_eotech_552_d_anpeq15_sup", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side", "rhsusf_acc_eotech_552_d", ["rhs_mag_20Rnd_SCAR_762x51_m80_ball"], [], ""],
-["uk3cb_weap_mk17_std_eotech_552_d_anpeq15_sup", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side", "rhsusf_acc_eotech_552_d", ["rhs_mag_20Rnd_SCAR_762x51_m80_ball"], [], ""],
-["uk3cb_weap_mk17_std_eotech_552_d_anpeq15_sup", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side", "rhsusf_acc_eotech_552_d", ["rhs_mag_20Rnd_SCAR_762x51_m80_ball"], [], ""]
+["AMF_614_short_01_F", "", "acc_flashlight", "optic_Holosight_blk_F", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_short_01_F", "", "acc_flashlight", "optic_MRCO", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_short_01_F", "", "acc_flashlight", "optic_Hamr", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_short_01_F", "", "acc_flashlight", "optic_ACO_grn", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""]
 ]];
 _eliteLoadoutData set ["carbines", [
-["uk3cb_weap_mk17_std_eotech_552_d_anpeq15_sup", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side", "optic_Aco", ["rhs_mag_20Rnd_SCAR_762x51_m80_ball"], [], ""],
-["uk3cb_weap_mk17_std_eotech_552_d_anpeq15_sup", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side", "optic_Aco", ["rhs_mag_20Rnd_SCAR_762x51_m80_ball"], [], ""],
-["uk3cb_weap_mk17_std_eotech_552_d_anpeq15_sup", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side", "optic_Aco", ["rhs_mag_20Rnd_SCAR_762x51_m80_ball"], [], ""],
-["uk3cb_weap_mk17_std_eotech_552_d_anpeq15_sup", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side", "optic_ACO_grn", ["rhs_mag_20Rnd_SCAR_762x51_m80_ball"], [], ""]
+["AMF_614_short_01_F", "", "acc_flashlight", "optic_Holosight_blk_F", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_short_01_F", "", "acc_flashlight", "optic_Aco", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_short_01_F", "", "acc_flashlight", "optic_Aco", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_short_01_F", "", "acc_flashlight", "optic_ACO_grn", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""]
 ]];
 _eliteLoadoutData set ["grenadeLaunchers", [
 ["rhs_weap_mk18_m320", "", "rhsusf_acc_anpeq15side", "optic_Holosight_blk_F", ["rhs_mag_30Rnd_556x45_M855A1_Stanag"], ["1Rnd_HE_Grenade_shell"], ""],
@@ -598,6 +598,7 @@ _militiaLoadoutData set ["machineGuns", [
 ]];
 _militiaLoadoutData set ["marksmanRifles", [
     ["AMF_RFF2_01_F", "", "", "AMF_Scrome_J8", ["10Rnd_762x51_Mag"], [], ""],
+    ["arifle_MXM_Black_F", "", "acc_flashlight", "optic_Hamr", ["30Rnd_65x39_caseless_black_mag", "30Rnd_65x39_caseless_black_mag", "30Rnd_65x39_caseless_black_mag_Tracer"], [], "bipod_01_F_blk"]
 ]];
 
 _militiaLoadoutData set ["sniperRifles", [
