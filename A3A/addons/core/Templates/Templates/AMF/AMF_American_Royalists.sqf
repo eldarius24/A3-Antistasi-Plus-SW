@@ -421,11 +421,11 @@ _eliteLoadoutData set ["SMGs", [
 
 private _mgs = [
     ["uk3cb_weap_m249_pip_L_sup", "rhsusf_acc_nt4_black", "", "", ["rhsusf_100Rnd_556x45_soft_pouch"], [], ""],
-    ["rhs_weap_fnmag", "", "", "", ["rhsusf_100Rnd_762x51"], [], ""],
+    ["rhs_weap_fnmag", "", "", "", ["rhsusf_100Rnd_762x51"], [], ""]
 ];
 
 private _marksmanRifles = [
-    ["UK3CB_PSG1A1_RIS_SOS_sup", "uk3cb_muzzle_snds_g3", "", "optic_SOS", ["UK3CB_G3_20rnd_762x51"], [], ""],
+    ["UK3CB_PSG1A1_RIS_SOS_sup", "uk3cb_muzzle_snds_g3", "", "optic_SOS", ["UK3CB_G3_20rnd_762x51"], [], ""]
 ];
 
 if (_hasMarksman) then {
@@ -467,8 +467,8 @@ _eliteLoadoutData set ["sidearms", [
 
 private _militaryLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
 _militaryLoadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
-_militaryLoadoutData set ["vests", ["rhsusf_mbav_light","rhsusf_mbav_mg","rhsusf_mbav_medic","rhsusf_mbav_rifleman"]];
-_militaryLoadoutData set ["Hvests", ["rhsusf_mbav_light","rhsusf_mbav_mg","rhsusf_mbav_medic","rhsusf_mbav_rifleman"]];
+_militaryLoadoutData set ["vests", ["rhsusf_mbav_light", "rhsusf_mbav_mg", "rhsusf_mbav_medic", "rhsusf_mbav_rifleman"]];
+_militaryLoadoutData set ["Hvests", ["rhsusf_mbav_light", "rhsusf_mbav_mg", "rhsusf_mbav_medic", "rhsusf_mbav_rifleman"]];
 _militaryLoadoutData set ["glVests", ["rhsusf_mbav_grenadier"]];
 _militaryLoadoutData set ["backpacks", ["AMF_FELIN_BACKPACK_LIGHT_TAN"]];
 _militaryLoadoutData set ["atBackpacks", ["B_Kitbag_cbr"]];
