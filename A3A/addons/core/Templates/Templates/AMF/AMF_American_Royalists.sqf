@@ -392,18 +392,18 @@ _eliteLoadoutData set ["vests", ["rhsusf_spc_patchless", "rhsusf_spc_patchless_r
 _eliteLoadoutData set ["Hvests", ["rhsusf_spc_patchless", "rhsusf_spc_patchless_radio"]];
 _eliteLoadoutData set ["glVests", ["rhsusf_spc_patchless"]];
 _eliteLoadoutData set ["backpacks", ["UK3CB_MDF_B_B_SF_Backpack_Pocket", "B_Kitbag_sgg"]];
-_eliteLoadoutData set ["helmets", ["rhsusf_opscore_mar_ut_pelt"]];
+_eliteLoadoutData set ["helmets", ["AMF_TC801_GRN_EARPROT_TAN_2"]];
 _eliteLoadoutData set ["binoculars", ["rhsusf_ANPVS_15"]];
 
 _eliteLoadoutData set ["rifles", [
-["uk3cb_weap_mk17_std_eotech_552_d_anpeq15_sup", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side", "optic_Holosight_blk_F", ["rhs_mag_20Rnd_SCAR_762x51_m80_ball"], [], ""],
 ["uk3cb_weap_mk17_std_eotech_552_d_anpeq15_sup", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side", "rhsusf_acc_eotech_552_d", ["rhs_mag_20Rnd_SCAR_762x51_m80_ball"], [], ""],
-["uk3cb_weap_mk17_std_eotech_552_d_anpeq15_sup", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side", "optic_Hamr", ["rhs_mag_20Rnd_SCAR_762x51_m80_ball"], [], ""],
-["uk3cb_weap_mk17_std_eotech_552_d_anpeq15_sup", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side", "optic_ACO_grn", ["rhs_mag_20Rnd_SCAR_762x51_m80_ball"], [], ""]
+["uk3cb_weap_mk17_std_eotech_552_d_anpeq15_sup", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side", "rhsusf_acc_eotech_552_d", ["rhs_mag_20Rnd_SCAR_762x51_m80_ball"], [], ""],
+["uk3cb_weap_mk17_std_eotech_552_d_anpeq15_sup", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side", "rhsusf_acc_eotech_552_d", ["rhs_mag_20Rnd_SCAR_762x51_m80_ball"], [], ""],
+["uk3cb_weap_mk17_std_eotech_552_d_anpeq15_sup", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side", "rhsusf_acc_eotech_552_d", ["rhs_mag_20Rnd_SCAR_762x51_m80_ball"], [], ""]
 ]];
 _eliteLoadoutData set ["carbines", [
-["uk3cb_weap_mk17_std_eotech_552_d_anpeq15_sup", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side", "optic_Holosight_blk_F", ["rhs_mag_20Rnd_SCAR_762x51_m80_ball"], [], ""],
-["uk3cb_weap_mk17_std_eotech_552_d_anpeq15_sup", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side", "rhsusf_acc_eotech_552_d", ["rhs_mag_20Rnd_SCAR_762x51_m80_ball"], [], ""],
+["uk3cb_weap_mk17_std_eotech_552_d_anpeq15_sup", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side", "optic_Aco", ["rhs_mag_20Rnd_SCAR_762x51_m80_ball"], [], ""],
+["uk3cb_weap_mk17_std_eotech_552_d_anpeq15_sup", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side", "optic_Aco", ["rhs_mag_20Rnd_SCAR_762x51_m80_ball"], [], ""],
 ["uk3cb_weap_mk17_std_eotech_552_d_anpeq15_sup", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side", "optic_Aco", ["rhs_mag_20Rnd_SCAR_762x51_m80_ball"], [], ""],
 ["uk3cb_weap_mk17_std_eotech_552_d_anpeq15_sup", "rhsusf_acc_aac_762sdn6_silencer", "rhsusf_acc_anpeq15side", "optic_ACO_grn", ["rhs_mag_20Rnd_SCAR_762x51_m80_ball"], [], ""]
 ]];
@@ -425,7 +425,8 @@ private _mgs = [
 ];
 
 private _marksmanRifles = [
-    ["UK3CB_PSG1A1_RIS_SOS_sup", "uk3cb_muzzle_snds_g3", "", "optic_SOS", ["UK3CB_G3_20rnd_762x51"], [], ""]
+    ["UK3CB_PSG1A1_RIS_SOS_sup", "uk3cb_muzzle_snds_g3", "", "optic_SOS", ["UK3CB_G3_20rnd_762x51"], [], ""],
+    ["UK3CB_PSG1A1_RIS_SOS_sup", "uk3cb_muzzle_snds_g3", "", "optic_Hamr", ["UK3CB_G3_20rnd_762x51"], [], ""]
 ];
 
 if (_hasMarksman) then {
