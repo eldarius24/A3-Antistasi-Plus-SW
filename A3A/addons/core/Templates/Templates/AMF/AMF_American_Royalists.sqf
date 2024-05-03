@@ -39,8 +39,8 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["vehiclesAPCs", ["AMF_VBCI_CE_01_F", "AMF_VBMR_COMMANDEMENT_CE", "B_AMF_VAB_ULTIMA_TOP_X8_F"]] call _fnc_saveToTemplate;                  // armed with enclosed turret, armoured, with 6-8 passengers
 ["vehiclesAirborne", ["AMF_VBMR_L_CE_01"]] call _fnc_saveToTemplate;              // airborne vehicles, could be with passenger seats or just a crew 
 ["vehiclesIFVs", ["AMF_EBRC_CE_01", "AMF_VBMR_COMMANDEMENT_CE"]] call _fnc_saveToTemplate;                  // capable of surviving multiple rockets, cannon armed, with 6-8 passengers
-["vehiclesTanks", ["B_AMF_TANK_01", "B_AMF_TANK_CE_02_F"]] call _fnc_saveToTemplate;
-["vehiclesLightTanks", ["B_AMF_AMX10_RCR_01_F", "AMF_EBRC_CE_01"]] call _fnc_saveToTemplate;             // tanks with poor armor and weapons
+["vehiclesTanks", ["B_AMF_TANK_01", "B_AMF_TANK_CE_02_F", "B_AMF_AMX10_RCR_01_F"]] call _fnc_saveToTemplate;
+["vehiclesLightTanks", ["AMF_EBRC_CE_01"]] call _fnc_saveToTemplate;             // tanks with poor armor and weapons
 ["vehiclesAA", ["AMF_VBCI_CE_01_F", "AMF_EBRC_CE_01"]] call _fnc_saveToTemplate;                    // ideally heavily armed with anti-ground capability and enclosed turret. Passengers will be ignored
 
 ["vehiclesTransportBoats", ["B_Boat_Armed_01_minigun_F"]] call _fnc_saveToTemplate;
@@ -66,7 +66,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["vehiclesMilitiaLightArmed", ["amf_pvp_01_mag_CE_f"]] call _fnc_saveToTemplate;
 ["vehiclesMilitiaTrucks", ["AMF_GBC180_PERS_02"]] call _fnc_saveToTemplate;
 ["vehiclesMilitiaCars", ["amf_pvp_01_mag_CE_f"]] call _fnc_saveToTemplate;
-["vehiclesMilitiaAPCs", ["amf_pvp_01_mag_CE_f"]] call _fnc_saveToTemplate;              // Militia APCs will be used at roadblocks and attacks at first 4 war levels
+["vehiclesMilitiaAPCs", ["B_AMF_VAB_ULTIMA_TOP_X8_F"]] call _fnc_saveToTemplate;              // Militia APCs will be used at roadblocks and attacks at first 4 war levels
 
 ["vehiclesPolice", []] call _fnc_saveToTemplate;
 
