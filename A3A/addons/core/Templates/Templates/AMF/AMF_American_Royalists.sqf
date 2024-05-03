@@ -177,7 +177,7 @@ _loadoutData set ["Hvests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
 _loadoutData set ["glVests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
 _loadoutData set ["backpacks", ["B_Kitbag_cbr"]];
 _loadoutData set ["atBackpacks", ["B_Kitbag_cbr"]];
-_loadoutData set ["longRangeRadios", ["B_RadioBag_01_wdl_F"]];
+_loadoutData set ["longRangeRadios", ["UK3CB_ION_I_B_RadioBag_BRN"]];
 _loadoutData set ["helmets", ["AMF_FELIN_05_CE"]];
 _loadoutData set ["slHat", ["AMF_BERET_INFANTERIE"]];
 _loadoutData set ["sniHats", ["H_Booniehat_khk"]];
@@ -247,7 +247,7 @@ _sfLoadoutData set ["uniforms", ["amf_uniform_01_RE_NG_BM_HS", "amf_uniform_01_N
 _sfLoadoutData set ["vests", ["amf_DCS_01_MTP", "amf_DCS_05_MTP"]];
 _sfLoadoutData set ["backpacks", ["AMF_rush24_01_MTP", "B_Kitbag_sgg"]];
 _sfLoadoutData set ["atBackpacks", ["AMF_FELIN_BACKPACK_LIGHT_TAN"]];
-_sfLoadoutData set ["helmets", ["AMF_TC801_TAN_EARPROT_BLK_2", "AMF_TC801_GRN_EARPROT_TAN_2"]];
+_sfLoadoutData set ["helmets", ["AMF_OPSCORE_TAN2"]];
 _sfLoadoutData set ["binoculars", ["Laserdesignator"]];
 
 private _slRifles = [
@@ -386,26 +386,26 @@ _sfLoadoutData set ["sidearms", [
 
 private _eliteLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
 _eliteLoadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
-_eliteLoadoutData set ["helmets", ["AMF_TC801_GRN_EARPROT_TAN_2"]];
+_eliteLoadoutData set ["helmets", ["AMF_OPSCORE3_OD1_2"]];
 
 _eliteLoadoutData set ["vests", ["rhsusf_spc_patchless", "rhsusf_spc_patchless_radio"]];
 _eliteLoadoutData set ["Hvests", ["rhsusf_spc_patchless", "rhsusf_spc_patchless_radio"]];
 _eliteLoadoutData set ["glVests", ["rhsusf_spc_patchless"]];
-_eliteLoadoutData set ["backpacks", ["UK3CB_MDF_B_B_SF_Backpack_Pocket", "B_Kitbag_sgg"]];
-_eliteLoadoutData set ["helmets", ["AMF_TC801_GRN_EARPROT_TAN_2"]];
+_eliteLoadoutData set ["backpacks", ["UK3CB_MDF_B_B_SF_Backpack_Pocket"]];
+_eliteLoadoutData set ["helmets", ["AMF_OPSCORE3_OD1_2"]];
 _eliteLoadoutData set ["binoculars", ["rhsusf_ANPVS_15"]];
 
 _eliteLoadoutData set ["rifles", [
-["AMF_614_short_01_F", "", "acc_flashlight", "optic_Holosight_blk_F", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
-["AMF_614_short_01_F", "", "acc_flashlight", "optic_MRCO", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
-["AMF_614_short_01_F", "", "acc_flashlight", "optic_Hamr", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
-["AMF_614_short_01_F", "", "acc_flashlight", "optic_ACO_grn", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""]
+["AMF_614_long_FS4_TAN", "muzzle_snds_M", "acc_flashlight", "optic_Holosight_blk_F", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_long_FS4_TAN", "muzzle_snds_M", "acc_flashlight", "optic_MRCO", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_long_FS4_TAN", "muzzle_snds_M", "acc_flashlight", "optic_Hamr", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_long_FS4_TAN", "muzzle_snds_M", "acc_flashlight", "optic_ACO_grn", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""]
 ]];
 _eliteLoadoutData set ["carbines", [
-["AMF_614_short_01_F", "", "acc_flashlight", "optic_Holosight_blk_F", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
-["AMF_614_short_01_F", "", "acc_flashlight", "optic_Aco", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
-["AMF_614_short_01_F", "", "acc_flashlight", "optic_Aco", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
-["AMF_614_short_01_F", "", "acc_flashlight", "optic_ACO_grn", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""]
+["AMF_614_long_FS4_TAN", "muzzle_snds_M", "acc_flashlight", "optic_Holosight_blk_F", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_long_FS4_TAN", "muzzle_snds_M", "acc_flashlight", "optic_Aco", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_long_FS4_TAN", "muzzle_snds_M", "acc_flashlight", "optic_Aco", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
+["AMF_614_long_FS4_TAN", "muzzle_snds_M", "acc_flashlight", "optic_ACO_grn", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""]
 ]];
 _eliteLoadoutData set ["grenadeLaunchers", [
 ["rhs_weap_mk18_m320", "", "rhsusf_acc_anpeq15side", "optic_Holosight_blk_F", ["rhs_mag_30Rnd_556x45_M855A1_Stanag"], ["1Rnd_HE_Grenade_shell"], ""],
