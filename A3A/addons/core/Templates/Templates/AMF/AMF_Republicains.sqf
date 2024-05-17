@@ -26,8 +26,8 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["vehicleBoat", "B_G_Boat_Transport_01_F"] call _fnc_saveToTemplate;
 ["vehicleRepair", ""] call _fnc_saveToTemplate;
 
-["vehiclePlane", ""] call _fnc_saveToTemplate;
-["vehiclePayloadPlane", ""] call _fnc_saveToTemplate;
+["vehiclePlane", "RHS_AN2"] call _fnc_saveToTemplate;
+["vehiclePayloadPlane", "I_C_Plane_Civil_01_F"] call _fnc_saveToTemplate;
 ["vehicleHeli", ""] call _fnc_saveToTemplate;
 
 
@@ -61,7 +61,27 @@ private _staticAA = "I_static_AA_F";
 
 //vehicle class, price, type, unlock condition
 ["blackMarketStock", [
-    ["classname", 500000, "AA", {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}]
+    ["RHS_TOW_TriPod_WD", 3000, "STATICAT", {tierWar > 3}],
+    ["rhsgref_nat_AGS30_TriPod", 3000, "STATICMG", {tierWar > 3}],
+
+
+    ["rhsgref_BRDM2UM_msv", 1750, "CAR", {true}],
+    ["rhsgref_BRDM2_HQ_msv", 2050, "CAR", {true}],
+    ["rhsgref_BRDM2_msv", 2500, "CAR", {true}],
+
+    ["rhsgref_nat_btr70", 6000, "APC", {true}],
+    ["rhs_bmd1k", 9000, "APC", {tierWar > 3 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
+    ["rhs_bmd2", 12500, "APC", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
+
+    ["rhs_t72ba_tv", 20000, "TANK", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
+    ["rhs_t80", 21000, "TANK", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
+    
+    ["rhs_zsu234_aa", 10000, "AA", {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}],
+
+    ["rhs_l159_CDF", 40000, "PLANE", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}],
+
+    ["RHS_Mi8mt_vvsc", 15000, "HELI", {tierWar > 5 &&{ {sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}],
+    ["RHS_Mi8MTV3_vvsc", 25000, "HELI", {tierWar > 5 &&{ {sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}]
 ]] call _fnc_saveToTemplate;
 
 //animation sources - camo nets, slat cages, decals etc, digit is probability of appearance
@@ -92,7 +112,7 @@ private _initialRebelEquipment = [
     "6Rnd_45ACP_Cylinder","MiniGrenade","SmokeShell",
     ["IEDUrbanSmall_Remote_Mag", 10], ["IEDLandSmall_Remote_Mag", 10], ["IEDUrbanBig_Remote_Mag", 3], ["IEDLandBig_Remote_Mag", 3],
     "B_FieldPack_oli","B_FieldPack_blk","B_FieldPack_khk",
-    "V_BandollierB_blk","V_BandollierB_cbr","V_BandollierB_rgr","V_BandollierB_khk","V_BandollierB_oli","V_Rangemaster_belt",
+    "amf_S3_01_DA","amf_S3_01_CE","V_BandollierB_rgr","V_BandollierB_khk","V_BandollierB_oli","V_Rangemaster_belt",
     "Binocular",
     "acc_flashlight","acc_flashlight_smg_01","acc_flashlight_pistol",
     "rhs_1PN138"
@@ -115,7 +135,10 @@ private _dlcUniforms = [];          //Uniforms given if DLCs are enabled, only g
 
 ["uniforms", _rebUniforms + _dlcUniforms] call _fnc_saveToTemplate;         //These Items get added to the Arsenal
 
-["headgear", []] call _fnc_saveToTemplate;          //Headgear used by Rebell Ai until you have Armored Headgear.
+["headgear", [
+    "AMF_TCNVG_DA"
+    "AMF_TCNVG"
+]] call _fnc_saveToTemplate;          //Headgear used by Rebell Ai until you have Armored Headgear.
 
 /////////////////////
 ///  Identities   ///
@@ -123,7 +146,7 @@ private _dlcUniforms = [];          //Uniforms given if DLCs are enabled, only g
 
 //Faces and Voices given to Rebell AI
 ["faces", []] call _fnc_saveToTemplate;
-["voices", []] call _fnc_saveToTemplate;
+["voices", ["Male02FRE", "Male01FRE", "Male03FRE"]] call _fnc_saveToTemplate;
 
 //////////////////////////
 //       Loadouts       //
