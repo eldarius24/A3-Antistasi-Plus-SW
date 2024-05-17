@@ -136,7 +136,7 @@ private _dlcUniforms = [];          //Uniforms given if DLCs are enabled, only g
 ["uniforms", _rebUniforms + _dlcUniforms] call _fnc_saveToTemplate;         //These Items get added to the Arsenal
 
 ["headgear", [
-    "AMF_TCNVG_DA"
+    "AMF_TCNVG_DA",
     "AMF_TCNVG"
 ]] call _fnc_saveToTemplate;          //Headgear used by Rebell Ai until you have Armored Headgear.
 
