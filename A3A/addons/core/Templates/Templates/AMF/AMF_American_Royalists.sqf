@@ -172,7 +172,7 @@ _loadoutData set ["traitorHats", ["H_Cap_grn", "H_Cap_oli"]];
 
 _loadoutData set ["officerUniforms", ["U_B_CombatUniform_tshirt_mcam_wdL_f", "U_B_CombatUniform_vest_mcam_wdl_f", "U_B_CombatUniform_mcam_wdl_f"]];
 _loadoutData set ["officerVests", ["V_Rangemaster_belt"]];
-_loadoutData set ["officerHats", ["H_MilCap_wdl", "H_Beret_Colonel", "AMF_BERET_INFANTERIE"]];
+_loadoutData set ["officerHats", ["H_MilCap_wdl", "H_Beret_Colonel", "AMF_BERET_LEGION_3REI"]];
 
 _loadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
 _loadoutData set ["vests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
@@ -182,7 +182,7 @@ _loadoutData set ["backpacks", ["B_Kitbag_cbr"]];
 _loadoutData set ["atBackpacks", ["B_Kitbag_cbr"]];
 _loadoutData set ["longRangeRadios", ["UK3CB_ION_I_B_RadioBag_BRN"]];
 _loadoutData set ["helmets", ["AMF_FELIN_05_CE"]];
-_loadoutData set ["slHat", ["AMF_BERET_INFANTERIE"]];
+_loadoutData set ["slHat", ["AMF_BERET_LEGION_3REI"]];
 _loadoutData set ["sniHats", ["H_Booniehat_khk"]];
 
 //Item *set* definitions. These are added in their entirety to unit loadouts. No randomisation is applied.
@@ -476,7 +476,7 @@ _militaryLoadoutData set ["Hvests", ["rhsusf_mbav_light", "rhsusf_mbav_mg", "rhs
 _militaryLoadoutData set ["glVests", ["rhsusf_mbav_grenadier"]];
 _militaryLoadoutData set ["backpacks", ["AMF_FELIN_BACKPACK_LIGHT_TAN"]];
 _militaryLoadoutData set ["atBackpacks", ["B_Kitbag_cbr"]];
-_militaryLoadoutData set ["helmets", ["AMF_FELIN_04_TAN", "AMF_FELIN_06_CE", "AMF_F3_04", "H_HelmetB_camo"]];
+_militaryLoadoutData set ["helmets", ["AMF_FELIN_04_TAN", "AMF_FELIN_06_CE", "AMF_F3_04"]];
 
 _militaryLoadoutData set ["slRifles", [
 ["AMF_614_short_01_F", "", "acc_flashlight", "optic_Holosight_blk_F", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], [], ""],
@@ -578,7 +578,7 @@ _militiaLoadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
 _militiaLoadoutData set ["vests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
 _militiaLoadoutData set ["backpacks", ["AMF_FELIN_BACKPACK_LIGHT_TAN"]];
 _militiaLoadoutData set ["atBackpacks", ["AMF_FELIN_BACKPACK_LIGHT_TAN"]];
-_militiaLoadoutData set ["helmets", ["AMF_TCNVG"]];
+_militiaLoadoutData set ["helmets", ["AMF_BERET_INFANTERIE"]];
 
 _militiaLoadoutData set ["slRifles", [
     ["AMF_Samas_FELIN_01_F", "", "", "AMF_Eotech_552", ["25Rnd_samas_f1_mag"], ["AMF_RFG_APAV40"], ""],
@@ -615,13 +615,13 @@ _militiaLoadoutData set ["sidearms", ["hgun_ACPC2_F", "hgun_P07_blk_F", "hgun_P0
 private _crewLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData; 
 _crewLoadoutData set ["uniforms", ["amf_uniform_04_TAN"]];
 _crewLoadoutData set ["vests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
-_crewLoadoutData set ["helmets", ["AMF_TC3000"]];
+_crewLoadoutData set ["helmets", ["AMF_ELNO_DH_586"]];
 
 
 private _pilotLoadoutData = _militaryLoadoutData call _fnc_copyLoadoutData;
 _pilotLoadoutData set ["uniforms", ["amf_pilot_01_f"]];
-_pilotLoadoutData set ["vests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
-_pilotLoadoutData set ["helmets", ["H_CrewHelmetHeli_B", "H_PilotHelmetHeli_B"]];
+_pilotLoadoutData set ["vests", ["UK3CB_MDF_B_V_TacVest_LIZ"]];
+_pilotLoadoutData set ["helmets", ["AMF_ALPHA900", "AMF_ALPHA900_02"]];
 
 
 
