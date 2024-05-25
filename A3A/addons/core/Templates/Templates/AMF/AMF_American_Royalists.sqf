@@ -15,7 +15,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 ["flag", "Flag_NATO_F"] call _fnc_saveToTemplate;
 ["flagTexture", "\A3\Data_F\Flags\Flag_NATO_CO.paa"] call _fnc_saveToTemplate;
-["flagMarkerType", "flag_Enoch"] call _fnc_saveToTemplate;
+["flagMarkerType", "flag_EU"] call _fnc_saveToTemplate;
 
 //////////////////////////
 //       Vehicles       //
@@ -30,10 +30,10 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["vehiclesLightUnarmed", ["B_AMF_VAB_ULTIMA_TOP_X8_F"]] call _fnc_saveToTemplate;
 ["vehiclesLightArmed", ["B_AMF_VAB_ULTIMA_TOP_X8_F", "amf_pvp_01_mag_CE_f"]] call _fnc_saveToTemplate;             // Should be armed, unarmoured to lightly armoured, with 0-4 passengers
 ["vehiclesTrucks", ["AMF_GBC180_PERS_02"]] call _fnc_saveToTemplate;
-["vehiclesCargoTrucks", ["UK3CB_MDF_B_MTVR_Open"]] call _fnc_saveToTemplate;
-["vehiclesAmmoTrucks", ["AMF_GBC180_AmmoTruck"]] call _fnc_saveToTemplate;
-["vehiclesRepairTrucks", ["AMF_GBC180_MECA_01"]] call _fnc_saveToTemplate;
-["vehiclesFuelTrucks", ["B_T_Truck_01_fuel_F"]] call _fnc_saveToTemplate;
+["vehiclesCargoTrucks", ["UK3CB_LDF_B_T810_Closed"]] call _fnc_saveToTemplate;
+["vehiclesAmmoTrucks", ["UK3CB_LDF_B_T810_Reammo"]] call _fnc_saveToTemplate;
+["vehiclesRepairTrucks", ["UK3CB_LDF_B_T810_Repair"]] call _fnc_saveToTemplate;
+["vehiclesFuelTrucks", ["UK3CB_LDF_B_T810_Refuel"]] call _fnc_saveToTemplate;
 ["vehiclesMedical", ["B_AMF_VAB_ULTIMA_TOP_X8_F"]] call _fnc_saveToTemplate;
 ["vehiclesLightAPCs", ["AMF_VBMR_L_CE_01"]] call _fnc_saveToTemplate;             // armed, lightly armoured, with 6-8 passengers 
 ["vehiclesAPCs", ["AMF_VBCI_CE_01_F", "AMF_VBMR_COMMANDEMENT_CE", "B_AMF_VAB_ULTIMA_TOP_X8_F"]] call _fnc_saveToTemplate;                  // armed with enclosed turret, armoured, with 6-8 passengers
@@ -97,7 +97,10 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 //vehicle skins
 ["variants", [
-    ["vehClass", ["paint", 1]]
+    ["vehiclesCargoTrucks", ["CZ_WDL", 1]],
+    ["vehiclesAmmoTrucks", ["CZ_WDL", 1]],
+    ["vehiclesRepairTrucks", ["CZ_WDL", 1]],
+    ["vehiclesFuelTrucks", ["CZ_WDL", 1]]
 ]] call _fnc_saveToTemplate;
 /////////////////////
 ///  Identities   ///
