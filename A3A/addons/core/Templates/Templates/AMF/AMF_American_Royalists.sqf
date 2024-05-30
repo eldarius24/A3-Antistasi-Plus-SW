@@ -471,8 +471,8 @@ _eliteLoadoutData set ["sidearms", [
 
 private _militaryLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
 _militaryLoadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
-_militaryLoadoutData set ["vests", ["rhsusf_mbav_light", "rhsusf_mbav_mg", "rhsusf_mbav_rifleman"]];
-_militaryLoadoutData set ["Hvests", ["rhsusf_mbav_light", "rhsusf_mbav_mg", "rhsusf_mbav_rifleman"]];
+_militaryLoadoutData set ["vests", ["amf_SMB_FUS_TAN", "amf_SMB_ART_TAN", "amf_SMB_AUXSAN_TAN", "amf_SMB_FUS_FAMAS_TAN"]];
+_militaryLoadoutData set ["Hvests", ["amf_SMB_LEADER_TAN", "amf_SMB_TP_HK417_TAN", "amf_SMB_ART_TAN"]];
 _militaryLoadoutData set ["glVests", ["rhsusf_mbav_grenadier"]];
 _militaryLoadoutData set ["backpacks", ["AMF_FELIN_BACKPACK_LIGHT_TAN"]];
 _militaryLoadoutData set ["atBackpacks", ["B_Kitbag_cbr"]];
