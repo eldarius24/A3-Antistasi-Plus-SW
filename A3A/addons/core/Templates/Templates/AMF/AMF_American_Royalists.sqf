@@ -97,10 +97,10 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 //vehicle skins
 ["variants", [
-    ["vehiclesCargoTrucks", ["CZ_WDL", 1]],
-    ["vehiclesAmmoTrucks", ["CZ_WDL", 1]],
-    ["vehiclesRepairTrucks", ["CZ_WDL", 1]],
-    ["vehiclesFuelTrucks", ["CZ_WDL", 1]]
+    ["UK3CB_LDF_B_T810_Closed", ["CZ_WDL", 1]],
+    ["UK3CB_LDF_B_T810_Reammo", ["CZ_WDL", 1]],
+    ["UK3CB_LDF_B_T810_Repair", ["CZ_WDL", 1]],
+    ["UK3CB_LDF_B_T810_Refuel", ["CZ_WDL", 1]]
 ]] call _fnc_saveToTemplate;
 /////////////////////
 ///  Identities   ///
@@ -117,8 +117,8 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ]] call _fnc_saveToTemplate;
 ["sfVoices", ["Male01ENGB", "Male02ENGB", "Male03ENGB", "Male04ENGB", "Male05ENGB"]] call _fnc_saveToTemplate;
 
-["insignia", ["AMF_FRANCE_HV" ]] call _fnc_saveToTemplate;
-["sfInsignia", ["AMF_FRANCE_BV", "AMF_AIGLE"]] call _fnc_saveToTemplate;
+["insignia", ["AMF_FRANCE_HV", "AMF_FRANCE_BV"]] call _fnc_saveToTemplate;
+["sfInsignia", ["AMF_AIGLE"]] call _fnc_saveToTemplate;
 
 
 //////////////////////////
