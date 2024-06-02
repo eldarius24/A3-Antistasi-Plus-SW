@@ -434,14 +434,14 @@ private _marksmanRifles = [
 
 if (_hasMarksman) then {
     _mgs append [
-    ["uk3cb_weap_m249_pip_L_sup", "rhsusf_acc_nt4_black", "", "", ["rhsusf_100Rnd_556x45_soft_pouch"], [], ""],
-    ["rhs_weap_fnmag", "", "", "", ["rhsusf_100Rnd_762x51"], [], ""]
+        ["uk3cb_weap_m249_pip_L_sup", "rhsusf_acc_nt4_black", "", "", ["rhsusf_100Rnd_556x45_soft_pouch"], [], ""],
+        ["rhs_weap_fnmag", "", "", "", ["rhsusf_100Rnd_762x51"], [], ""]
     ];
     _marksmanRifles append [
-    ["srifle_DMR_02_F", "", "acc_pointer_IR", "optic_NVS", [], [], "bipod_01_F_blk"],
-    ["srifle_DMR_02_F", "", "acc_pointer_IR", "optic_LRPS", [], [], "bipod_01_F_blk"],
-    ["srifle_DMR_03_F", "", "acc_pointer_IR", "optic_SOS", [], [], "bipod_01_F_blk"],
-    ["srifle_DMR_03_F", "", "acc_pointer_IR", "optic_Hamr", [], [], "bipod_01_F_blk"],
+        ["srifle_DMR_02_F", "", "acc_pointer_IR", "optic_NVS", [], [], "bipod_01_F_blk"],
+        ["srifle_DMR_02_F", "", "acc_pointer_IR", "optic_LRPS", [], [], "bipod_01_F_blk"],
+        ["srifle_DMR_03_F", "", "acc_pointer_IR", "optic_SOS", [], [], "bipod_01_F_blk"],
+        ["srifle_DMR_03_F", "", "acc_pointer_IR", "optic_Hamr", [], [], "bipod_01_F_blk"],
     ];
 } else {
     _marksmanRifles append [
