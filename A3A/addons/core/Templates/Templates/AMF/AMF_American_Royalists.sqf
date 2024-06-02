@@ -63,9 +63,9 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["uavsPortable", ["B_UAV_01_F"]] call _fnc_saveToTemplate;
 
 //Config special vehicles
-["vehiclesMilitiaLightArmed", ["UK3CB_ADR_B_LR_M2"]] call _fnc_saveToTemplate;
+["vehiclesMilitiaLightArmed", ["UK3CB_FIA_B_LR_M2", "UK3CB_FIA_B_LR_SPG9"]] call _fnc_saveToTemplate;
 ["vehiclesMilitiaTrucks", ["AMF_GBC180_PERS_02"]] call _fnc_saveToTemplate;
-["vehiclesMilitiaCars", ["UK3CB_ADR_B_LR_M2"]] call _fnc_saveToTemplate;
+["vehiclesMilitiaCars", ["UK3CB_FIA_B_LR_M2", "UK3CB_FIA_B_LR_SPG9"]] call _fnc_saveToTemplate;
 ["vehiclesMilitiaAPCs", ["AMF_VBMR_L_CE_01"]] call _fnc_saveToTemplate;              // Militia APCs will be used at roadblocks and attacks at first 4 war levels
 
 ["vehiclesPolice", []] call _fnc_saveToTemplate;
@@ -97,10 +97,18 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 //vehicle skins
 ["variants", [
-    ["UK3CB_LDF_B_T810_Closed", ["CZ_WDL", 1]],
-    ["UK3CB_LDF_B_T810_Reammo", ["CZ_WDL", 1]],
-    ["UK3CB_LDF_B_T810_Repair", ["CZ_WDL", 1]],
-    ["UK3CB_LDF_B_T810_Refuel", ["CZ_WDL", 1]]
+    ["UK3CB_LDF_B_T810_Closed", 
+    ["CZ_WDL", 1],
+    true],
+    ["UK3CB_LDF_B_T810_Reammo", 
+    ["CZ_WDL", 1]
+    true],
+    ["UK3CB_LDF_B_T810_Repair",
+    ["CZ_WDL", 1]
+    true],
+    ["UK3CB_LDF_B_T810_Refuel",
+    ["CZ_WDL", 1]
+    true]
 ]] call _fnc_saveToTemplate;
 /////////////////////
 ///  Identities   ///
@@ -119,8 +127,8 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 ["insignia", ["AMF_FRANCE_HV", "AMF_FRANCE_BV"]] call _fnc_saveToTemplate;
 ["sfInsignia", ["AMF_AIGLE"]] call _fnc_saveToTemplate;
-
-
+["eliteInsignia", ["AMF_FRANCE_LEGION_JAUNE_HV"]] call _fnc_saveToTemplate;
+["milInsignia", ["AMF_GCM"]] call _fnc_saveToTemplate;
 //////////////////////////
 //       Loadouts       //
 //////////////////////////
