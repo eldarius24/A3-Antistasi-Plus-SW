@@ -26,21 +26,21 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["equipmentBox", "Box_NATO_Equip_F"] call _fnc_saveToTemplate; //Changeing this from default will require you to define logistics attachement offset for the box type
 
 // vehicles can be placed in more than one category if they fit between both. Cost will be derived by the higher category
-["vehiclesBasic", ["B_AMF_VAB_ULTIMA_TOP_X8_F"]] call _fnc_saveToTemplate;
-["vehiclesLightUnarmed", ["B_AMF_VAB_ULTIMA_TOP_X8_F"]] call _fnc_saveToTemplate;
-["vehiclesLightArmed", ["B_AMF_VAB_ULTIMA_TOP_X8_F", "amf_pvp_01_mag_CE_f"]] call _fnc_saveToTemplate;             // Should be armed, unarmoured to lightly armoured, with 0-4 passengers
+["vehiclesBasic", ["AMF_VBMR_GENIE_CE"]] call _fnc_saveToTemplate;
+["vehiclesLightUnarmed", ["AMF_VBMR_L_CE_01"]] call _fnc_saveToTemplate;
+["vehiclesLightArmed", ["AMF_VBMR_L_CE_01"]] call _fnc_saveToTemplate;             // Should be armed, unarmoured to lightly armoured, with 0-4 passengers
 ["vehiclesTrucks", ["AMF_GBC180_PERS_02"]] call _fnc_saveToTemplate;
 ["vehiclesCargoTrucks", ["UK3CB_LDF_B_T810_Closed"]] call _fnc_saveToTemplate;
 ["vehiclesAmmoTrucks", ["UK3CB_LDF_B_T810_Reammo"]] call _fnc_saveToTemplate;
 ["vehiclesRepairTrucks", ["UK3CB_LDF_B_T810_Repair"]] call _fnc_saveToTemplate;
 ["vehiclesFuelTrucks", ["UK3CB_LDF_B_T810_Refuel"]] call _fnc_saveToTemplate;
-["vehiclesMedical", ["B_AMF_VAB_ULTIMA_TOP_X8_F"]] call _fnc_saveToTemplate;
+["vehiclesMedical", ["AMF_VBMR_SAN_CE"]] call _fnc_saveToTemplate;
 ["vehiclesLightAPCs", ["AMF_VBMR_L_CE_01"]] call _fnc_saveToTemplate;             // armed, lightly armoured, with 6-8 passengers 
-["vehiclesAPCs", ["AMF_VBCI_CE_01_F", "AMF_VBMR_COMMANDEMENT_CE", "B_AMF_VAB_ULTIMA_TOP_X8_F"]] call _fnc_saveToTemplate;                  // armed with enclosed turret, armoured, with 6-8 passengers
+["vehiclesAPCs", ["AMF_VBCI_CE_01_F", "AMF_EBRC_CE_01"]] call _fnc_saveToTemplate;                  // armed with enclosed turret, armoured, with 6-8 passengers
 ["vehiclesAirborne", ["AMF_VBMR_L_CE_01"]] call _fnc_saveToTemplate;              // airborne vehicles, could be with passenger seats or just a crew 
 ["vehiclesIFVs", ["AMF_EBRC_CE_01", "AMF_VBMR_COMMANDEMENT_CE"]] call _fnc_saveToTemplate;                  // capable of surviving multiple rockets, cannon armed, with 6-8 passengers
-["vehiclesTanks", ["B_AMF_TANK_01", "B_AMF_TANK_CE_02_F", "B_AMF_AMX10_RCR_01_F"]] call _fnc_saveToTemplate;
-["vehiclesLightTanks", ["AMF_EBRC_CE_01"]] call _fnc_saveToTemplate;             // tanks with poor armor and weapons
+["vehiclesTanks", ["B_AMF_TANK_01", "B_AMF_TANK_CE_02_F"]] call _fnc_saveToTemplate;
+["vehiclesLightTanks", ["B_AMF_AMX10_RCR_SEPAR_01_F", "B_AMF_AMX10_RCR_01_F"]] call _fnc_saveToTemplate;             // tanks with poor armor and weapons
 ["vehiclesAA", ["AMF_VBCI_CE_01_F", "AMF_EBRC_CE_01"]] call _fnc_saveToTemplate;                    // ideally heavily armed with anti-ground capability and enclosed turret. Passengers will be ignored
 
 ["vehiclesTransportBoats", ["B_Boat_Armed_01_minigun_F"]] call _fnc_saveToTemplate;
@@ -63,10 +63,10 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["uavsPortable", ["B_UAV_01_F"]] call _fnc_saveToTemplate;
 
 //Config special vehicles
-["vehiclesMilitiaLightArmed", ["amf_pvp_01_mag_CE_f"]] call _fnc_saveToTemplate;
+["vehiclesMilitiaLightArmed", ["UK3CB_ADR_B_LR_M2"]] call _fnc_saveToTemplate;
 ["vehiclesMilitiaTrucks", ["AMF_GBC180_PERS_02"]] call _fnc_saveToTemplate;
-["vehiclesMilitiaCars", ["amf_pvp_01_mag_CE_f"]] call _fnc_saveToTemplate;
-["vehiclesMilitiaAPCs", ["B_AMF_VAB_ULTIMA_TOP_X8_F"]] call _fnc_saveToTemplate;              // Militia APCs will be used at roadblocks and attacks at first 4 war levels
+["vehiclesMilitiaCars", ["UK3CB_ADR_B_LR_M2"]] call _fnc_saveToTemplate;
+["vehiclesMilitiaAPCs", ["AMF_VBMR_L_CE_01"]] call _fnc_saveToTemplate;              // Militia APCs will be used at roadblocks and attacks at first 4 war levels
 
 ["vehiclesPolice", []] call _fnc_saveToTemplate;
 
@@ -434,16 +434,12 @@ private _marksmanRifles = [
 
 if (_hasMarksman) then {
     _mgs append [
-        ["MMG_02_black_F", "", "acc_pointer_IR", "optic_Holosight_blk_F", [], [], "bipod_01_F_blk"],
-        ["MMG_02_black_F", "", "acc_pointer_IR", "optic_tws_mg", [], [], "bipod_01_F_blk"]
+    ["uk3cb_weap_m249_pip_L_sup", "rhsusf_acc_nt4_black", "", "", ["rhsusf_100Rnd_556x45_soft_pouch"], [], ""],
+    ["rhs_weap_fnmag", "", "", "", ["rhsusf_100Rnd_762x51"], [], ""]
     ];
     _marksmanRifles append [
-        ["srifle_DMR_02_F", "", "acc_pointer_IR", "optic_NVS", [], [], "bipod_01_F_blk"],
-        ["srifle_DMR_02_F", "", "acc_pointer_IR", "optic_LRPS", [], [], "bipod_01_F_blk"],
-        ["srifle_DMR_03_F", "", "acc_pointer_IR", "optic_SOS", [], [], "bipod_01_F_blk"],
-        ["srifle_DMR_03_F", "", "acc_pointer_IR", "optic_Hamr", [], [], "bipod_01_F_blk"],
-        ["srifle_DMR_03_khaki_F", "", "acc_pointer_IR", "optic_SOS", [], [], "bipod_01_F_blk"],
-        ["srifle_DMR_03_khaki_F", "", "acc_pointer_IR", "optic_Hamr", [], [], "bipod_01_F_blk"]
+    ["UK3CB_PSG1A1_RIS_SOS_sup", "uk3cb_muzzle_snds_g3", "", "optic_SOS", ["UK3CB_G3_20rnd_762x51"], [], ""],
+    ["UK3CB_PSG1A1_RIS_SOS_sup", "uk3cb_muzzle_snds_g3", "", "optic_Hamr", ["UK3CB_G3_20rnd_762x51"], [], ""]
     ];
 } else {
     _marksmanRifles append [
@@ -535,12 +531,8 @@ private _marksmanRifles = [
 
 if (_hasApex) then {
     _marksmanRifles append [
-        ["srifle_DMR_03_F", "", "acc_flashlight", "optic_NVS", [], [], "bipod_01_F_blk"],
-        ["srifle_DMR_03_F", "", "acc_flashlight", "optic_SOS", [], [], "bipod_01_F_blk"],
-        ["srifle_DMR_03_F", "", "acc_flashlight", "optic_Hamr", [], [], "bipod_01_F_blk"],
-        ["srifle_DMR_03_khaki_F", "", "acc_flashlight", "optic_NVS", [], [], "bipod_01_F_blk"],
-        ["srifle_DMR_03_khaki_F", "", "acc_flashlight", "optic_SOS", [], [], "bipod_01_F_blk"],
-        ["srifle_DMR_03_khaki_F", "", "acc_flashlight", "optic_Hamr", [], [], "bipod_01_F_blk"]
+    ["UK3CB_PSG1A1_RIS_SOS_sup", "uk3cb_muzzle_snds_g3", "", "optic_SOS", ["UK3CB_G3_20rnd_762x51"], [], ""],
+    ["UK3CB_PSG1A1_RIS_SOS_sup", "uk3cb_muzzle_snds_g3", "", "optic_Hamr", ["UK3CB_G3_20rnd_762x51"], [], ""]
     ];
 };
 
@@ -575,10 +567,10 @@ _policeLoadoutData set ["sidearms", ["hgun_Rook40_F"]];
 
 private _militiaLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
 _militiaLoadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
-_militiaLoadoutData set ["vests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
-_militiaLoadoutData set ["backpacks", ["AMF_FELIN_BACKPACK_LIGHT_TAN"]];
-_militiaLoadoutData set ["atBackpacks", ["AMF_FELIN_BACKPACK_LIGHT_TAN"]];
-_militiaLoadoutData set ["helmets", ["AMF_BERET_INFANTERIE"]];
+_militiaLoadoutData set ["vests", ["UK3CB_MDF_B_V_CREW_Vest_TAN", "UK3CB_MDF_B_V_TacVest_LIZ"]];
+_militiaLoadoutData set ["backpacks", ["AMF_FELIN_BACKPACK_LIGHT_TAN", "B_TacticalPack_blk", "B_Carryall_cbr"]];
+_militiaLoadoutData set ["atBackpacks", ["AMF_FELIN_BACKPACK_LIGHT_TAN", "B_TacticalPack_blk", "B_Carryall_cbr"]];
+_militiaLoadoutData set ["helmets", ["AMF_BERET_INFANTERIE", "AMF_TC3000_tan", "AMF_TC3001", "H_Cap_oli_hs"]];
 
 _militiaLoadoutData set ["slRifles", [
     ["AMF_Samas_FELIN_01_F", "", "", "AMF_Eotech_552", ["25Rnd_samas_f1_mag"], ["AMF_RFG_APAV40"], ""],
@@ -586,12 +578,13 @@ _militiaLoadoutData set ["slRifles", [
 ]];
 _militiaLoadoutData set ["rifles", [
     ["AMF_Samas_FELIN_01_F", "", "", "AMF_Eotech_552", ["25Rnd_samas_f1_mag"], [], ""]
+    ["AMF_Samas_FELIN_01_F", "", "", "AMF_Scrome_J4_02", ["25Rnd_samas_f1_mag"], [], ""]
 ]];
 _militiaLoadoutData set ["carbines", [
     ["AMF_Samas_FELIN_01_F", "", "", "AMF_Eotech_552", ["25Rnd_samas_f1_mag"], ["AMF_RFG_APAV40"], ""]
 ]];
 _militiaLoadoutData set ["grenadeLaunchers", [
-    ["AMF_614_long_HK269_01_F", "", "acc_flashlight", "", ["rhs_mag_30Rnd_556x45_M855_Stanag_Ranger", "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red"], ["1Rnd_HE_Grenade_shell", "1Rnd_HE_Grenade_shell", "1Rnd_Smoke_Grenade_shell"], ""]
+    ["AMF_Samas_FELIN_01_F", "", "", "AMF_Eotech_552", ["25Rnd_samas_f1_mag"], ["AMF_RFG_APAV40", "AMF_RFG_AC58"], ""]
 ]];
 _militiaLoadoutData set ["machineGuns", [
     ["amf_aanf1_01_f", "", "", "", ["50Rnd_762x51_band", "200Rnd_762x51_band"], [], ""]
