@@ -528,15 +528,6 @@ private _marksmanRifles = [
     ["UK3CB_PSG1A1_RIS_SOS_sup", "uk3cb_muzzle_snds_g3", "", "optic_SOS", ["UK3CB_G3_20rnd_762x51"], [], ""],
     ["UK3CB_PSG1A1_RIS_SOS_sup", "uk3cb_muzzle_snds_g3", "", "optic_Hamr", ["UK3CB_G3_20rnd_762x51"], [], ""]
 ];
-
-if (_hasApex) then {
-    _marksmanRifles append [
-    ["UK3CB_PSG1A1_RIS_SOS_sup", "uk3cb_muzzle_snds_g3", "", "optic_SOS", ["UK3CB_G3_20rnd_762x51"], [], ""],
-    ["UK3CB_PSG1A1_RIS_SOS_sup", "uk3cb_muzzle_snds_g3", "", "optic_Hamr", ["UK3CB_G3_20rnd_762x51"], [], ""]
-    ];
-};
-
-
 _militaryLoadoutData set ["marksmanRifles", _marksmanRifles];
 
 ///////////////////////////////
@@ -584,7 +575,7 @@ _militiaLoadoutData set ["carbines", [
     ["AMF_Samas_FELIN_01_F", "", "", "AMF_Eotech_552", ["25Rnd_samas_f1_mag"], ["AMF_RFG_APAV40"], ""]
 ]];
 _militiaLoadoutData set ["grenadeLaunchers", [
-    ["AMF_Samas_FELIN_01_F", "", "", "AMF_Eotech_552", ["25Rnd_samas_f1_mag"], ["AMF_RFG_APAV40", "AMF_RFG_AC58"], ""]
+    ["AMF_Samas_FELIN_01_F", "", "", "AMF_Eotech_552", ["25Rnd_samas_f1_mag"], ["AMF_RFG_APAV40"], ""]
 ]];
 _militiaLoadoutData set ["machineGuns", [
     ["amf_aanf1_01_f", "", "", "", ["50Rnd_762x51_band", "200Rnd_762x51_band"], [], ""]
