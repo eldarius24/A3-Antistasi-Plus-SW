@@ -40,7 +40,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["vehiclesAirborne", ["AMF_VBMR_L_CE_01"]] call _fnc_saveToTemplate;              // airborne vehicles, could be with passenger seats or just a crew 
 ["vehiclesIFVs", ["AMF_EBRC_CE_01", "AMF_VBMR_COMMANDEMENT_CE"]] call _fnc_saveToTemplate;                  // capable of surviving multiple rockets, cannon armed, with 6-8 passengers
 ["vehiclesTanks", ["B_AMF_TANK_01", "B_AMF_TANK_CE_02_F"]] call _fnc_saveToTemplate;
-["vehiclesLightTanks", ["B_AMF_AMX10_RCR_SEPAR_01_F", "B_AMF_AMX10_RCR_01_F"]] call _fnc_saveToTemplate;             // tanks with poor armor and weapons
+["vehiclesLightTanks", ["B_AMF_AMX10_RCR_01_F"]] call _fnc_saveToTemplate;             // tanks with poor armor and weapons
 ["vehiclesAA", ["AMF_VBCI_CE_01_F", "AMF_EBRC_CE_01"]] call _fnc_saveToTemplate;                    // ideally heavily armed with anti-ground capability and enclosed turret. Passengers will be ignored
 
 ["vehiclesTransportBoats", ["B_Boat_Armed_01_minigun_F"]] call _fnc_saveToTemplate;
@@ -570,7 +570,7 @@ _militiaLoadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
 _militiaLoadoutData set ["vests", ["UK3CB_MDF_B_V_CREW_Vest_TAN", "UK3CB_MDF_B_V_TacVest_LIZ"]];
 _militiaLoadoutData set ["backpacks", ["AMF_FELIN_BACKPACK_LIGHT_TAN", "B_TacticalPack_blk", "B_Carryall_cbr"]];
 _militiaLoadoutData set ["atBackpacks", ["AMF_FELIN_BACKPACK_LIGHT_TAN", "B_TacticalPack_blk", "B_Carryall_cbr"]];
-_militiaLoadoutData set ["helmets", ["AMF_BERET_INFANTERIE", "AMF_TC3000_tan", "AMF_TC3001", "H_Cap_oli_hs"]];
+_militiaLoadoutData set ["helmets", ["AMF_BERET_INFANTERIE", "AMF_TC3000_tan", "H_Cap_oli_hs"]];
 
 _militiaLoadoutData set ["slRifles", [
     ["AMF_Samas_FELIN_01_F", "", "", "AMF_Eotech_552", ["25Rnd_samas_f1_mag"], ["AMF_RFG_APAV40"], ""],
