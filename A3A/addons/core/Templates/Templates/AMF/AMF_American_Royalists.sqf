@@ -30,10 +30,10 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["vehiclesLightUnarmed", ["AMF_VBMR_L_CE_01"]] call _fnc_saveToTemplate;
 ["vehiclesLightArmed", ["AMF_VBMR_L_CE_01"]] call _fnc_saveToTemplate;             // Should be armed, unarmoured to lightly armoured, with 0-4 passengers
 ["vehiclesTrucks", ["AMF_GBC180_PERS_02"]] call _fnc_saveToTemplate;
-["vehiclesCargoTrucks", ["UK3CB_LDF_B_T810_Closed"]] call _fnc_saveToTemplate;
-["vehiclesAmmoTrucks", ["UK3CB_LDF_B_T810_Reammo"]] call _fnc_saveToTemplate;
-["vehiclesRepairTrucks", ["UK3CB_LDF_B_T810_Repair"]] call _fnc_saveToTemplate;
-["vehiclesFuelTrucks", ["UK3CB_LDF_B_T810_Refuel"]] call _fnc_saveToTemplate;
+["vehiclesCargoTrucks", ["UUK3CB_ION_I_Winter_T810_Closed"]] call _fnc_saveToTemplate;
+["vehiclesAmmoTrucks", ["UK3CB_ION_I_Winter_T810_Reammo"]] call _fnc_saveToTemplate;
+["vehiclesRepairTrucks", ["UK3CB_ION_I_Winter_T810_Repair"]] call _fnc_saveToTemplate;
+["vehiclesFuelTrucks", ["UK3CB_ION_I_Winter_T810_Refuel"]] call _fnc_saveToTemplate;
 ["vehiclesMedical", ["AMF_VBMR_SAN_CE"]] call _fnc_saveToTemplate;
 ["vehiclesLightAPCs", ["AMF_VBMR_L_CE_01"]] call _fnc_saveToTemplate;             // armed, lightly armoured, with 6-8 passengers 
 ["vehiclesAPCs", ["AMF_VBCI_CE_01_F", "AMF_VBMR_COMMANDEMENT_CE"]] call _fnc_saveToTemplate;                  // armed with enclosed turret, armoured, with 6-8 passengers
@@ -97,14 +97,10 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 //vehicle skins
 ["variants", [
-    ["UK3CB_LDF_B_T810_Closed", 
-    ["CZ_WDL", 1]],
-    ["UK3CB_LDF_B_T810_Reammo", 
-    ["CZ_WDL", 1]],
-    ["UK3CB_LDF_B_T810_Repair",
-    ["CZ_WDL", 1]],
-    ["UK3CB_LDF_B_T810_Refuel",
-    ["CZ_WDL", 1]]
+    ["UK3CB_LDF_B_T810_Closed", ["CZ_WDL", 1]],
+    ["UK3CB_LDF_B_T810_Reammo", ["CZ_WDL", 1]],
+    ["UK3CB_LDF_B_T810_Repair", ["CZ_WDL", 1]],
+    ["UK3CB_LDF_B_T810_Refuel", ["CZ_WDL", 1]]
 ]] call _fnc_saveToTemplate;
 /////////////////////
 ///  Identities   ///
