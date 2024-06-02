@@ -98,17 +98,13 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 //vehicle skins
 ["variants", [
     ["UK3CB_LDF_B_T810_Closed", 
-    ["CZ_WDL", 1],
-    true],
+    ["CZ_WDL", 1]],
     ["UK3CB_LDF_B_T810_Reammo", 
-    ["CZ_WDL", 1]
-    true],
+    ["CZ_WDL", 1]],
     ["UK3CB_LDF_B_T810_Repair",
-    ["CZ_WDL", 1]
-    true],
+    ["CZ_WDL", 1]],
     ["UK3CB_LDF_B_T810_Refuel",
-    ["CZ_WDL", 1]
-    true]
+    ["CZ_WDL", 1]]
 ]] call _fnc_saveToTemplate;
 /////////////////////
 ///  Identities   ///
