@@ -27,18 +27,18 @@
 ["vehiclesLightUnarmed", ["vn_b_wheeled_m151_01", "vn_b_wheeled_m151_02"]] call _fnc_saveToTemplate;
 ["vehiclesLightArmed", ["vn_b_wheeled_m151_mg_02", "vn_b_wheeled_m151_mg_04", "vn_b_wheeled_m151_mg_06", "vn_b_wheeled_m151_mg_03", "vn_b_wheeled_m151_mg_05", "vn_b_wheeled_m54_mg_02"]] call _fnc_saveToTemplate;
 ["vehiclesTrucks", ["vn_b_wheeled_m54_01", "vn_b_wheeled_m54_02"]] call _fnc_saveToTemplate;
-["vehiclesCargoTrucks", []] call _fnc_saveToTemplate;
+["vehiclesCargoTrucks", ["vn_b_wheeled_m54_01_usmc"]] call _fnc_saveToTemplate;
 ["vehiclesAmmoTrucks", ["vn_b_wheeled_m54_ammo"]] call _fnc_saveToTemplate;
 ["vehiclesRepairTrucks", ["vn_b_wheeled_m54_repair"]] call _fnc_saveToTemplate;
 ["vehiclesFuelTrucks", ["vn_b_wheeled_m54_fuel"]] call _fnc_saveToTemplate;
-["vehiclesMedical", []] call _fnc_saveToTemplate;
+["vehiclesMedical", ["vn_b_armor_m577_02"]] call _fnc_saveToTemplate;
 ["vehiclesLightAPCs", ["vn_b_wheeled_m54_mg_03", "vn_b_wheeled_m54_mg_01", "vn_b_armor_m113_01"]] call _fnc_saveToTemplate;
 ["vehiclesAirborne", ["vn_b_armor_m113_01"]] call _fnc_saveToTemplate;
 ["vehiclesAPCs", ["vn_b_armor_m113_acav_04", "vn_b_armor_m113_acav_02", "vn_b_armor_m113_acav_01", "vn_b_armor_m113_acav_06", "vn_b_armor_m113_acav_03", "vn_b_armor_m113_acav_05", "vn_b_armor_m113_01"]] call _fnc_saveToTemplate;
-["vehiclesIFVs", []] call _fnc_saveToTemplate;
+["vehiclesIFVs", ["vn_b_armor_m132_01", "vn_b_armor_m125_01", "vn_b_armor_m113_acav_03", "vn_b_armor_m113_acav_05"]] call _fnc_saveToTemplate;
 
-["vehiclesLightTanks",  []] call _fnc_saveToTemplate;
-["vehiclesTanks", ["vn_b_armor_m41_01_01"]] call _fnc_saveToTemplate;
+["vehiclesLightTanks",  ["vn_b_armor_m41_01_01"]] call _fnc_saveToTemplate;
+["vehiclesTanks", ["vn_b_armor_m41_01_01", "vn_b_armor_m48_01_01", "vn_b_armor_m67_01_01"]] call _fnc_saveToTemplate;
 ["vehiclesAA", ["vn_b_wheeled_m54_mg_02"]] call _fnc_saveToTemplate;
 
 ["vehiclesTransportBoats", ["vn_o_boat_02_01", "vn_b_boat_10_01", "vn_b_boat_09_01"]] call _fnc_saveToTemplate;
