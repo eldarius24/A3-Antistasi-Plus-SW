@@ -97,16 +97,16 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 //vehicle skins
 ["variants", [
-    ["UK3CB_LDF_B_T810_Closed", ["CZ_WDL", 1]],
-    ["UK3CB_LDF_B_T810_Reammo", ["CZ_WDL", 1]],
-    ["UK3CB_LDF_B_T810_Repair", ["CZ_WDL", 1]],
-    ["UK3CB_LDF_B_T810_Refuel", ["CZ_WDL", 1]]
+    ["UK3CB_LDF_B_T810_Closed", ["CZ_WDL",1]],
+    ["UK3CB_LDF_B_T810_Reammo", ["CZ_WDL",1]],
+    ["UK3CB_LDF_B_T810_Repair", ["CZ_WDL",1]],
+    ["UK3CB_LDF_B_T810_Refuel", ["CZ_WDL",1]]
 ]] call _fnc_saveToTemplate;
 /////////////////////
 ///  Identities   ///
 /////////////////////
 
-["voices", ["Male01ENG","Male02ENG","Male03ENG","Male04ENG","Male05ENG","Male06ENG","Male07ENG","Male08ENG","Male09ENG","Male10ENG","Male11ENG","Male12ENG"]] call _fnc_saveToTemplate;
+["voices", ["Male01ENGFRE","Male02ENGFRE"]] call _fnc_saveToTemplate;
 ["faces", ["AfricanHead_01","AfricanHead_02","AfricanHead_03","Barklem",
 "GreekHead_A3_05","GreekHead_A3_07","Sturrock","WhiteHead_01","WhiteHead_02",
 "WhiteHead_03","WhiteHead_04","WhiteHead_05","WhiteHead_06","WhiteHead_07",
@@ -115,7 +115,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 "WhiteHead_21","WhiteHead_23", "WhiteHead_24", "WhiteHead_25",
 "WhiteHead_26", "WhiteHead_27", "WhiteHead_28", "WhiteHead_29", "WhiteHead_30", "WhiteHead_31", "WhiteHead_32"
 ]] call _fnc_saveToTemplate;
-["sfVoices", ["Male01ENGB", "Male02ENGB", "Male03ENGB", "Male04ENGB", "Male05ENGB"]] call _fnc_saveToTemplate;
+["sfVoices", ["Male01ENGFRE","Male02ENGFRE"]] call _fnc_saveToTemplate;
 
 ["insignia", ["AMF_FRANCE_HV", "AMF_FRANCE_BV"]] call _fnc_saveToTemplate;
 ["sfInsignia", ["AMF_AIGLE"]] call _fnc_saveToTemplate;
