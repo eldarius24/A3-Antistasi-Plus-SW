@@ -382,14 +382,14 @@ _sfLoadoutData set ["sidearms", [
 /////////////////////////////////
 
 private _eliteLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_eliteLoadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
-_eliteLoadoutData set ["helmets", ["AMF_OPSCORE3_OD1_2"]];
+_eliteLoadoutData set ["uniforms", ["amf_uniform_01_NG_CE_MD"]];
+_eliteLoadoutData set ["helmets", ["AMF_TC801_TAN_EARPROT_BLK"]];
 
-_eliteLoadoutData set ["vests", ["rhsusf_spc_patchless", "rhsusf_spc_patchless_radio"]];
-_eliteLoadoutData set ["Hvests", ["rhsusf_spc_patchless", "rhsusf_spc_patchless_radio"]];
-_eliteLoadoutData set ["glVests", ["rhsusf_spc_patchless"]];
-_eliteLoadoutData set ["backpacks", ["UK3CB_MDF_B_B_SF_Backpack_Pocket"]];
-_eliteLoadoutData set ["helmets", ["AMF_OPSCORE3_OD1_2"]];
+_eliteLoadoutData set ["vests", ["amf_DCS_04_TAN", "amf_DCS_05_TAN", "amf_DCS_02_TAN"]];
+_eliteLoadoutData set ["Hvests", ["amf_DCS_04_TAN", "amf_SMB_ART_TAN"]];
+_eliteLoadoutData set ["glVests", ["amf_SMB_GRE_TAN"]];
+_eliteLoadoutData set ["backpacks", ["G_Tactical_Clear"]];
+_eliteLoadoutData set ["helmets", ["AMF_TC801_TAN_EARPROT_BLK"]];
 _eliteLoadoutData set ["binoculars", ["rhsusf_ANPVS_15"]];
 
 _eliteLoadoutData set ["rifles", [
@@ -464,7 +464,7 @@ _eliteLoadoutData set ["sidearms", [
 /////////////////////////////////
 
 private _militaryLoadoutData = _loadoutData call _fnc_copyLoadoutData; 
-_militaryLoadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
+_militaryLoadoutData set ["uniforms", ["amf_uniform_01_NG_CE_MD", "amf_uniform_01_RE_NG_CE_HX"]];
 _militaryLoadoutData set ["vests", ["amf_SMB_FUS_TAN", "amf_SMB_ART_TAN", "amf_SMB_AUXSAN_TAN", "amf_SMB_FUS_FAMAS_TAN"]];
 _militaryLoadoutData set ["Hvests", ["amf_SMB_LEADER_TAN", "amf_SMB_TP_HK417_TAN", "amf_SMB_ART_TAN"]];
 _militaryLoadoutData set ["glVests", ["rhsusf_mbav_grenadier"]];
