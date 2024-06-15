@@ -47,7 +47,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 ["vehiclesGunBoats", ["B_Boat_Armed_01_minigun_F"]] call _fnc_saveToTemplate;
 
 ["vehiclesPlanesCAS", ["AMF_RAFALE_B_01_F", "MF_RAFALE_C_01_F", "MF_RAFALE_M_01_F"]] call _fnc_saveToTemplate;             // Will be used with CAS script, must be defined in setPlaneLoadout. Needs fixed gun and either rockets or missiles
-["vehiclesPlanesAA", ["B_AMF_PLANE_FIGHTER_02_F"]] call _fnc_saveToTemplate;              // 
+["vehiclesPlanesAA", ["AMF_RAFALE_B_01_F", "MF_RAFALE_C_01_F", "MF_RAFALE_M_01_F"]] call _fnc_saveToTemplate;              // 
 ["vehiclesPlanesTransport", ["B_AMF_PLANE_TRANSPORT_01_F"]] call _fnc_saveToTemplate;
 
 ["vehiclesHelisLight", ["amf_nh90_tth_transport"]] call _fnc_saveToTemplate;            // ideally fragile & unarmed helis seating 4+
@@ -170,9 +170,9 @@ _loadoutData set ["traitorUniforms", ["U_I_L_Uniform_01_tshirt_olive_F"]];
 _loadoutData set ["traitorVests", ["V_BandollierB_oli", "V_TacVest_oli"]];
 _loadoutData set ["traitorHats", ["H_Cap_grn", "H_Cap_oli"]];
 
-_loadoutData set ["officerUniforms", ["U_B_CombatUniform_tshirt_mcam_wdL_f", "U_B_CombatUniform_vest_mcam_wdl_f", "U_B_CombatUniform_mcam_wdl_f"]];
+_loadoutData set ["officerUniforms", ["amf_uniform_02_CE_HS"]];
 _loadoutData set ["officerVests", ["V_Rangemaster_belt"]];
-_loadoutData set ["officerHats", ["H_MilCap_wdl", "H_Beret_Colonel", "AMF_BERET_LEGION_3REI"]];
+_loadoutData set ["officerHats", ["AMF_BERET_LEGION_3REI"]];
 
 _loadoutData set ["uniforms", ["UK3CB_MDF_B_U_SF_Uniform_01_CE"]];
 _loadoutData set ["vests", ["UK3CB_MDF_B_V_CREW_Vest_TAN"]];
