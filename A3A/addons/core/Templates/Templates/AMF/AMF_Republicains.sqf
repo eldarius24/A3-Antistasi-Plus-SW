@@ -17,9 +17,9 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 
 ["vehicleBasic", "UK3CB_B_M1030_NATO"] call _fnc_saveToTemplate;
-["vehicleLightUnarmed", "B_Quadbike_01_F"] call _fnc_saveToTemplate;
+["vehicleLightUnarmed", "I_G_Offroad_01_F"] call _fnc_saveToTemplate;
 ["vehicleLightArmed", "UK3CB_B_G_Datsun_Pickup_PKM"] call _fnc_saveToTemplate;
-["vehicleTruck", "UK3CB_B_G_Hilux_GMG"] call _fnc_saveToTemplate;
+["vehicleTruck", "I_G_Van_01_transport_F"] call _fnc_saveToTemplate;
 ["vehicleAT", "rhsgref_nat_uaz_spg9"] call _fnc_saveToTemplate;
 ["vehicleAA", "rhsgref_nat_ural_Zu23"] call _fnc_saveToTemplate;
 
@@ -41,7 +41,7 @@ private _hasContact = "enoch" in A3A_enabledDLC;
 
 ["staticMG", "I_G_HMG_02_high_F"] call _fnc_saveToTemplate;
 ["staticAT", "I_static_AT_F"] call _fnc_saveToTemplate;
-private _staticAA = "I_static_AA_F";
+["staticAA", "B_static_AA_F"] call _fnc_saveToTemplate;
 ["staticMortar", "I_G_Mortar_01_F"] call _fnc_saveToTemplate;
 ["staticMortarMagHE", "8Rnd_82mm_Mo_shells"] call _fnc_saveToTemplate;
 ["staticMortarMagSmoke", "8Rnd_82mm_Mo_Smoke_white"] call _fnc_saveToTemplate;
@@ -65,23 +65,23 @@ private _staticAA = "I_static_AA_F";
     ["rhsgref_nat_AGS30_TriPod", 3000, "STATICMG", {tierWar > 3}],
 
 
-    ["rhsgref_BRDM2UM_msv", 1750, "CAR", {true}],
-    ["rhsgref_BRDM2_HQ_msv", 2050, "CAR", {true}],
-    ["rhsgref_BRDM2_msv", 2500, "CAR", {true}],
+    ["UK3CB_FIA_B_Pickup_Igla_Chair", 1750, "CAR", {true}],
+    ["UK3CB_FIA_B_Pickup_Rocket_Arty", 2050, "CAR", {true}],
+    ["amf_pvp_01_top_CE_f", 2500, "CAR", {true}],
 
-    ["rhsgref_nat_btr70", 6000, "APC", {true}],
-    ["rhs_bmd1k", 9000, "APC", {tierWar > 3 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
+    ["B_AMF_VAB_ULTIMA_TOP_X8_F", 6000, "APC", {true}],
+    ["UK3CB_CW_US_B_EARLY_AAV", 9000, "APC", {tierWar > 3 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
     ["rhs_bmd2", 12500, "APC", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
 
-    ["rhs_t72ba_tv", 20000, "TANK", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
-    ["rhs_t80", 21000, "TANK", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
+    ["UK3CB_CW_US_B_LATE_M60a3", 20000, "TANK", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
+    ["UK3CB_FIA_O_T55", 21000, "TANK", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
     
-    ["rhs_zsu234_aa", 10000, "AA", {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}],
+    ["UK3CB_FIA_I_M939_ZU23", 1500, "AA", {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}],
 
-    ["rhs_l159_CDF", 40000, "PLANE", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}],
+    ["B_AMF_PLANE_FIGHTER_02_F", 40000, "PLANE", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}],
 
-    ["RHS_Mi8mt_vvsc", 15000, "HELI", {tierWar > 5 &&{ {sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}],
-    ["RHS_Mi8MTV3_vvsc", 25000, "HELI", {tierWar > 5 &&{ {sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}]
+    ["AMF_gazelle_minigun_olive_f", 15000, "HELI", {tierWar > 5 &&{ {sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}],
+    ["amf_cougar", 25000, "HELI", {tierWar > 5 &&{ {sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}]
 ]] call _fnc_saveToTemplate;
 
 //animation sources - camo nets, slat cages, decals etc, digit is probability of appearance
@@ -128,7 +128,7 @@ if (A3A_hasTFARBeta) then {_initialRebelEquipment append ["TFAR_microdagr","TFAR
 if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment append ["TFAR_anprc155","TFAR_anprc155_coyote"]};
 ["initialRebelEquipment", _initialRebelEquipment] call _fnc_saveToTemplate;
 
-private _rebUniforms = ["amf_uniform_01_RE_SE_MD", "amf_uniform_01_SE_MD"];          //Uniforms given to Normal Rebels
+private _rebUniforms = ["amf_uniform_01_RE_SE_MD", "amf_uniform_01_SE_MD", ];          //Uniforms given to Normal Rebels
 
 private _dlcUniforms = [];          //Uniforms given if DLCs are enabled, only given to the Arsenal not Rebels
 
