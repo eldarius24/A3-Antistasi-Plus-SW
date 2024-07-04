@@ -61,26 +61,36 @@ private _staticAA = "I_static_AA_F";
 
 //vehicle class, price, type, unlock condition
 ["blackMarketStock", [
-    ["RHS_TOW_TriPod_WD", 3000, "STATICAT", {tierWar > 3}],
-    ["rhsgref_nat_AGS30_TriPod", 3000, "STATICMG", {tierWar > 3}],
+    ["UK3CB_LDF_I_RBS70", 2500, "STATICAA", {tierWar > 3}],
+    ["UK3CB_CW_US_B_LATE_TOW_TriPod", 3000, "STATICAT", {tierWar > 3}],
+    ["RHS_MK19_TriPod_USMC_WD", 3000, "STATICMG", {tierWar > 3}],
 
-    ["amf_pvp_01_mag_CE_f", 1750, "CAR", {true}],
-    ["rhsgref_BRDM2_HQ_msv", 2050, "CAR", {true}],
-    ["B_AMF_VAB_ULTIMA_TOP_X8_F", 2500, "CAR", {true}],
+    ["UK3CB_ARD_I_Hilux_Mortar", 15000, "ARTILLERY", {tierWar > 5}],
+    ["UK3CB_ARD_I_Hilux_Rocket", 25000, "ARTILLERY", {tierWar > 7}],
+    ["UK3CB_ARD_I_Hilux_Rocket_Arty", 30000, "ARTILLERY", {tierWar > 8}],
 
-    ["rhsgref_nat_btr70", 6000, "APC", {true}],
-    ["rhs_bmd1k", 9000, "APC", {tierWar > 3 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
-    ["rhs_bmd2", 12500, "APC", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
-
-    ["UK3CB_CW_US_B_LATE_M60a3", 20000, "TANK", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
-    ["rhs_t80", 21000, "TANK", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
+    ["UK3CB_ARD_I_Hilux_Zu23", 1750, "CAR", {tierWar > 2}],
+    ["UK3CB_ARD_I_Hilux_GMG", 2500, "CAR", {tierWar > 2}],
+    ["UK3CB_ARD_I_Hilux_Metis", 3500, "CAR", {tierWar > 2}],
     
-    ["rhs_zsu234_aa", 10000, "AA", {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}],
+    ["UK3CB_KRG_I_M113tank_unarmed", 1750, "APC", {true}],
+    ["UK3CB_KRG_I_M113tank_M2_90", 2500, "APC", {true}],
+    ["UK3CB_KRG_I_M113tank_MK19_90", 4500, "CAR", {true}],
 
-    ["B_AMF_PLANE_FIGHTER_02_F", 40000, "PLANE", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}],
+    ["UK3CB_I_G_BMP1", 9000, "APC", {tierWar > 3 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
+    ["UK3CB_I_G_BMP2K", 12500, "APC", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
 
-    ["AMF_gazelle_minigun_f", 15000, "HELI", {tierWar > 5 &&{ {sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}],
-    ["amf_cougar", 25000, "HELI", {tierWar > 5 &&{ {sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}]
+    ["UK3CB_I_G_T34", 10000, "TANK", {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count seaports > 0}],
+    ["UK3CB_I_G_T55", 13000, "TANK", {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}],
+    ["UK3CB_MDF_I_M60A3", 17500, "TANK", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
+
+    ["UK3CB_I_G_ZsuTank", 7500, "AA", {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}],
+
+    ["RHSGREF_A29B_HIDF", 17500, "PLANE", {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}],
+    ["UK3CB_MDF_I_Mystere_CAS1", 22500, "PLANE", {tierWar > 5 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}],
+
+    ["UK3CB_ADA_I_UH1H_M240", 13500, "HELI", {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}],
+    ["UK3CB_ADA_I_UH1H_GUNSHIP", 20000, "HELI", {tierWar > 5 &&{ {sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}]
 ]] call _fnc_saveToTemplate;
 
 //animation sources - camo nets, slat cages, decals etc, digit is probability of appearance
