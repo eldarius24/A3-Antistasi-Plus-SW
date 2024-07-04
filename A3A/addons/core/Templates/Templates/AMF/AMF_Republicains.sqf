@@ -7,7 +7,7 @@ private _hasLawsOfWar = "orange" in A3A_enabledDLC;
 ["name", "Republicains"] call _fnc_saveToTemplate;
 
 ["flag", "Flag_AMF_F"] call _fnc_saveToTemplate;
-["flagTexture", "\A3\Data_F_Exp\Flags\flag_SYND_CO.paa"] call _fnc_saveToTemplate;
+["flagTexture", "\a3\Data_F_Enoch\Flags\flag_EAF_CO.paa"] call _fnc_saveToTemplate;
 ["flagMarkerType", "flag_France"] call _fnc_saveToTemplate;
 
 
@@ -25,8 +25,8 @@ private _hasLawsOfWar = "orange" in A3A_enabledDLC;
 ["vehiclePayloadPlane", "UK3CB_NAP_I_C400"] call _fnc_saveToTemplate;
 
 ["vehicleCivCar", "UK3CB_CHC_C_LR_Closed"] call _fnc_saveToTemplate;
-["vehicleCivTruck", "UK3CB_CHC_C_Ural_Open"] call _fnc_saveToTemplate;
-["vehicleCivHeli", "UK3CB_C_Bell412_Civ"] call _fnc_saveToTemplate;
+["vehicleCivTruck", ""] call _fnc_saveToTemplate;
+["vehicleCivHeli", ""] call _fnc_saveToTemplate;
 ["vehicleCivBoat", "UK3CB_CHC_C_Fishing_Boat"] call _fnc_saveToTemplate;
 ["vehicleCivBoxSupply", "UK3CB_ADC_C_S1203"] call _fnc_saveToTemplate;
 
