@@ -64,19 +64,22 @@ private _staticAA = "I_static_AA_F";
     ["RHS_TOW_TriPod_WD", 3000, "STATICAT", {tierWar > 3}],
     ["rhsgref_nat_AGS30_TriPod", 3000, "STATICMG", {tierWar > 3}],
 
-    ["UK3CB_FIA_B_Pickup_Rocket_Arty", 2050, "CAR", {true}],
-    ["amf_pvp_01_top_CE_f", 2500, "CAR", {true}],
+    ["amf_pvp_01_mag_CE_f", 1750, "CAR", {true}],
+    ["rhsgref_BRDM2_HQ_msv", 2050, "CAR", {true}],
+    ["B_AMF_VAB_ULTIMA_TOP_X8_F", 2500, "CAR", {true}],
 
-    ["B_AMF_VAB_ULTIMA_TOP_X8_F", 6000, "CAR", {true}],
-    ["UK3CB_CW_US_B_EARLY_AAV", 9000, "APC", {tierWar > 3 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
+    ["rhsgref_nat_btr70", 6000, "APC", {true}],
+    ["rhs_bmd1k", 9000, "APC", {tierWar > 3 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
     ["rhs_bmd2", 12500, "APC", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
 
     ["UK3CB_CW_US_B_LATE_M60a3", 20000, "TANK", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
-    ["UK3CB_FIA_O_T55", 21000, "TANK", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
+    ["rhs_t80", 21000, "TANK", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}}],
     
+    ["rhs_zsu234_aa", 10000, "AA", {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count (milbases + airportsX) > 0}],
+
     ["B_AMF_PLANE_FIGHTER_02_F", 40000, "PLANE", {tierWar > 7 && {{sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}],
 
-    ["AMF_gazelle_minigun_olive_f", 15000, "HELI", {tierWar > 5 &&{ {sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}],
+    ["AMF_gazelle_minigun_f", 15000, "HELI", {tierWar > 5 &&{ {sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}],
     ["amf_cougar", 25000, "HELI", {tierWar > 5 &&{ {sidesX getVariable [_x,sideUnknown] isEqualTo teamPlayer} count airportsX > 0}}]
 ]] call _fnc_saveToTemplate;
 
