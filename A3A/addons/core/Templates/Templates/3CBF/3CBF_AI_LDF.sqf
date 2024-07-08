@@ -18,21 +18,21 @@
 
 ["vehiclesBasic", ["UK3CB_LDF_B_Quadbike", "UK3CB_LDF_B_M1030"]] call _fnc_saveToTemplate;
 ["vehiclesLightUnarmed", ["UK3CB_LDF_B_Tigr", "UK3CB_LDF_B_M1151", "UK3CB_LDF_B_BRDM2_UM"]] call _fnc_saveToTemplate;
-["vehiclesLightArmed", ["UK3CB_LDF_B_Tigr_STS", "UK3CB_LDF_B_BRDM2_HQ", "UK3CB_LDF_B_BRDM2_ATGM", "UK3CB_LDF_B_BRDM2", "UK3CB_LDF_B_M1151_GPK_M2", "UK3CB_LDF_B_M1151_GPK_MK19", "UK3CB_LDF_B_M1151_GPK_PKM", "UK3CB_LDF_B_M1151_OGPK_M2", "UK3CB_LDF_B_M1151_OGPK_MK19"]] call _fnc_saveToTemplate;
+["vehiclesLightArmed", ["UK3CB_LDF_B_Tigr_STS", "UK3CB_LDF_B_BRDM2_ATGM", "UK3CB_LDF_B_M1151_GPK_M2", "UK3CB_LDF_B_M1151_GPK_MK19", "UK3CB_LDF_B_M1151_GPK_PKM", "UK3CB_LDF_B_M1151_OGPK_M2", "UK3CB_LDF_B_M1151_OGPK_MK19"]] call _fnc_saveToTemplate;
 ["vehiclesTrucks", ["UK3CB_LDF_B_T810_Open", "UK3CB_LDF_B_T810_Closed", "UK3CB_LDF_B_T810_Open_PKM", "UK3CB_LDF_B_T810_Closed_PKM"]] call _fnc_saveToTemplate;
 ["vehiclesCargoTrucks", ["UK3CB_LDF_B_T810_Recovery"]] call _fnc_saveToTemplate;
 ["vehiclesAmmoTrucks", ["UK3CB_LDF_B_T810_Reammo"]] call _fnc_saveToTemplate;
 ["vehiclesRepairTrucks", ["UK3CB_LDF_B_T810_Repair"]] call _fnc_saveToTemplate;
 ["vehiclesFuelTrucks", ["UK3CB_LDF_B_T810_Refuel"]] call _fnc_saveToTemplate;
 ["vehiclesMedical", ["UK3CB_LDF_B_M113_AMB"]] call _fnc_saveToTemplate;
-["vehiclesLightAPCs", ["UK3CB_LDF_B_MTLB_PKT", "UK3CB_LDF_B_MTLB_ZU23"]] call _fnc_saveToTemplate;
+["vehiclesLightAPCs", ["UK3CB_LDF_B_MTLB_PKT", "UK3CB_LDF_B_MTLB_Cannon", "UK3CB_LDF_B_MTLB_BMP"]] call _fnc_saveToTemplate;
 ["vehiclesAirborne", ["UK3CB_LDF_B_MTLB_PKT"]] call _fnc_saveToTemplate;
-["vehiclesAPCs", ["UK3CB_LDF_B_BMP1", "UK3CB_LDF_B_BMP2", "UK3CB_LDF_B_BMP2K", "UK3CB_LDF_B_Marshall", "UK3CB_LDF_B_Marshall_Camo"]] call _fnc_saveToTemplate;
+["vehiclesAPCs", ["UK3CB_LDF_B_Marshall_Cage", "UK3CB_LDF_B_Marshall_Cage_Camo", "UK3CB_LDF_B_Marshall", "UK3CB_LDF_B_Marshall_Camo"]] call _fnc_saveToTemplate;
 ["vehiclesIFVs", []] call _fnc_saveToTemplate;
 
 ["vehiclesLightTanks",  ["UK3CB_LDF_B_T72A"]] call _fnc_saveToTemplate;
-["vehiclesTanks", ["UK3CB_LDF_B_Leopard", "UK3CB_LDF_B_T72BB", "UK3CB_LDF_B_T72BB"]] call _fnc_saveToTemplate;
-["vehiclesAA", ["UK3CB_LDF_B_ZsuTank"]] call _fnc_saveToTemplate;
+["vehiclesTanks", ["UK3CB_LDF_B_Leopard", "UK3CB_LDF_B_Leopard_Cage_Camo", "UK3CB_LDF_B_Leopard_Camo"]] call _fnc_saveToTemplate;
+["vehiclesAA", ["UK3CB_LDF_B_2S6M_Tunguska"]] call _fnc_saveToTemplate;
 
 ["vehiclesTransportBoats", ["rhsgref_hidf_assault_boat", "rhsgref_hidf_rhib"]] call _fnc_saveToTemplate;
 ["vehiclesGunBoats", ["UK3CB_MDF_B_RHIB_Gunboat"]] call _fnc_saveToTemplate;
@@ -44,7 +44,7 @@
 ["vehiclesHelisTransport", ["UK3CB_LDF_B_Mi8", "UK3CB_LDF_B_Mi8", "UK3CB_LDF_B_Mi8", "UK3CB_LDF_B_Mi_24V"]] call _fnc_saveToTemplate;
 ["vehiclesHelisLight", ["UK3CB_LDF_B_Mi8AMT"]] call _fnc_saveToTemplate;
 ["vehiclesHelisLightAttack", ["UK3CB_LDF_B_Mi8AMTSh"]] call _fnc_saveToTemplate;
-["vehiclesHelisAttack", ["UK3CB_LDF_B_Mi_24P", "UK3CB_LDF_B_Mi_24V"]] call _fnc_saveToTemplate;
+["vehiclesHelisAttack", ["UK3CB_LDF_B_Mi_24G", "UK3CB_LDF_B_Mi_24G_UPK23"]] call _fnc_saveToTemplate;
 
 ["vehiclesArtillery", ["UK3CB_LDF_B_2S1", "UK3CB_LDF_B_RM70", "UK3CB_LDF_B_RM70_MG", "UK3CB_LDF_B_T810_MLRS"]] call _fnc_saveToTemplate;
 ["magazines", createHashMapFromArray [
