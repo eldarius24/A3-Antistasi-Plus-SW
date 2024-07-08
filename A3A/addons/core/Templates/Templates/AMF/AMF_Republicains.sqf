@@ -4,7 +4,7 @@ private _hasLawsOfWar = "orange" in A3A_enabledDLC;
 //   Rebel Information   //
 ///////////////////////////
 
-["name", "Republicains"] call _fnc_saveToTemplate;
+["name", "Résistants"] call _fnc_saveToTemplate;
 
 ["flag", "Flag_AMF_F"] call _fnc_saveToTemplate;
 ["flagTexture", "\a3\Data_F_Enoch\Flags\flag_EAF_CO.paa"] call _fnc_saveToTemplate;

@@ -22,20 +22,8 @@ class Templates
         side = "Occ";
         flagTexture = "\A3\Data_F\Flags\Flag_NATO_CO.paa";
         basepath = QPATHTOFOLDER(Templates\Templates\AMF);
-        name = "AMF Royalistes";
+        name = "AMF Francais";
         file = "AMF_Royalistes";
-        maps[] = {};
-        forceDLC[] = {};
-        description = $STR_A3AP_setupFactionsTab_AMF_Royalistes;
-    };
-
-    class AMF_OccAmerica : AMF_Base
-    {
-        side = "Occ";
-        flagTexture = "\A3\Data_F\Flags\Flag_NATO_CO.paa";
-        basepath = QPATHTOFOLDER(Templates\Templates\AMF);
-        name = "AMF Royalistes (Amérique)";
-        file = "AMF_American_Royalists";
         maps[] = {};
         forceDLC[] = {};
         description = $STR_A3AP_setupFactionsTab_AMF_Royalistes;
@@ -46,7 +34,7 @@ class Templates
         side = "Reb";
         flagTexture = "\A3\Data_F\Flags\Flag_NATO_CO.paa";
         basepath = QPATHTOFOLDER(Templates\Templates\AMF);
-        name = "AMF Républicains";
+        name = "AMF Résistants";
         file = "AMF_Republicains";
         maps[] = {};
         forceDLC[] = {};
